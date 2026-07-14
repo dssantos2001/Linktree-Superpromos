@@ -1,0 +1,8 @@
+.agents/
+.codex/
+.git/
+data/
+scripts/
+*.py
+*.json
+README.md

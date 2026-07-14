@@ -1,0 +1,1364 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' https://http2.mlstatic.com https://cf.shopee.com.br https://m.media-amazon.com https://ae-pic-a1.aliexpress-media.com data:; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; navigate-to 'self' https://chat.whatsapp.com https://telegram.me https://discord.gg https://meli.la https://s.shopee.com.br https://s.click.aliexpress.com https://link.amazon; upgrade-insecure-requests">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()">
+    <title>Super Promos - Grupos</title>
+    <link rel="icon" href="assets/super-promos-logo.png">
+    <meta
+      name="description"
+      content="Entre nos grupos da Super Promos no WhatsApp, Telegram e Discord para acompanhar ofertas selecionadas."
+    >
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #080808;
+        --surface: rgba(255, 255, 255, 0.075);
+        --surface-strong: rgba(255, 255, 255, 0.12);
+        --line: rgba(255, 255, 255, 0.18);
+        --text: #f5f5f5;
+        --muted: #b7b7b7;
+        --soft: #e6e6e6;
+        --shadow: 0 28px 70px rgba(0, 0, 0, 0.48);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        min-height: 100%;
+        background: var(--bg);
+      }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at 20% 15%, rgba(255, 255, 255, 0.08), transparent 26rem),
+          radial-gradient(circle at 78% 22%, rgba(255, 255, 255, 0.06), transparent 22rem),
+          linear-gradient(135deg, #050505 0%, #111 45%, #202020 100%);
+        overflow-x: hidden;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .page {
+        position: relative;
+        display: grid;
+        min-height: 100vh;
+        place-items: center;
+        padding: 52px 20px 32px;
+      }
+
+      .page::before,
+      .page::after {
+        position: fixed;
+        z-index: 0;
+        width: 34vw;
+        max-width: 520px;
+        min-width: 260px;
+        aspect-ratio: 1;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        content: "";
+        pointer-events: none;
+        transform: rotate(-18deg);
+      }
+
+      .page::before {
+        right: -8vw;
+        top: 13vh;
+        border-radius: 80px 80px 140px 80px;
+      }
+
+      .page::after {
+        left: -11vw;
+        bottom: -15vh;
+        border-radius: 999px;
+      }
+
+      .shell {
+        position: relative;
+        z-index: 1;
+        width: min(100%, 1080px);
+        text-align: center;
+      }
+
+      .logo {
+        display: grid;
+        width: 152px;
+        height: 152px;
+        margin: 0 auto 24px;
+        place-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.34);
+        border-radius: 50%;
+        background:
+          linear-gradient(145deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.04)),
+          #151515;
+        box-shadow: var(--shadow), inset 0 1px 0 rgba(255, 255, 255, 0.16);
+        overflow: hidden;
+      }
+
+      .logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: scale(1.08);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2rem, 7vw, 4.25rem);
+        font-weight: 800;
+        letter-spacing: 0;
+        line-height: 0.95;
+      }
+
+      .subtitle {
+        width: min(100%, 500px);
+        margin: 18px auto 0;
+        color: var(--soft);
+        font-size: clamp(1rem, 2vw, 1.18rem);
+        font-weight: 500;
+        line-height: 1.6;
+      }
+
+      .subtitle strong {
+        color: #fff;
+        font-weight: 800;
+      }
+
+      .quick-links {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin: 28px 0 26px;
+      }
+
+      .site-tabs {
+        display: inline-flex;
+        gap: 6px;
+        margin: 26px auto 2px;
+        padding: 6px;
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.08);
+      }
+
+      .tab-button {
+        min-width: 112px;
+        min-height: 42px;
+        border: 0;
+        border-radius: 12px;
+        background: transparent;
+        color: var(--soft);
+        cursor: pointer;
+        font: inherit;
+        font-size: 0.94rem;
+        font-weight: 800;
+        transition: background 180ms ease, color 180ms ease, transform 180ms ease;
+      }
+
+      .tab-button:hover,
+      .tab-button:focus-visible {
+        color: #fff;
+        outline: none;
+        transform: translateY(-1px);
+      }
+
+      .tab-button.active {
+        background: #fff;
+        color: #111;
+      }
+
+      .tab-panel {
+        display: none;
+      }
+
+      .tab-panel.active {
+        display: block;
+      }
+
+      .icon-button {
+        display: grid;
+        width: 48px;
+        height: 48px;
+        place-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        border-radius: 14px;
+        background: rgba(255, 255, 255, 0.1);
+        color: #fff;
+        transition: transform 180ms ease, background 180ms ease, border-color 180ms ease;
+      }
+
+      .icon-button:hover,
+      .icon-button:focus-visible {
+        border-color: rgba(255, 255, 255, 0.42);
+        background: rgba(255, 255, 255, 0.18);
+        transform: translateY(-2px);
+        outline: none;
+      }
+
+      .icon-button svg,
+      .link-card svg {
+        width: 22px;
+        height: 22px;
+        flex: 0 0 auto;
+      }
+
+      .links {
+        display: grid;
+        width: min(100%, 520px);
+        gap: 14px;
+        margin: 0 auto;
+      }
+
+      .link-card {
+        display: flex;
+        min-height: 66px;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        background:
+          linear-gradient(90deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.07)),
+          rgba(255, 255, 255, 0.06);
+        box-shadow: 0 14px 30px rgba(0, 0, 0, 0.24);
+        color: #fff;
+        font-size: 1.05rem;
+        font-weight: 760;
+        line-height: 1.2;
+        transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+      }
+
+      .link-card:hover,
+      .link-card:focus-visible {
+        border-color: rgba(255, 255, 255, 0.48);
+        background:
+          linear-gradient(90deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.1)),
+          rgba(255, 255, 255, 0.1);
+        transform: translateY(-2px);
+        outline: none;
+      }
+
+      .note {
+        width: min(100%, 540px);
+        margin: 34px auto 24px;
+        color: var(--soft);
+        font-size: 1rem;
+        font-weight: 650;
+        line-height: 1.55;
+      }
+
+      .brand-strip {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 12px;
+        width: min(100%, 680px);
+        margin: 0 auto;
+      }
+
+      .brand {
+        display: grid;
+        min-height: 72px;
+        place-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.94);
+        color: #151515;
+        font-size: 0.72rem;
+        font-weight: 850;
+        letter-spacing: 0;
+        line-height: 1.05;
+        overflow: hidden;
+        padding: 10px;
+        text-transform: none;
+      }
+
+      .brand-name {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 0;
+        font-size: 0.95rem;
+        font-weight: 900;
+        line-height: 1;
+        white-space: nowrap;
+      }
+
+      .brand-aliexpress {
+        background: linear-gradient(135deg, #ff4f00, #e41f12);
+        color: #fff;
+      }
+
+      .brand-magalu {
+        background: #0086ff;
+        color: #fff;
+      }
+
+      .brand-shopee {
+        background: #fff;
+        color: #ee4d2d;
+      }
+
+      .brand-amazon {
+        background: #fff;
+        color: #111;
+      }
+
+      .brand-amazon .brand-name::after {
+        display: block;
+        width: 44px;
+        height: 5px;
+        margin: 7px auto 0;
+        border-bottom: 4px solid #ff9900;
+        border-radius: 0 0 50% 50%;
+        content: "";
+      }
+
+      .brand-mercado {
+        background: #ffe600;
+        color: #19315f;
+      }
+
+      .dots {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        margin-top: 18px;
+      }
+
+      .dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.36);
+      }
+
+      .dot.active {
+        background: #fff;
+      }
+
+      footer {
+        margin-top: 30px;
+        color: var(--muted);
+        font-size: 0.82rem;
+      }
+
+      .offers-panel {
+        margin-top: 34px;
+        text-align: left;
+      }
+
+      .offers-heading {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 18px;
+        margin: 0 auto 18px;
+      }
+
+      .offers-heading h2 {
+        margin: 0;
+        font-size: clamp(1.45rem, 4vw, 2.3rem);
+        line-height: 1;
+      }
+
+      .offers-heading p {
+        max-width: 430px;
+        margin: 0;
+        color: var(--soft);
+        font-size: 0.96rem;
+        font-weight: 620;
+        line-height: 1.45;
+      }
+
+      .market-tabs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 18px;
+      }
+
+      .market-pill {
+        min-height: 36px;
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.08);
+        color: #fff;
+        cursor: pointer;
+        padding: 0 14px;
+        font: inherit;
+        font-size: 0.84rem;
+        font-weight: 850;
+      }
+
+      .market-pill.active {
+        border-color: rgba(255, 230, 0, 0.7);
+        background: #ffe600;
+        color: #19315f;
+      }
+
+      .product-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .product-card {
+        display: grid;
+        grid-template-rows: 240px 1fr;
+        min-height: 100%;
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 8px;
+        background:
+          linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02)),
+          #101010;
+        color: #fff;
+        box-shadow: 0 18px 34px rgba(0, 0, 0, 0.28);
+      }
+
+      .product-media {
+        box-sizing: border-box;
+        display: grid;
+        position: relative;
+        width: 100%;
+        height: 240px;
+        overflow: hidden;
+        place-items: center;
+        background: #f4f4f4;
+        padding: 0;
+      }
+
+      .product-media img {
+        display: block;
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center;
+      }
+
+      .product-info {
+        display: grid;
+        align-content: start;
+        gap: 9px;
+        padding: 11px 12px 13px;
+      }
+
+      .badge {
+        justify-self: start;
+        border-radius: 3px;
+        background: #ff6a2a;
+        color: #fff;
+        padding: 4px 6px;
+        font-size: 0.68rem;
+        font-weight: 900;
+        line-height: 1;
+      }
+
+      .product-title {
+        display: -webkit-box;
+        min-height: 66px;
+        margin: 0;
+        overflow: hidden;
+        color: #fff;
+        font-size: 0.88rem;
+        font-weight: 650;
+        line-height: 1.25;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+      }
+
+      .rating {
+        color: #d7d7d7;
+        font-size: 0.8rem;
+        font-weight: 700;
+      }
+
+      .old-price {
+        color: #a8a8a8;
+        font-size: 0.76rem;
+        text-decoration: line-through;
+      }
+
+      .price-row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: 7px;
+      }
+
+      .price {
+        color: #fff;
+        font-size: 1.24rem;
+        font-weight: 520;
+        line-height: 1;
+      }
+
+      .price small {
+        vertical-align: 0.35em;
+        font-size: 0.58em;
+      }
+
+      .discount {
+        border-radius: 3px;
+        background: #d8f8ec;
+        color: #008c55;
+        padding: 2px 4px;
+        font-size: 0.72rem;
+        font-weight: 850;
+      }
+
+      .buy-link {
+        display: grid;
+        min-height: 34px;
+        place-items: center;
+        margin-top: 4px;
+        border-radius: 6px;
+        background: #fff;
+        color: #111;
+        font-size: 0.78rem;
+        font-weight: 900;
+      }
+
+      @media (max-width: 640px) {
+        .page {
+          padding-top: 34px;
+        }
+
+        .shell {
+          width: min(100%, 420px);
+        }
+
+        .logo {
+          width: 124px;
+          height: 124px;
+          margin-bottom: 20px;
+        }
+
+        .link-card {
+          min-height: 62px;
+          padding: 0 18px;
+          border-radius: 16px;
+          font-size: 0.94rem;
+        }
+
+        .brand-strip {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 10px;
+        }
+
+        .brand {
+          min-height: 64px;
+          border-radius: 15px;
+        }
+
+        .brand-name {
+          font-size: 0.86rem;
+        }
+
+        .offers-heading {
+          display: grid;
+        }
+
+        .product-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 10px;
+        }
+
+        .product-card {
+          grid-template-rows: 172px 1fr;
+        }
+
+        .product-media {
+          height: 172px;
+          padding: 0;
+        }
+
+        .product-info {
+          padding: 10px;
+        }
+
+        .product-title {
+          min-height: 60px;
+          font-size: 0.78rem;
+        }
+
+        .price {
+          font-size: 1.08rem;
+        }
+      }
+
+      @media (max-width: 380px) {
+        .shell {
+          width: min(100%, 300px);
+        }
+
+        h1 {
+          font-size: 2.7rem;
+        }
+
+        .subtitle,
+        .note {
+          font-size: 0.95rem;
+        }
+
+        .link-card {
+          justify-content: flex-start;
+          padding: 0 16px;
+          text-align: left;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="shell" aria-labelledby="page-title">
+        <div class="logo" aria-hidden="true">
+          <img src="assets/super-promos-logo.png" alt="">
+        </div>
+
+        <h1 id="page-title">Super Promos</h1>
+        <p class="subtitle">
+          O lugar para <strong>economizar de verdade</strong> na sua proxima compra.
+        </p>
+
+        <div class="site-tabs" role="tablist" aria-label="Navegacao do site">
+          <button class="tab-button active" type="button" role="tab" aria-selected="true" aria-controls="home-panel" data-tab="home-panel">Inicio</button>
+          <button class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="offers-panel" data-tab="offers-panel">Ofertas</button>
+        </div>
+
+        <section class="tab-panel active" id="home-panel" role="tabpanel">
+        <nav class="quick-links" aria-label="Links rapidos">
+          <a class="icon-button" href="https://chat.whatsapp.com/GrBJ5LBMfBu2XH2uIfih2p" target="_blank" rel="noopener" aria-label="Abrir WhatsApp">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.5 11.8A8.5 8.5 0 0 1 8 19.3L4 20.5l1.2-3.8A8.5 8.5 0 1 1 20.5 11.8Z"></path>
+              <path d="M9.1 8.7c.2-.5.4-.5.7-.5h.5c.2 0 .4.1.5.4l.7 1.6c.1.2.1.4-.1.6l-.5.6c.8 1.4 1.8 2.3 3.2 3l.6-.6c.2-.2.4-.2.7-.1l1.5.7c.3.1.4.3.4.6v.5c0 .3-.1.6-.5.7-.6.3-1.7.4-3.1-.2-2.3-.9-4.1-2.8-5-5.1-.5-1.1-.4-1.7-.1-2.2Z"></path>
+            </svg>
+          </a>
+          <a class="icon-button" href="https://telegram.me/superpromos1" target="_blank" rel="noopener" aria-label="Abrir Telegram">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M20.9 4.6 3.8 11.2c-1.1.4-1.1 1.1-.2 1.4l4.4 1.4 1.7 5.2c.2.6.1.8.7.8.4 0 .6-.2.9-.5l2.1-2 4.3 3.2c.8.4 1.3.2 1.5-.8l2.8-13.2c.3-1.1-.4-1.6-1.1-1.3Zm-3.4 3-8.3 7.5-.3 3.2-1.5-4.8 10.1-5.9Z"></path>
+            </svg>
+          </a>
+          <a class="icon-button" href="https://discord.gg/Qcjs9jpdgp" target="_blank" rel="noopener" aria-label="Abrir Discord">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M19.6 5.2A15.3 15.3 0 0 0 15.8 4l-.2.4c1.4.3 2.1.8 2.1.8a13 13 0 0 0-11.4 0s.7-.5 2.2-.8L8.2 4a15.3 15.3 0 0 0-3.8 1.2C2 8.8 1.3 12.3 1.6 15.8a15.4 15.4 0 0 0 4.7 2.4l.9-1.5c-.5-.2-1-.4-1.4-.7l.3-.2c2.7 1.3 5.7 1.3 8.4 0l.3.2c-.5.3-.9.5-1.4.7l.9 1.5a15.4 15.4 0 0 0 4.7-2.4c.4-4-.7-7.5-2.4-10.6ZM8.3 13.8c-.8 0-1.5-.8-1.5-1.7s.7-1.7 1.5-1.7 1.5.8 1.5 1.7-.7 1.7-1.5 1.7Zm5.4 0c-.8 0-1.5-.8-1.5-1.7s.7-1.7 1.5-1.7 1.5.8 1.5 1.7-.7 1.7-1.5 1.7Z"></path>
+            </svg>
+          </a>
+        </nav>
+
+        <div class="links" aria-label="Grupos de ofertas">
+          <a class="link-card" href="https://chat.whatsapp.com/GrBJ5LBMfBu2XH2uIfih2p" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M20.5 11.8A8.5 8.5 0 0 1 8 19.3L4 20.5l1.2-3.8A8.5 8.5 0 1 1 20.5 11.8Z"></path>
+              <path d="M9.1 8.7c.2-.5.4-.5.7-.5h.5c.2 0 .4.1.5.4l.7 1.6c.1.2.1.4-.1.6l-.5.6c.8 1.4 1.8 2.3 3.2 3l.6-.6c.2-.2.4-.2.7-.1l1.5.7c.3.1.4.3.4.6v.5c0 .3-.1.6-.5.7-.6.3-1.7.4-3.1-.2-2.3-.9-4.1-2.8-5-5.1-.5-1.1-.4-1.7-.1-2.2Z"></path>
+            </svg>
+            Grupo de ofertas do WhatsApp
+          </a>
+
+          <a class="link-card" href="https://telegram.me/superpromos1" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M20.9 4.6 3.8 11.2c-1.1.4-1.1 1.1-.2 1.4l4.4 1.4 1.7 5.2c.2.6.1.8.7.8.4 0 .6-.2.9-.5l2.1-2 4.3 3.2c.8.4 1.3.2 1.5-.8l2.8-13.2c.3-1.1-.4-1.6-1.1-1.3Zm-3.4 3-8.3 7.5-.3 3.2-1.5-4.8 10.1-5.9Z"></path>
+            </svg>
+            Grupo de ofertas do Telegram
+          </a>
+
+          <a class="link-card" href="https://discord.gg/Qcjs9jpdgp" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M19.6 5.2A15.3 15.3 0 0 0 15.8 4l-.2.4c1.4.3 2.1.8 2.1.8a13 13 0 0 0-11.4 0s.7-.5 2.2-.8L8.2 4a15.3 15.3 0 0 0-3.8 1.2C2 8.8 1.3 12.3 1.6 15.8a15.4 15.4 0 0 0 4.7 2.4l.9-1.5c-.5-.2-1-.4-1.4-.7l.3-.2c2.7 1.3 5.7 1.3 8.4 0l.3.2c-.5.3-.9.5-1.4.7l.9 1.5a15.4 15.4 0 0 0 4.7-2.4c.4-4-.7-7.5-2.4-10.6ZM8.3 13.8c-.8 0-1.5-.8-1.5-1.7s.7-1.7 1.5-1.7 1.5.8 1.5 1.7-.7 1.7-1.5 1.7Zm5.4 0c-.8 0-1.5-.8-1.5-1.7s.7-1.7 1.5-1.7 1.5.8 1.5 1.7-.7 1.7-1.5 1.7Z"></path>
+            </svg>
+            Comunidade de ofertas no Discord
+          </a>
+        </div>
+
+        <p class="note">Selecionamos promocoes em lojas conhecidas para voce comprar com mais confianca.</p>
+
+        <div class="brand-strip" aria-label="Lojas parceiras e ofertas acompanhadas">
+          <div class="brand brand-aliexpress"><span class="brand-name">AliExpress</span></div>
+          <div class="brand brand-magalu"><span class="brand-name">magalu</span></div>
+          <div class="brand brand-shopee"><span class="brand-name">Shopee</span></div>
+          <div class="brand brand-amazon"><span class="brand-name">amazon</span></div>
+          <div class="brand brand-mercado"><span class="brand-name">Mercado Livre</span></div>
+        </div>
+
+        <div class="dots" aria-hidden="true">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+
+        <footer>Super Promos - grupos oficiais</footer>
+        </section>
+
+        <section class="tab-panel offers-panel" id="offers-panel" role="tabpanel" aria-labelledby="offers-title">
+          <div class="offers-heading">
+            <div>
+              <h2 id="offers-title">Ofertas por marketplace</h2>
+            </div>
+            <p>Produtos selecionados com preco original, preco promocional e link direto para comprar.</p>
+          </div>
+
+          <div class="market-tabs" aria-label="Marketplaces com produtos">
+            <button class="market-pill active" type="button" data-market="mercado">Mercado Livre</button>
+            <button class="market-pill" type="button" data-market="shopee">Shopee</button>
+            <button class="market-pill" type="button" data-market="aliexpress">AliExpress</button>
+            <button class="market-pill" type="button" data-market="amazon">Amazon</button>
+            <button class="market-pill" type="button" disabled>Magalu</button>
+          </div>
+
+          <div class="product-grid" id="product-grid" aria-label="Produtos selecionados">
+            <article class="product-card">
+              <a class="product-media" href="https://meli.la/1jK7rjm" target="_blank" rel="noopener">
+                <img src="https://http2.mlstatic.com/D_Q_NP_2X_662415-MLA97812910758_112025-V.webp" alt="Creatina Monohidratada 250g Growth Supplements - Sem Sabor Em Po">
+              </a>
+              <div class="product-info">
+                <span class="badge">MAIS VENDIDO</span>
+                <h3 class="product-title">Creatina Monohidratada 250g Growth Supplements - Sem Sabor Em Po</h3>
+                <div class="rating">4.9 | Growth Supplements</div>
+                <div class="old-price">R$ 64,90</div>
+                <div class="price-row"><div class="price">R$ 34<small>90</small></div><span class="discount">46% OFF</span></div>
+                <a class="buy-link" href="https://meli.la/1jK7rjm" target="_blank" rel="noopener">VER OFERTA</a>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <a class="product-media" href="https://meli.la/1WzSLW4" target="_blank" rel="noopener">
+                <img src="https://http2.mlstatic.com/D_Q_NP_2X_921715-MLA105989488407_012026-T.webp" alt="Bicicleta Ergonometrica Profissional Spinning X11 4fitness">
+              </a>
+              <div class="product-info">
+                <span class="badge">MAIS VENDIDO</span>
+                <h3 class="product-title">Bicicleta Ergometrica Profissional Spinning X11 Em Aco Carbono - 4fitness</h3>
+                <div class="rating">Pix | Frete gratis</div>
+                <div class="old-price">R$ 1.111,00</div>
+                <div class="price-row"><div class="price">R$ 457<small>59</small></div><span class="discount">58% OFF</span></div>
+                <a class="buy-link" href="https://meli.la/1WzSLW4" target="_blank" rel="noopener">VER OFERTA</a>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <a class="product-media" href="https://meli.la/26wJfbe" target="_blank" rel="noopener">
+                <img src="https://http2.mlstatic.com/D_Q_NP_2X_797944-MLB82978249605_032025-T-kit-6-cuecas-boxer-lupo-poliamida-sem-costura-box-original.webp" alt="Kit 6 Cuecas Lupo Boxer Box Sem Costura Basic Microfibra">
+              </a>
+              <div class="product-info">
+                <span class="badge">MAIS VENDIDO</span>
+                <h3 class="product-title">Kit 6 Cuecas Lupo Boxer Box Sem Costura Basic Microfibra</h3>
+                <div class="rating">Decco Moda Intima</div>
+                <div class="old-price">R$ 288,63</div>
+                <div class="price-row"><div class="price">R$ 145<small>49</small></div><span class="discount">49% OFF</span></div>
+                <a class="buy-link" href="https://meli.la/26wJfbe" target="_blank" rel="noopener">VER OFERTA</a>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <a class="product-media" href="https://meli.la/1vXKTqP" target="_blank" rel="noopener">
+                <img src="https://http2.mlstatic.com/D_Q_NP_2X_848860-MLA99964507641_112025-V.webp" alt="Creatina Monohidratada Pura 1kg Dark Lab Unidade Sem Sabor">
+              </a>
+              <div class="product-info">
+                <span class="badge">CUPOM R$ 20 OFF</span>
+                <h3 class="product-title">Creatina Monohidratada Pura 1kg Dark Lab Unidade Sem Sabor</h3>
+                <div class="rating">Dark Lab | Frete gratis</div>
+                <div class="old-price">R$ 159,90</div>
+                <div class="price-row"><div class="price">R$ 69<small>90</small></div><span class="discount">56% OFF</span></div>
+                <a class="buy-link" href="https://meli.la/1vXKTqP" target="_blank" rel="noopener">VER OFERTA</a>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <a class="product-media" href="https://meli.la/1svnJEp" target="_blank" rel="noopener">
+                <img src="https://http2.mlstatic.com/D_Q_NP_2X_641541-MLA111608975062_062026-T.webp" alt="Parafusadeira Furadeira C/ 2 Baterias Maleta Kit Completo">
+              </a>
+              <div class="product-info">
+                <span class="badge">OFERTA</span>
+                <h3 class="product-title">Parafusadeira Furadeira C/ 2 Baterias Maleta Kit Completo Led</h3>
+                <div class="rating">HW | Bivolt</div>
+                <div class="old-price">R$ 299,00</div>
+                <div class="price-row"><div class="price">R$ 119<small>99</small></div><span class="discount">59% OFF</span></div>
+                <a class="buy-link" href="https://meli.la/1svnJEp" target="_blank" rel="noopener">VER OFERTA</a>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <a class="product-media" href="https://meli.la/1weGPH5" target="_blank" rel="noopener">
+                <img src="https://http2.mlstatic.com/D_Q_NP_2X_936790-MLA96100703939_102025-T.webp" alt="Espelho 100x50 Organico Corpo Inteiro Grande Moldura Caramelo">
+              </a>
+              <div class="product-info">
+                <span class="badge">MAIS VENDIDO</span>
+                <h3 class="product-title">Espelho 100x50 Organico Corpo Inteiro Grande Moldura Caramelo</h3>
+                <div class="rating">Zynex | Frete gratis</div>
+                <div class="old-price">R$ 399,99</div>
+                <div class="price-row"><div class="price">R$ 99<small>99</small></div><span class="discount">75% OFF</span></div>
+                <a class="buy-link" href="https://meli.la/1weGPH5" target="_blank" rel="noopener">VER OFERTA</a>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <a class="product-media" href="https://meli.la/1xDkQmm" target="_blank" rel="noopener">
+                <img src="https://http2.mlstatic.com/D_Q_NP_2X_774328-MLB83148508306_032025-T-criado-mudor-p-cama-box-compacto-c-prateleira-max.webp" alt="Criado Mudor P/ Cama Box Compacto C/ Prateleira Max">
+              </a>
+              <div class="product-info">
+                <span class="badge">MAIS VENDIDO</span>
+                <h3 class="product-title">Criado Mudor P/ Cama Box Compacto C/ Prateleira Max</h3>
+                <div class="rating">Frete gratis</div>
+                <div class="old-price">R$ 159,90</div>
+                <div class="price-row"><div class="price">R$ 64<small>00</small></div><span class="discount">59% OFF</span></div>
+                <a class="buy-link" href="https://meli.la/1xDkQmm" target="_blank" rel="noopener">VER OFERTA</a>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <a class="product-media" href="https://meli.la/11HpkLG" target="_blank" rel="noopener">
+                <img src="https://http2.mlstatic.com/D_Q_NP_2X_813389-MLA99520090726_112025-T.webp" alt="Fritadeira Eletrica Air Fryer Quad Fry 4,2 L,1400w Preto Elgin">
+              </a>
+              <div class="product-info">
+                <span class="badge">MAIS VENDIDO</span>
+                <h3 class="product-title">Fritadeira Eletrica Air Fryer Quad Fry 4,2 L, 1400w Preto Elgin</h3>
+                <div class="rating">Mercado Livre | 12x</div>
+                <div class="old-price">R$ 299,00</div>
+                <div class="price-row"><div class="price">R$ 169<small>00</small></div><span class="discount">43% OFF</span></div>
+                <a class="buy-link" href="https://meli.la/11HpkLG" target="_blank" rel="noopener">VER OFERTA</a>
+              </div>
+            </article>
+          </div>
+        </section>
+      </section>
+    </main>
+    <script>
+      const tabButtons = document.querySelectorAll(".tab-button");
+      const tabPanels = document.querySelectorAll(".tab-panel");
+      const marketButtons = document.querySelectorAll(".market-pill[data-market]");
+      const productGrid = document.querySelector("#product-grid");
+      let activeMarket = "mercado";
+      const productData = {
+        mercado: [
+          {
+            source: "Mercado Livre",
+            category: "creatina",
+            title: "Creatina Monohidratada 250g Growth Supplements - Sem Sabor Em Po",
+            price: "R$ 34,90",
+            originalPrice: "R$ 64,90",
+            discount: 46,
+            sales: "Mais vendido",
+            image: "https://http2.mlstatic.com/D_Q_NP_2X_662415-MLA97812910758_112025-V.webp",
+            url: "https://meli.la/1jK7rjm",
+          },
+          {
+            source: "Mercado Livre",
+            category: "air fryer",
+            title: "Fritadeira Eletrica Air Fryer Quad Fry 4,2 L, 1400w Preto Elgin",
+            price: "R$ 169,00",
+            originalPrice: "R$ 299,00",
+            discount: 43,
+            sales: "Mais vendido",
+            image: "https://http2.mlstatic.com/D_Q_NP_2X_813389-MLA99520090726_112025-T.webp",
+            url: "https://meli.la/11HpkLG",
+          },
+          {
+            source: "Mercado Livre",
+            category: "furadeira",
+            title: "Parafusadeira Furadeira C/ 2 Baterias Maleta Kit Completo Led",
+            price: "R$ 119,99",
+            originalPrice: "R$ 299,00",
+            discount: 59,
+            sales: "Oferta verificada",
+            image: "https://http2.mlstatic.com/D_Q_NP_2X_641541-MLA111608975062_062026-T.webp",
+            url: "https://meli.la/1svnJEp",
+          },
+          {
+            source: "Mercado Livre",
+            category: "kit de roupas",
+            title: "Kit 6 Cuecas Lupo Boxer Box Sem Costura Basic Microfibra",
+            price: "R$ 145,49",
+            originalPrice: "R$ 288,63",
+            discount: 49,
+            sales: "Mais vendido",
+            image: "https://http2.mlstatic.com/D_Q_NP_2X_797944-MLB82978249605_032025-T-kit-6-cuecas-boxer-lupo-poliamida-sem-costura-box-original.webp",
+            url: "https://meli.la/26wJfbe",
+          },
+          {
+            source: "Mercado Livre",
+            category: "creatina",
+            title: "Creatina Monohidratada Pura 1kg Dark Lab Unidade Sem Sabor",
+            price: "R$ 69,90",
+            originalPrice: "R$ 159,90",
+            discount: 56,
+            sales: "Cupom R$ 20 OFF",
+            image: "https://http2.mlstatic.com/D_Q_NP_2X_848860-MLA99964507641_112025-V.webp",
+            url: "https://meli.la/1vXKTqP",
+          },
+          {
+            source: "Mercado Livre",
+            category: "moveis",
+            title: "Criado Mudor P/ Cama Box Compacto C/ Prateleira Max",
+            price: "R$ 64,00",
+            originalPrice: "R$ 159,90",
+            discount: 59,
+            sales: "Mais vendido",
+            image: "https://http2.mlstatic.com/D_Q_NP_2X_774328-MLB83148508306_032025-T-criado-mudor-p-cama-box-compacto-c-prateleira-max.webp",
+            url: "https://meli.la/1xDkQmm",
+          },
+          {
+            source: "Mercado Livre",
+            category: "casa",
+            title: "Espelho 100x50 Organico Corpo Inteiro Grande Moldura Caramelo",
+            price: "R$ 99,99",
+            originalPrice: "R$ 399,99",
+            discount: 75,
+            sales: "Mais vendido",
+            image: "https://http2.mlstatic.com/D_Q_NP_2X_936790-MLA96100703939_102025-T.webp",
+            url: "https://meli.la/1weGPH5",
+          },
+          {
+            source: "Mercado Livre",
+            category: "fitness",
+            title: "Bicicleta Ergometrica Profissional Spinning X11 Em Aco Carbono - 4fitness",
+            price: "R$ 457,59",
+            originalPrice: "R$ 1.111,00",
+            discount: 58,
+            sales: "Preco no Pix",
+            image: "https://http2.mlstatic.com/D_Q_NP_2X_921715-MLA105989488407_012026-T.webp",
+            url: "https://meli.la/1WzSLW4",
+          },
+        ],
+        shopee: [
+          {
+                    "source": "Shopee",
+                    "category": "",
+                    "title": "Kit 2x 100% Whey Protein 900g FTW",
+                    "price": "R$ 253,90",
+                    "originalPrice": null,
+                    "discount": 0,
+                    "sales": 182,
+                    "image": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhjfkam1t152aa",
+                    "url": "https://s.shopee.com.br/18m2hNH4n"
+          },
+          {
+                    "source": "Shopee",
+                    "category": "",
+                    "title": "Escova Secadora Alisador El\u00e9trica Quente Cabelo Com 3 Em1 Hair Styler 110V",
+                    "price": "R$ 37,99",
+                    "originalPrice": "R$ 99,97",
+                    "discount": 62,
+                    "sales": 3797,
+                    "image": "https://cf.shopee.com.br/file/0717fe00f09a2ef32de0e47501845889",
+                    "url": "https://s.shopee.com.br/W52dcLN3u"
+          },
+          {
+                    "source": "Shopee",
+                    "category": "",
+                    "title": "Kit 5 bermudas masculinas academia treino praia corrida shorts el\u00e1stico premium dia a dia luzzoo",
+                    "price": "R$ 158,31",
+                    "originalPrice": "R$ 179,90",
+                    "discount": 12,
+                    "sales": 378,
+                    "image": "https://cf.shopee.com.br/file/br-11134211-820lj-mmqhmta5cutj85",
+                    "url": "https://s.shopee.com.br/LlcRJM0Ot"
+          },
+          {
+                    "source": "Shopee",
+                    "category": "",
+                    "title": "Balan\u00e7a Digital Cozinha 10Kg Precis\u00e3o Balan\u00e7a de Alimentos Cozinha pilhas inclusas",
+                    "price": "R$ 16,90",
+                    "originalPrice": "R$ 29,65",
+                    "discount": 43,
+                    "sales": 7099,
+                    "image": "https://cf.shopee.com.br/file/br-11134207-820ls-mqg6n5hzpc037f",
+                    "url": "https://s.shopee.com.br/2BDGcgF1gG"
+          },
+          {
+                    "source": "Shopee",
+                    "category": "",
+                    "title": "JOGO DE SOQUETES E BITS COM CATRACA \u2013 MALETA COMPLETA \ud83d\udd27",
+                    "price": "R$ 36,89",
+                    "originalPrice": null,
+                    "discount": 0,
+                    "sales": 5,
+                    "image": "https://cf.shopee.com.br/file/br-11134207-820lg-mpmt22a65w5df8",
+                    "url": "https://s.shopee.com.br/8V7KANl6e2"
+          },
+          {
+                    "source": "Shopee",
+                    "category": "",
+                    "title": "Kit 4 Camiseta Dry Masculina Fit Manga Curta Fitness Academia Corrida CrossFit Poliester Premium",
+                    "price": "R$ 63,90",
+                    "originalPrice": "R$ 99,84",
+                    "discount": 36,
+                    "sales": 399,
+                    "image": "https://cf.shopee.com.br/file/br-11134207-81z1k-mgnsaoa65dzb35",
+                    "url": "https://s.shopee.com.br/8Knty4ljz1"
+          },
+          {
+                    "source": "Shopee",
+                    "category": "",
+                    "title": "Mini Compressor de Ar Portatil Recarregav\u00e9l Digital USB Calibrador Pneu Envio Imediato",
+                    "price": "R$ 73,89",
+                    "originalPrice": "R$ 129,63",
+                    "discount": 43,
+                    "sales": 2611,
+                    "image": "https://cf.shopee.com.br/file/br-11134211-7r98o-lor192hhl5ma45",
+                    "url": "https://s.shopee.com.br/8pkAYzjpy8"
+          },
+          {
+                    "source": "Shopee",
+                    "category": "",
+                    "title": "Kit 12x Bebida Lactea Zero Lactose Pro Play Caixa De 250ml Italac",
+                    "price": "R$ 91,90",
+                    "originalPrice": "R$ 94,74",
+                    "discount": 3,
+                    "sales": 792,
+                    "image": "https://cf.shopee.com.br/file/sg-11134201-820mg-mnk5v7gd0jk32c",
+                    "url": "https://s.shopee.com.br/5q6Yza9GUG"
+          },
+          {
+                    "source": "Shopee",
+                    "category": "",
+                    "title": "Mini Liquidificador Port\u00e1til Shake 6 Laminas + Cabo USB-SE3095",
+                    "price": "R$ 22,04",
+                    "originalPrice": "R$ 47,91",
+                    "discount": 54,
+                    "sales": 4290,
+                    "image": "https://cf.shopee.com.br/file/br-11134207-7r98o-m326ai6rx4gl9c",
+                    "url": "https://s.shopee.com.br/5fn8nH9tpF"
+          },
+          {
+                    "source": "Shopee",
+                    "category": "",
+                    "title": "I12s tws/ I13/ PRO 4 Fone de ouvido Sem Fio Port\u00e1til 5.0 FoneBbluetooth",
+                    "price": "R$ 17,99",
+                    "originalPrice": "R$ 20,68",
+                    "discount": 13,
+                    "sales": 1972,
+                    "image": "https://cf.shopee.com.br/file/br-11134207-7r98o-lw5xs4annqnp52",
+                    "url": "https://s.shopee.com.br/5VTiayAXAE"
+          }
+        ],
+        aliexpress: [
+          {
+                    "source": "AliExpress",
+                    "category": "",
+                    "title": "HUADISK M2 NVME 128GB 256GB 512GB 1TB SSD Internal Hard Disk 2280 PCIe3.0 Internal Solid State Drive for Laptop Tablets Desktop",
+                    "price": "R$ 155,59",
+                    "originalPrice": "R$ 324,15",
+                    "discount": 52,
+                    "sales": "198 vendidos",
+                    "image": "assets/aliexpress-1.jpg",
+                    "url": "https://s.click.aliexpress.com/e/_c3xneIPN"
+          },
+          {
+                    "source": "AliExpress",
+                    "category": "",
+                    "title": "Led Strip Lights with 44 Key Remote Control 1m 5m 10m 20m RGB Tape Led Wall Room for Home Bedroom Party Decor TV Backlight",
+                    "price": "R$ 6,70",
+                    "originalPrice": "R$ 24,79",
+                    "discount": 73,
+                    "sales": "2 vendidos",
+                    "image": "assets/aliexpress-2.jpg",
+                    "url": "https://s.click.aliexpress.com/e/_c36e1dDz"
+          },
+          {
+                    "source": "AliExpress",
+                    "category": "",
+                    "title": "25 in 1 mini screwdriver set, flat head and cross shaped small screwdrivers, suitable for electronic products",
+                    "price": "R$ 11,80",
+                    "originalPrice": "R$ 28,42",
+                    "discount": 58,
+                    "sales": "50.000+ vendidos",
+                    "image": "assets/aliexpress-3.jpg",
+                    "url": "https://s.click.aliexpress.com/e/_c3SVVo4r"
+          },
+          {
+                    "source": "AliExpress",
+                    "category": "",
+                    "title": "Durable Shoe Washing Machine Bag for All Shoe Types - Yellow with Blue Zipper, Ideal for Sneakers and Casual Shoes, Laundry Wash Bag",
+                    "price": "R$ 23,12",
+                    "originalPrice": "R$ 54,64",
+                    "discount": 58,
+                    "sales": "100K+ vendidos",
+                    "image": "assets/aliexpress-4.jpg",
+                    "url": "https://s.click.aliexpress.com/e/_c4rsWVar"
+          },
+          {
+                    "source": "AliExpress",
+                    "category": "",
+                    "title": "Kitchen 4Segment Knife Sharpener Household Multi-Functional Hand-Held Three-Purpose Black Sharpening Stone",
+                    "price": "R$ 15,22",
+                    "originalPrice": "R$ 35,12",
+                    "discount": 57,
+                    "sales": "50.000+ vendidos",
+                    "image": "assets/aliexpress-5.jpg",
+                    "url": "https://s.click.aliexpress.com/e/_c4E5JWCJ"
+          },
+          {
+                    "source": "AliExpress",
+                    "category": "",
+                    "title": "Car interior sweeping dust soft brush car wash tool artifact car interior gap dust brush air outlet cleaning brush",
+                    "price": "R$ 9,31",
+                    "originalPrice": "R$ 32,89",
+                    "discount": 72,
+                    "sales": "100K+ vendidos",
+                    "image": "assets/aliexpress-6.jpg",
+                    "url": "https://s.click.aliexpress.com/e/_c4PtynYL"
+          },
+          {
+                    "source": "AliExpress",
+                    "category": "",
+                    "title": "T9 Vintage Men's Electric Hair Clipper Beard Trimmer Rechargeable Hair Cutting Machine With Nose Hair Trimmer Kit Boyfriend Gift",
+                    "price": "R$ 14,07",
+                    "originalPrice": "R$ 34,78",
+                    "discount": 60,
+                    "sales": "10.000+ vendidos",
+                    "image": "assets/aliexpress-7.jpg",
+                    "url": "https://s.click.aliexpress.com/e/_c4NiSNYb"
+          },
+          {
+                    "source": "AliExpress",
+                    "category": "",
+                    "title": "Best-Selling Mute Wireless Mouse 4-Color Rechargeable Ergonomic Game Mouse Dual-Mode Bluetooth Computer Game Mouse Office Cpu",
+                    "price": "R$ 23,33",
+                    "originalPrice": "R$ 50,72",
+                    "discount": 54,
+                    "sales": "10.000+ vendidos",
+                    "image": "assets/aliexpress-8.jpg",
+                    "url": "https://s.click.aliexpress.com/e/_c3dFbGA7"
+          },
+          {
+                    "source": "AliExpress",
+                    "category": "",
+                    "title": "Luxury Men Business Watches Fashion Square Dial Stainless Steel Strap Quartz Watch with Calendar For Mens Clock (Without Box)",
+                    "price": "R$ 16,90",
+                    "originalPrice": "R$ 41,54",
+                    "discount": 59,
+                    "sales": "10.000+ vendidos",
+                    "image": "assets/aliexpress-9.jpg",
+                    "url": "https://s.click.aliexpress.com/e/_c40PYD47"
+          }
+],
+        amazon: [
+          {
+                    "source": "Amazon",
+                    "category": "",
+                    "title": "JBL, Caixa de Som, Boombox 4, Bluetooth, Som JBL Pro, AI Sound Boost, Graves Personaliz\u00e1veis, Bateria de at\u00e9 34h, IP68, \u00c1udio Lossless \u2013 Laranja",
+                    "price": "R$ 2.374,05",
+                    "originalPrice": "R$ 3.199,00",
+                    "discount": 26,
+                    "sales": "Amazon",
+                    "image": "https://m.media-amazon.com/images/I/71efPyuQXOL._AC_SY300_SX300_QL70_ML2_.jpg",
+                    "url": "https://link.amazon/B0dFdOa7U"
+          },
+          {
+                    "source": "Amazon",
+                    "category": "",
+                    "title": "M\u00e1quina de Lavar 17kg Electrolux Essential Care com Cesto Inox, Jet&Clean e Ultra Filter (LED17)",
+                    "price": "R$ 1.880,13",
+                    "originalPrice": "R$ 4.913,82",
+                    "discount": 62,
+                    "sales": "Amazon",
+                    "image": "https://m.media-amazon.com/images/I/41jXZmfuQoL._AC_SX342_SY445_QL70_ML2_.jpg",
+                    "url": "https://link.amazon/B09Jkum7y"
+          },
+          {
+                    "source": "Amazon",
+                    "category": "",
+                    "title": "Brinox - Panela de Press\u00e3o 4,2L Antiaderente Ceramic Life com Fundo de Indu\u00e7\u00e3o Pressure - Vanilla",
+                    "price": "R$ 180,40",
+                    "originalPrice": "R$ 312,47",
+                    "discount": 42,
+                    "sales": "Amazon",
+                    "image": "https://m.media-amazon.com/images/I/515ty+4I4BL._AC_SY300_SX300_QL70_ML2_.jpg",
+                    "url": "https://link.amazon/B0iKiZxqR"
+          },
+          {
+                    "source": "Amazon",
+                    "category": "",
+                    "title": "Jogo de Panelas Tramontina Inox | Solar 65120026, com Revestimento Interno Cermico",
+                    "price": "R$ 969,00",
+                    "originalPrice": "R$ 1.335,00",
+                    "discount": 27,
+                    "sales": "Amazon",
+                    "image": "https://m.media-amazon.com/images/I/51Nhu0g4cdL._AC_SY300_SX300_QL70_ML2_.jpg",
+                    "url": "https://link.amazon/B09J1IQEJ"
+          },
+          {
+                    "source": "Amazon",
+                    "category": "",
+                    "title": "Limpeza Automotiva Completa Shampoo V-floc Revitalizador Intense Cera Tok Final Limpador Sintra Fast Pano Vonixx | Shampoo V-floc, Revitalizador Intense, Cera Tok Final, Limpador Sintra Fast, Pano inclu\u00eddo",
+                    "price": "R$ 90,57",
+                    "originalPrice": "R$ 105,94",
+                    "discount": 15,
+                    "sales": "Amazon",
+                    "image": "https://m.media-amazon.com/images/I/71T+2f67zDL._AC_SY300_SX300_QL70_ML2_.jpg",
+                    "url": "https://link.amazon/B0aglmU6B"
+          },
+          {
+                    "source": "Amazon",
+                    "category": "",
+                    "title": "ELG, SHCR600, C\u00e2mera Rob\u00f4 360\u00b0 Full HD 1080P Inteligente, Conex\u00e3o WI-FI 2.4GHz, Compat\u00edvel com Alexa, \u00c1udio Bidirecional, Zoom Digital 6x, Branco",
+                    "price": "R$ 115,00",
+                    "originalPrice": "R$ 545,00",
+                    "discount": 79,
+                    "sales": "Amazon",
+                    "image": "https://m.media-amazon.com/images/I/61mtw8duGGL._AC_SY300_SX300_QL70_ML2_.jpg",
+                    "url": "https://link.amazon/B0hmoQjvY"
+          },
+          {
+                    "source": "Amazon",
+                    "category": "",
+                    "title": "BOLD Snacks Barra de Prote\u00edna Caixa Mix - Caixa com 12 Unidades - Zero Adi\u00e7\u00e3o de A\u00e7\u00facar",
+                    "price": "R$ 98,37",
+                    "originalPrice": "R$ 149,00",
+                    "discount": 34,
+                    "sales": "Amazon",
+                    "image": "https://m.media-amazon.com/images/I/81CO99-Gh1L._AC_SY300_SX300_QL70_ML2_.jpg",
+                    "url": "https://link.amazon/B0aqjkzkg"
+          },
+          {
+                    "source": "Amazon",
+                    "category": "",
+                    "title": "Mixer Vertical Elgin 200W | Turbo Chef, 3 em 1, Preto, 110v",
+                    "price": "R$ 126,35",
+                    "originalPrice": "R$ 199,90",
+                    "discount": 37,
+                    "sales": "Amazon",
+                    "image": "https://m.media-amazon.com/images/I/51yYe4QlyQL._AC_SY300_SX300_QL70_ML2_.jpg",
+                    "url": "https://link.amazon/B0d072cNR"
+          },
+          {
+                    "source": "Amazon",
+                    "category": "",
+                    "title": "Kit 12 Potes Herm\u00e9ticos de Pl\u00e1stico Retangulares Electrolux | Multiuso, Veda\u00e7\u00e3o Silicone, BPA Free, Porta Mantimentos",
+                    "price": "R$ 88,10",
+                    "originalPrice": "R$ 129,90",
+                    "discount": 32,
+                    "sales": "Amazon",
+                    "image": "https://m.media-amazon.com/images/I/51uccv-jBiL._AC_SY300_SX300_QL70_ML2_.jpg",
+                    "url": "https://link.amazon/B06Xsx1Yn"
+          }
+]
+      };
+
+      function escapeHtml(value) {
+        return String(value ?? "").replace(/[&<>"']/g, (char) => ({
+          "&": "&amp;",
+          "<": "&lt;",
+          ">": "&gt;",
+          '"': "&quot;",
+          "'": "&#039;",
+        })[char]);
+      }
+
+      function safeUrl(value, allowedHosts, { allowAssets = false } = {}) {
+        const raw = String(value ?? "").trim();
+        if (!raw) {
+          return "";
+        }
+
+        if (allowAssets && raw.startsWith("assets/")) {
+          return raw;
+        }
+
+        try {
+          const url = new URL(raw, window.location.origin);
+          if (url.protocol !== "https:") {
+            return "";
+          }
+
+          return allowedHosts.includes(url.hostname) ? raw : "";
+        } catch {
+          return "";
+        }
+      }
+
+      function safeProductUrl(value) {
+        return safeUrl(value, [
+          "meli.la",
+          "s.shopee.com.br",
+          "s.click.aliexpress.com",
+          "link.amazon",
+        ]) || "#";
+      }
+
+      function safeImageUrl(value) {
+        return safeUrl(value, [
+          "http2.mlstatic.com",
+          "cf.shopee.com.br",
+          "m.media-amazon.com",
+          "ae-pic-a1.aliexpress-media.com",
+        ], { allowAssets: true }) || "assets/super-promos-logo.png";
+      }
+
+      function cardMarkup(product) {
+        const productUrl = safeProductUrl(product.url);
+        const imageUrl = safeImageUrl(product.image);
+        const discount = Number(product.discount || 0);
+        const oldPrice = product.originalPrice ? `<div class="old-price">${escapeHtml(product.originalPrice)}</div>` : "";
+        const discountTag = discount > 0 ? `<span class="discount">${discount}% OFF</span>` : "";
+        const sales = typeof product.sales === "number" ? `${product.sales} vendidos` : (product.sales ? escapeHtml(product.sales) : "Selecionado por desconto");
+
+        return `
+          <article class="product-card">
+            <a class="product-media" href="${escapeHtml(productUrl)}" target="_blank" rel="noopener">
+              <img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(product.title)}" loading="lazy">
+            </a>
+            <div class="product-info">
+              <span class="badge">${escapeHtml(product.source)}</span>
+              <h3 class="product-title">${escapeHtml(product.title)}</h3>
+              <div class="rating">${sales}</div>
+              ${oldPrice}
+              <div class="price-row"><div class="price">${escapeHtml(product.price || "Ver preco")}</div>${discountTag}</div>
+              <a class="buy-link" href="${escapeHtml(productUrl)}" target="_blank" rel="noopener">VER OFERTA</a>
+            </div>
+          </article>
+        `;
+      }
+
+      function renderProducts(market) {
+        activeMarket = market;
+        const products = productData[market] || [];
+        productGrid.innerHTML = products.length
+          ? products.map(cardMarkup).join("")
+          : '<p class="note">Nenhuma oferta fixa cadastrada para este marketplace.</p>';
+      }
+
+
+      tabButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          const target = button.dataset.tab;
+
+          tabButtons.forEach((item) => {
+            const selected = item === button;
+            item.classList.toggle("active", selected);
+            item.setAttribute("aria-selected", selected ? "true" : "false");
+          });
+
+          tabPanels.forEach((panel) => {
+            panel.classList.toggle("active", panel.id === target);
+          });
+        });
+      });
+
+      marketButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          const market = button.dataset.market;
+          marketButtons.forEach((item) => item.classList.toggle("active", item === button));
+          renderProducts(market);
+        });
+      });
+
+      renderProducts(activeMarket);
+    </script>
+  </body>
+</html>
