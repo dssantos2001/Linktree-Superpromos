@@ -207,6 +207,20 @@
         outline: none;
       }
 
+      .icon-button.whatsapp {
+        border-color: rgba(37, 211, 102, 0.72);
+        background: rgba(37, 211, 102, 0.16);
+        box-shadow: 0 0 0 3px rgba(37, 211, 102, 0.08);
+        color: #62f59a;
+      }
+
+      .icon-button.whatsapp:hover,
+      .icon-button.whatsapp:focus-visible {
+        border-color: #62f59a;
+        background: rgba(37, 211, 102, 0.24);
+        box-shadow: 0 0 0 4px rgba(37, 211, 102, 0.13), 0 10px 24px rgba(37, 211, 102, 0.16);
+      }
+
       .icon-button svg,
       .link-card svg {
         width: 22px;
@@ -248,6 +262,65 @@
           rgba(255, 255, 255, 0.1);
         transform: translateY(-2px);
         outline: none;
+      }
+
+      .link-card.whatsapp {
+        position: relative;
+        border-color: rgba(37, 211, 102, 0.92);
+        background:
+          linear-gradient(90deg, rgba(37, 211, 102, 0.27), rgba(37, 211, 102, 0.08)),
+          rgba(255, 255, 255, 0.07);
+        box-shadow:
+          0 0 0 3px rgba(37, 211, 102, 0.1),
+          0 16px 34px rgba(0, 0, 0, 0.3),
+          0 0 28px rgba(37, 211, 102, 0.14);
+        color: #fff;
+        animation: whatsapp-pulse 2.8s ease-in-out infinite;
+      }
+
+      .link-card.whatsapp::after {
+        position: absolute;
+        right: 16px;
+        border-radius: 999px;
+        background: #25d366;
+        color: #062c16;
+        content: "ENTRAR AGORA";
+        padding: 5px 8px;
+        font-size: 0.62rem;
+        font-weight: 950;
+        letter-spacing: 0.04em;
+      }
+
+      .link-card.whatsapp svg {
+        color: #62f59a;
+        filter: drop-shadow(0 0 7px rgba(37, 211, 102, 0.42));
+      }
+
+      .link-card.whatsapp:hover,
+      .link-card.whatsapp:focus-visible {
+        border-color: #6cff9f;
+        background:
+          linear-gradient(90deg, rgba(37, 211, 102, 0.36), rgba(37, 211, 102, 0.13)),
+          rgba(255, 255, 255, 0.1);
+        box-shadow:
+          0 0 0 4px rgba(37, 211, 102, 0.15),
+          0 18px 38px rgba(0, 0, 0, 0.34),
+          0 0 34px rgba(37, 211, 102, 0.22);
+      }
+
+      @keyframes whatsapp-pulse {
+        0%, 100% {
+          box-shadow: 0 0 0 3px rgba(37, 211, 102, 0.08), 0 16px 34px rgba(0, 0, 0, 0.3), 0 0 22px rgba(37, 211, 102, 0.1);
+        }
+        50% {
+          box-shadow: 0 0 0 5px rgba(37, 211, 102, 0.15), 0 16px 34px rgba(0, 0, 0, 0.3), 0 0 34px rgba(37, 211, 102, 0.22);
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .link-card.whatsapp {
+          animation: none;
+        }
       }
 
       .note {
@@ -555,6 +628,15 @@
           font-size: 0.94rem;
         }
 
+        .link-card.whatsapp {
+          padding-right: 112px;
+        }
+
+        .link-card.whatsapp::after {
+          right: 12px;
+          font-size: 0.56rem;
+        }
+
         .brand-strip {
           grid-template-columns: repeat(2, minmax(0, 1fr));
           gap: 10px;
@@ -620,6 +702,15 @@
           padding: 0 16px;
           text-align: left;
         }
+
+        .link-card.whatsapp {
+          padding-right: 96px;
+        }
+
+        .link-card.whatsapp::after {
+          max-width: 72px;
+          text-align: center;
+        }
       }
     </style>
   </head>
@@ -642,7 +733,7 @@
 
         <section class="tab-panel active" id="home-panel" role="tabpanel">
         <nav class="quick-links" aria-label="Links rapidos">
-          <a class="icon-button" href="https://chat.whatsapp.com/GrBJ5LBMfBu2XH2uIfih2p" target="_blank" rel="noopener" aria-label="Abrir WhatsApp">
+          <a class="icon-button whatsapp" href="https://chat.whatsapp.com/GrBJ5LBMfBu2XH2uIfih2p" target="_blank" rel="noopener" aria-label="Abrir WhatsApp">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
               <path d="M20.5 11.8A8.5 8.5 0 0 1 8 19.3L4 20.5l1.2-3.8A8.5 8.5 0 1 1 20.5 11.8Z"></path>
               <path d="M9.1 8.7c.2-.5.4-.5.7-.5h.5c.2 0 .4.1.5.4l.7 1.6c.1.2.1.4-.1.6l-.5.6c.8 1.4 1.8 2.3 3.2 3l.6-.6c.2-.2.4-.2.7-.1l1.5.7c.3.1.4.3.4.6v.5c0 .3-.1.6-.5.7-.6.3-1.7.4-3.1-.2-2.3-.9-4.1-2.8-5-5.1-.5-1.1-.4-1.7-.1-2.2Z"></path>
@@ -666,7 +757,7 @@
         </nav>
 
         <div class="links" aria-label="Grupos de ofertas">
-          <a class="link-card" href="https://chat.whatsapp.com/GrBJ5LBMfBu2XH2uIfih2p" target="_blank" rel="noopener">
+          <a class="link-card whatsapp" href="https://chat.whatsapp.com/GrBJ5LBMfBu2XH2uIfih2p" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <path d="M20.5 11.8A8.5 8.5 0 0 1 8 19.3L4 20.5l1.2-3.8A8.5 8.5 0 1 1 20.5 11.8Z"></path>
               <path d="M9.1 8.7c.2-.5.4-.5.7-.5h.5c.2 0 .4.1.5.4l.7 1.6c.1.2.1.4-.1.6l-.5.6c.8 1.4 1.8 2.3 3.2 3l.6-.6c.2-.2.4-.2.7-.1l1.5.7c.3.1.4.3.4.6v.5c0 .3-.1.6-.5.7-.6.3-1.7.4-3.1-.2-2.3-.9-4.1-2.8-5-5.1-.5-1.1-.4-1.7-.1-2.2Z"></path>
