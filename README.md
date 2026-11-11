@@ -1,6 +1,6 @@
-# Linktree Superpromos
+# Linktree Bigode Promos
 
-Site estatico da Super Promos com links oficiais para comunidades e ofertas selecionadas por marketplace.
+Site estatico da Bigode Promos com links oficiais para comunidades e ofertas selecionadas por marketplace.
 
 ## Estrutura
 
