@@ -11,11 +11,23 @@
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
     <meta
       name="description"
-      content="Entre nos grupos da Bigode Promos no WhatsApp, Telegram e Discord para acompanhar ofertas selecionadas."
+      content="Entre nos grupos da Bigode Promos no Telegram, Discord e X e acompanhe ofertas selecionadas do Mercado Livre, Shopee, AliExpress e Amazon."
     >
+    <meta name="theme-color" content="#0a0a0a">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Bigode Promos">
+    <meta property="og:title" content="Bigode Promos - economize de verdade">
+    <meta property="og:description" content="Entre nos grupos e receba promoções selecionadas do Mercado Livre, Shopee, AliExpress e Amazon.">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@bigodepromos">
     <style>
       :root {
         color-scheme: dark;
+        --brand: #2fe35a;
+        --brand-strong: #19c943;
+        --brand-ink: #062b10;
+        --accent: #ffc21a;
         --bg: #080808;
         --surface: rgba(255, 255, 255, 0.075);
         --surface-strong: rgba(255, 255, 255, 0.12);
@@ -41,7 +53,8 @@
         font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
         color: var(--text);
         background:
-          radial-gradient(circle at 20% 15%, rgba(255, 255, 255, 0.08), transparent 26rem),
+          radial-gradient(circle at 50% -4%, rgba(47, 227, 90, 0.16), transparent 30rem),
+          radial-gradient(circle at 20% 15%, rgba(255, 255, 255, 0.06), transparent 26rem),
           radial-gradient(circle at 78% 22%, rgba(255, 255, 255, 0.06), transparent 22rem),
           linear-gradient(135deg, #050505 0%, #111 45%, #202020 100%);
         overflow-x: hidden;
@@ -99,12 +112,12 @@
         height: 152px;
         margin: 0 auto 24px;
         place-items: center;
-        border: 1px solid rgba(255, 255, 255, 0.34);
+        border: 2px solid rgba(47, 227, 90, 0.55);
         border-radius: 50%;
         background:
           linear-gradient(145deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.04)),
           #151515;
-        box-shadow: var(--shadow), inset 0 1px 0 rgba(255, 255, 255, 0.16);
+        box-shadow: var(--shadow), 0 0 0 8px rgba(47, 227, 90, 0.07), 0 0 60px rgba(47, 227, 90, 0.28);
         overflow: hidden;
       }
 
@@ -132,7 +145,7 @@
       }
 
       .subtitle strong {
-        color: #fff;
+        color: var(--brand);
         font-weight: 800;
       }
 
@@ -175,8 +188,8 @@
       }
 
       .tab-button.active {
-        background: #fff;
-        color: #111;
+        background: var(--brand);
+        color: var(--brand-ink);
       }
 
       .tab-panel {
@@ -229,10 +242,12 @@
 
       .link-card {
         display: flex;
-        min-height: 66px;
+        min-height: 72px;
         align-items: center;
-        justify-content: center;
-        gap: 12px;
+        justify-content: flex-start;
+        gap: 14px;
+        padding: 12px 16px;
+        text-align: left;
         border: 1px solid var(--line);
         border-radius: 18px;
         background:
@@ -254,6 +269,141 @@
           rgba(255, 255, 255, 0.1);
         transform: translateY(-2px);
         outline: none;
+      }
+
+      .link-icon {
+        display: grid;
+        width: 42px;
+        height: 42px;
+        flex: 0 0 auto;
+        place-items: center;
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.1);
+      }
+
+      .link-text {
+        display: grid;
+        flex: 1 1 auto;
+        gap: 3px;
+        min-width: 0;
+      }
+
+      .link-text small {
+        color: var(--muted);
+        font-size: 0.8rem;
+        font-weight: 550;
+        line-height: 1.3;
+      }
+
+      .link-card svg.link-arrow {
+        width: 18px;
+        height: 18px;
+        opacity: 0.6;
+        transition: transform 180ms ease, opacity 180ms ease;
+      }
+
+      .link-card:hover .link-arrow,
+      .link-card:focus-visible .link-arrow {
+        opacity: 1;
+        transform: translateX(3px);
+      }
+
+      .link-card.primary {
+        border-color: rgba(47, 227, 90, 0.75);
+        background: linear-gradient(90deg, var(--brand), var(--brand-strong));
+        box-shadow: 0 16px 36px rgba(47, 227, 90, 0.22);
+        color: var(--brand-ink);
+      }
+
+      .link-card.primary:hover,
+      .link-card.primary:focus-visible {
+        border-color: #b8ffc9;
+        background: linear-gradient(90deg, #4bf072, var(--brand));
+      }
+
+      .link-card.primary .link-icon {
+        background: rgba(6, 43, 16, 0.14);
+      }
+
+      .link-card.primary .link-text small {
+        color: rgba(6, 43, 16, 0.78);
+      }
+
+      .link-card.is-disabled {
+        opacity: 0.55;
+        box-shadow: none;
+      }
+
+      .tag {
+        flex: 0 0 auto;
+        border-radius: 999px;
+        padding: 4px 9px;
+        font-size: 0.66rem;
+        font-weight: 900;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .tag-hot {
+        background: var(--brand-ink);
+        color: var(--brand);
+      }
+
+      .tag-soon {
+        background: rgba(255, 255, 255, 0.14);
+        color: var(--soft);
+      }
+
+      .section-title {
+        margin: 46px auto 16px;
+        font-size: 1.15rem;
+        font-weight: 850;
+      }
+
+      .steps {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+        width: min(100%, 680px);
+        margin: 0 auto;
+        padding: 0;
+        list-style: none;
+        counter-reset: step;
+      }
+
+      .step {
+        position: relative;
+        padding: 18px 14px 16px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.05);
+        counter-increment: step;
+      }
+
+      .step::before {
+        display: grid;
+        width: 30px;
+        height: 30px;
+        margin: 0 auto 10px;
+        place-items: center;
+        border-radius: 50%;
+        background: var(--accent);
+        color: #1d1400;
+        content: counter(step);
+        font-size: 0.86rem;
+        font-weight: 900;
+      }
+
+      .step strong {
+        display: block;
+        margin-bottom: 4px;
+        font-size: 0.95rem;
+      }
+
+      .step span {
+        color: var(--muted);
+        font-size: 0.82rem;
+        line-height: 1.4;
       }
 
       .note {
@@ -336,28 +486,117 @@
         color: #19315f;
       }
 
-      .dots {
-        display: flex;
-        justify-content: center;
-        gap: 8px;
-        margin-top: 18px;
+      button.brand {
+        cursor: pointer;
+        font: inherit;
+        transition: transform 180ms ease, box-shadow 180ms ease;
       }
 
-      .dot {
-        width: 6px;
-        height: 6px;
-        border-radius: 50%;
-        background: rgba(255, 255, 255, 0.36);
+      button.brand:hover,
+      button.brand:focus-visible {
+        box-shadow: 0 0 0 3px rgba(47, 227, 90, 0.7);
+        outline: none;
+        transform: translateY(-2px);
       }
 
-      .dot.active {
-        background: #fff;
+      .brand-hint {
+        display: block;
+        margin-top: 6px;
+        font-size: 0.68rem;
+        font-weight: 700;
+        opacity: 0.75;
       }
 
       footer {
-        margin-top: 30px;
+        width: min(100%, 560px);
+        margin: 34px auto 0;
         color: var(--muted);
         font-size: 0.82rem;
+        line-height: 1.5;
+      }
+
+      footer p {
+        margin: 0 0 6px;
+      }
+
+      .disclosure {
+        font-size: 0.74rem;
+        opacity: 0.85;
+      }
+
+      .offers-toolbar {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px 16px;
+        margin-bottom: 16px;
+        color: var(--muted);
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
+
+      .offers-toolbar label {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .offers-toolbar select {
+        min-height: 34px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 10px;
+        background: #161616;
+        color: #fff;
+        padding: 0 10px;
+        font: inherit;
+        font-weight: 750;
+      }
+
+      .market-pill .count {
+        margin-left: 6px;
+        opacity: 0.65;
+        font-weight: 700;
+      }
+
+      .market-pill:disabled {
+        cursor: default;
+        opacity: 0.5;
+      }
+
+      .offers-cta {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 14px;
+        margin-top: 22px;
+        padding: 18px 20px;
+        border: 1px solid rgba(47, 227, 90, 0.4);
+        border-radius: 18px;
+        background: linear-gradient(120deg, rgba(47, 227, 90, 0.16), rgba(255, 194, 26, 0.08));
+      }
+
+      .offers-cta strong {
+        display: block;
+        font-size: 1.02rem;
+      }
+
+      .offers-cta span {
+        color: var(--soft);
+        font-size: 0.86rem;
+      }
+
+      .offers-cta a {
+        display: inline-grid;
+        min-height: 42px;
+        place-items: center;
+        border-radius: 12px;
+        background: var(--brand);
+        color: var(--brand-ink);
+        padding: 0 18px;
+        font-size: 0.9rem;
+        font-weight: 900;
       }
 
       .offers-panel {
@@ -409,9 +648,9 @@
       }
 
       .market-pill.active {
-        border-color: rgba(255, 230, 0, 0.7);
-        background: #ffe600;
-        color: #19315f;
+        border-color: rgba(47, 227, 90, 0.8);
+        background: var(--brand);
+        color: var(--brand-ink);
       }
 
       .product-grid {
@@ -518,6 +757,20 @@
         font-size: 0.58em;
       }
 
+      .discount-flag {
+        position: absolute;
+        z-index: 1;
+        top: 8px;
+        left: 8px;
+        border-radius: 6px;
+        background: #e3262f;
+        color: #fff;
+        padding: 4px 7px;
+        font-size: 0.74rem;
+        font-weight: 900;
+        line-height: 1;
+      }
+
       .discount {
         border-radius: 3px;
         background: #d8f8ec;
@@ -537,6 +790,13 @@
         color: #111;
         font-size: 0.78rem;
         font-weight: 900;
+        transition: background 180ms ease;
+      }
+
+      .buy-link:hover,
+      .buy-link:focus-visible {
+        background: var(--brand);
+        outline: none;
       }
 
       @media (max-width: 640px) {
@@ -555,10 +815,46 @@
         }
 
         .link-card {
-          min-height: 62px;
-          padding: 0 18px;
+          min-height: 64px;
+          padding: 10px 14px;
           border-radius: 16px;
           font-size: 0.94rem;
+        }
+
+        .link-icon {
+          width: 38px;
+          height: 38px;
+        }
+
+        .link-card svg.link-arrow {
+          display: none;
+        }
+
+        .brand-strip > :last-child {
+          grid-column: 1 / -1;
+        }
+
+        .steps {
+          grid-template-columns: 1fr;
+        }
+
+        .step {
+          display: grid;
+          grid-template-columns: 30px 1fr;
+          column-gap: 12px;
+          align-items: center;
+          padding: 14px;
+          text-align: left;
+        }
+
+        .step::before {
+          grid-row: span 2;
+          margin: 0;
+        }
+
+        .offers-cta {
+          justify-content: center;
+          text-align: center;
         }
 
         .brand-strip {
@@ -621,10 +917,8 @@
           font-size: 0.95rem;
         }
 
-        .link-card {
-          justify-content: flex-start;
-          padding: 0 16px;
-          text-align: left;
+        .link-text small {
+          display: none;
         }
       }
     </style>
@@ -638,17 +932,17 @@
 
         <h1 id="page-title">Bigode Promos</h1>
         <p class="subtitle">
-          O lugar para <strong>economizar de verdade</strong> na sua proxima compra.
+          O lugar para <strong>economizar de verdade</strong> na sua próxima compra.
         </p>
 
-        <div class="site-tabs" role="tablist" aria-label="Navegacao do site">
-          <button class="tab-button active" type="button" role="tab" aria-selected="true" aria-controls="home-panel" data-tab="home-panel">Inicio</button>
+        <div class="site-tabs" role="tablist" aria-label="Navegação do site">
+          <button class="tab-button active" type="button" role="tab" aria-selected="true" aria-controls="home-panel" data-tab="home-panel">Início</button>
           <button class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="offers-panel" data-tab="offers-panel">Ofertas</button>
         </div>
 
         <section class="tab-panel active" id="home-panel" role="tabpanel">
-        <nav class="quick-links" aria-label="Links rapidos">
-          <a class="icon-button is-disabled" role="link" aria-disabled="true" aria-label="WhatsApp (indisponivel no momento)">
+        <nav class="quick-links" aria-label="Links rápidos">
+          <a class="icon-button is-disabled" role="link" aria-disabled="true" aria-label="WhatsApp (em breve)">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
               <path d="M20.5 11.8A8.5 8.5 0 0 1 8 19.3L4 20.5l1.2-3.8A8.5 8.5 0 1 1 20.5 11.8Z"></path>
               <path d="M9.1 8.7c.2-.5.4-.5.7-.5h.5c.2 0 .4.1.5.4l.7 1.6c.1.2.1.4-.1.6l-.5.6c.8 1.4 1.8 2.3 3.2 3l.6-.6c.2-.2.4-.2.7-.1l1.5.7c.3.1.4.3.4.6v.5c0 .3-.1.6-.5.7-.6.3-1.7.4-3.1-.2-2.3-.9-4.1-2.8-5-5.1-.5-1.1-.4-1.7-.1-2.2Z"></path>
@@ -672,55 +966,82 @@
         </nav>
 
         <div class="links" aria-label="Grupos de ofertas">
-          <a class="link-card is-disabled" role="link" aria-disabled="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path d="M20.5 11.8A8.5 8.5 0 0 1 8 19.3L4 20.5l1.2-3.8A8.5 8.5 0 1 1 20.5 11.8Z"></path>
-              <path d="M9.1 8.7c.2-.5.4-.5.7-.5h.5c.2 0 .4.1.5.4l.7 1.6c.1.2.1.4-.1.6l-.5.6c.8 1.4 1.8 2.3 3.2 3l.6-.6c.2-.2.4-.2.7-.1l1.5.7c.3.1.4.3.4.6v.5c0 .3-.1.6-.5.7-.6.3-1.7.4-3.1-.2-2.3-.9-4.1-2.8-5-5.1-.5-1.1-.4-1.7-.1-2.2Z"></path>
-            </svg>
-            Grupo de ofertas do WhatsApp
-          </a>
-
-          <a class="link-card" href="https://t.me/bigodepromos" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-              <path d="M20.9 4.6 3.8 11.2c-1.1.4-1.1 1.1-.2 1.4l4.4 1.4 1.7 5.2c.2.6.1.8.7.8.4 0 .6-.2.9-.5l2.1-2 4.3 3.2c.8.4 1.3.2 1.5-.8l2.8-13.2c.3-1.1-.4-1.6-1.1-1.3Zm-3.4 3-8.3 7.5-.3 3.2-1.5-4.8 10.1-5.9Z"></path>
-            </svg>
-            Grupo de ofertas do Telegram
+          <a class="link-card primary" href="https://t.me/bigodepromos" target="_blank" rel="noopener">
+            <span class="link-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M20.9 4.6 3.8 11.2c-1.1.4-1.1 1.1-.2 1.4l4.4 1.4 1.7 5.2c.2.6.1.8.7.8.4 0 .6-.2.9-.5l2.1-2 4.3 3.2c.8.4 1.3.2 1.5-.8l2.8-13.2c.3-1.1-.4-1.6-1.1-1.3Zm-3.4 3-8.3 7.5-.3 3.2-1.5-4.8 10.1-5.9Z"></path>
+              </svg>
+            </span>
+            <span class="link-text">
+              Grupo no Telegram
+              <small>Receba as promoções no celular assim que forem publicadas</small>
+            </span>
+            <span class="tag tag-hot">Principal</span>
+            <svg class="link-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg>
           </a>
 
           <a class="link-card" href="https://discord.gg/KaD7jbhJTh" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-              <path d="M19.6 5.2A15.3 15.3 0 0 0 15.8 4l-.2.4c1.4.3 2.1.8 2.1.8a13 13 0 0 0-11.4 0s.7-.5 2.2-.8L8.2 4a15.3 15.3 0 0 0-3.8 1.2C2 8.8 1.3 12.3 1.6 15.8a15.4 15.4 0 0 0 4.7 2.4l.9-1.5c-.5-.2-1-.4-1.4-.7l.3-.2c2.7 1.3 5.7 1.3 8.4 0l.3.2c-.5.3-.9.5-1.4.7l.9 1.5a15.4 15.4 0 0 0 4.7-2.4c.4-4-.7-7.5-2.4-10.6ZM8.3 13.8c-.8 0-1.5-.8-1.5-1.7s.7-1.7 1.5-1.7 1.5.8 1.5 1.7-.7 1.7-1.5 1.7Zm5.4 0c-.8 0-1.5-.8-1.5-1.7s.7-1.7 1.5-1.7 1.5.8 1.5 1.7-.7 1.7-1.5 1.7Z"></path>
-            </svg>
-            Comunidade de ofertas no Discord
+            <span class="link-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M19.6 5.2A15.3 15.3 0 0 0 15.8 4l-.2.4c1.4.3 2.1.8 2.1.8a13 13 0 0 0-11.4 0s.7-.5 2.2-.8L8.2 4a15.3 15.3 0 0 0-3.8 1.2C2 8.8 1.3 12.3 1.6 15.8a15.4 15.4 0 0 0 4.7 2.4l.9-1.5c-.5-.2-1-.4-1.4-.7l.3-.2c2.7 1.3 5.7 1.3 8.4 0l.3.2c-.5.3-.9.5-1.4.7l.9 1.5a15.4 15.4 0 0 0 4.7-2.4c.4-4-.7-7.5-2.4-10.6ZM8.3 13.8c-.8 0-1.5-.8-1.5-1.7s.7-1.7 1.5-1.7 1.5.8 1.5 1.7-.7 1.7-1.5 1.7Zm5.4 0c-.8 0-1.5-.8-1.5-1.7s.7-1.7 1.5-1.7 1.5.8 1.5 1.7-.7 1.7-1.5 1.7Z"></path>
+              </svg>
+            </span>
+            <span class="link-text">
+              Comunidade no Discord
+              <small>Converse com a comunidade e acompanhe as ofertas</small>
+            </span>
+            <svg class="link-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg>
           </a>
 
           <a class="link-card" href="https://x.com/bigodepromos" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-              <path d="M18.9 2H22l-6.8 7.8L23.2 22H17l-4.9-6.4L6.5 22H3.3l7.3-8.4L2.8 2h6.4l4.4 5.8L18.9 2Zm-1.1 17.9h1.7L8.3 4H6.5l11.3 15.9Z"></path>
-            </svg>
-            Siga a Bigode Promos no X
+            <span class="link-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M18.9 2H22l-6.8 7.8L23.2 22H17l-4.9-6.4L6.5 22H3.3l7.3-8.4L2.8 2h6.4l4.4 5.8L18.9 2Zm-1.1 17.9h1.7L8.3 4H6.5l11.3 15.9Z"></path>
+              </svg>
+            </span>
+            <span class="link-text">
+              Bigode Promos no X
+              <small>Ofertas e novidades no seu feed</small>
+            </span>
+            <svg class="link-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg>
+          </a>
+
+          <a class="link-card is-disabled" role="link" aria-disabled="true">
+            <span class="link-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20.5 11.8A8.5 8.5 0 0 1 8 19.3L4 20.5l1.2-3.8A8.5 8.5 0 1 1 20.5 11.8Z"></path>
+                <path d="M9.1 8.7c.2-.5.4-.5.7-.5h.5c.2 0 .4.1.5.4l.7 1.6c.1.2.1.4-.1.6l-.5.6c.8 1.4 1.8 2.3 3.2 3l.6-.6c.2-.2.4-.2.7-.1l1.5.7c.3.1.4.3.4.6v.5c0 .3-.1.6-.5.7-.6.3-1.7.4-3.1-.2-2.3-.9-4.1-2.8-5-5.1-.5-1.1-.4-1.7-.1-2.2Z"></path>
+              </svg>
+            </span>
+            <span class="link-text">
+              Grupo no WhatsApp
+              <small>Estamos preparando o grupo</small>
+            </span>
+            <span class="tag tag-soon">Em breve</span>
           </a>
         </div>
 
-        <p class="note">Selecionamos promocoes em lojas conhecidas para voce comprar com mais confianca.</p>
+        <h2 class="section-title">Como funciona</h2>
+        <ol class="steps">
+          <li class="step"><strong>Entre no grupo</strong><span>Escolha o canal que você mais usa. É grátis.</span></li>
+          <li class="step"><strong>Receba as ofertas</strong><span>Promoções selecionadas com preço e desconto já conferidos.</span></li>
+          <li class="step"><strong>Compre na loja</strong><span>O link leva direto para a loja oficial, sem intermediários.</span></li>
+        </ol>
+
+        <p class="note">Selecionamos promoções em lojas conhecidas para você comprar com mais confiança. Toque em uma loja para ver as ofertas dela.</p>
 
         <div class="brand-strip" aria-label="Lojas parceiras e ofertas acompanhadas">
-          <div class="brand brand-aliexpress"><span class="brand-name">AliExpress</span></div>
-          <div class="brand brand-magalu"><span class="brand-name">magalu</span></div>
-          <div class="brand brand-shopee"><span class="brand-name">Shopee</span></div>
-          <div class="brand brand-amazon"><span class="brand-name">amazon</span></div>
-          <div class="brand brand-mercado"><span class="brand-name">Mercado Livre</span></div>
+          <button class="brand brand-aliexpress" type="button" data-open-market="aliexpress"><span class="brand-name">AliExpress</span></button>
+          <div class="brand brand-magalu"><span><span class="brand-name">magalu</span><span class="brand-hint">em breve</span></span></div>
+          <button class="brand brand-shopee" type="button" data-open-market="shopee"><span class="brand-name">Shopee</span></button>
+          <button class="brand brand-amazon" type="button" data-open-market="amazon"><span class="brand-name">amazon</span></button>
+          <button class="brand brand-mercado" type="button" data-open-market="mercado"><span class="brand-name">Mercado Livre</span></button>
         </div>
 
-        <div class="dots" aria-hidden="true">
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot active"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-        </div>
-
-        <footer>Bigode Promos - grupos oficiais</footer>
+        <footer>
+          <p>Bigode Promos - grupos oficiais</p>
+          <p class="disclosure">Alguns links são de afiliado: podemos receber uma comissão quando você compra por eles, sem nenhum custo extra para você. Como Associado da Amazon, ganhamos com compras qualificadas.</p>
+        </footer>
         </section>
 
         <section class="tab-panel offers-panel" id="offers-panel" role="tabpanel" aria-labelledby="offers-title">
@@ -728,7 +1049,7 @@
             <div>
               <h2 id="offers-title">Ofertas por marketplace</h2>
             </div>
-            <p>Produtos selecionados com preco original, preco promocional e link direto para comprar.</p>
+            <p>Produtos selecionados com preço original, preço promocional e link direto para comprar.</p>
           </div>
 
           <div class="market-tabs" aria-label="Marketplaces com produtos">
@@ -736,7 +1057,19 @@
             <button class="market-pill" type="button" data-market="shopee">Shopee</button>
             <button class="market-pill" type="button" data-market="aliexpress">AliExpress</button>
             <button class="market-pill" type="button" data-market="amazon">Amazon</button>
-            <button class="market-pill" type="button" disabled>Magalu</button>
+            <button class="market-pill" type="button" disabled>Magalu <span class="count">em breve</span></button>
+          </div>
+
+          <div class="offers-toolbar">
+            <span>Preços conferidos em <time datetime="2026-11-12">12/11/2026</time>. Podem mudar a qualquer momento na loja.</span>
+            <label>Ordenar
+              <select id="sort-select">
+                <option value="default">Destaques</option>
+                <option value="discount">Maior desconto</option>
+                <option value="price-asc">Menor preço</option>
+                <option value="price-desc">Maior preço</option>
+              </select>
+            </label>
           </div>
 
           <div class="product-grid" id="product-grid" aria-label="Produtos selecionados">
@@ -880,6 +1213,14 @@
               </div>
             </article>
           </div>
+
+          <div class="offers-cta">
+            <div>
+              <strong>Quer receber ofertas assim no celular?</strong>
+              <span>Entre no grupo do Telegram e veja as promoções assim que saem.</span>
+            </div>
+            <a href="https://t.me/bigodepromos" target="_blank" rel="noopener">Entrar no Telegram</a>
+          </div>
         </section>
       </section>
     </main>
@@ -888,6 +1229,7 @@
       const tabPanels = document.querySelectorAll(".tab-panel");
       const marketButtons = document.querySelectorAll(".market-pill[data-market]");
       const productGrid = document.querySelector("#product-grid");
+      const sortSelect = document.querySelector("#sort-select");
       let activeMarket = "mercado";
       const productData = {
         "mercado": [
@@ -1375,11 +1717,13 @@
         const discount = Number(product.discount || 0);
         const oldPrice = product.originalPrice ? `<div class="old-price">${escapeHtml(product.originalPrice)}</div>` : "";
         const discountTag = discount > 0 ? `<span class="discount">${discount}% OFF</span>` : "";
+        const discountFlag = discount >= 40 ? `<span class="discount-flag">-${discount}%</span>` : "";
         const sales = typeof product.sales === "number" ? `${product.sales} vendidos` : (product.sales ? escapeHtml(product.sales) : "Selecionado por desconto");
 
         return `
           <article class="product-card">
             <a class="product-media" href="${escapeHtml(productUrl)}" target="_blank" rel="noopener">
+              ${discountFlag}
               <img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(product.title)}" loading="lazy">
             </a>
             <div class="product-info">
@@ -1387,47 +1731,111 @@
               <h3 class="product-title">${escapeHtml(product.title)}</h3>
               <div class="rating">${sales}</div>
               ${oldPrice}
-              <div class="price-row"><div class="price">${escapeHtml(product.price || "Ver preco")}</div>${discountTag}</div>
+              <div class="price-row"><div class="price">${priceMarkup(product.price)}</div>${discountTag}</div>
               <a class="buy-link" href="${escapeHtml(productUrl)}" target="_blank" rel="noopener">VER OFERTA</a>
             </div>
           </article>
         `;
       }
 
+      function priceValue(price) {
+        const number = Number(String(price ?? "").replace(/[^\d,]/g, "").replace(",", "."));
+        return Number.isFinite(number) ? number : 0;
+      }
+
+      function priceMarkup(price) {
+        const text = String(price ?? "").trim();
+        const match = text.match(/^(.*),(\d{2})$/);
+        if (!match) {
+          return escapeHtml(text || "Ver preço");
+        }
+        return `${escapeHtml(match[1])}<small>${escapeHtml(match[2])}</small>`;
+      }
+
+      function sortProducts(products) {
+        const list = [...products];
+        const mode = sortSelect ? sortSelect.value : "default";
+        if (mode === "discount") {
+          list.sort((a, b) => Number(b.discount || 0) - Number(a.discount || 0));
+        } else if (mode === "price-asc") {
+          list.sort((a, b) => priceValue(a.price) - priceValue(b.price));
+        } else if (mode === "price-desc") {
+          list.sort((a, b) => priceValue(b.price) - priceValue(a.price));
+        }
+        return list;
+      }
+
       function renderProducts(market) {
         activeMarket = market;
-        const products = productData[market] || [];
+        const products = sortProducts(productData[market] || []);
         productGrid.innerHTML = products.length
           ? products.map(cardMarkup).join("")
           : '<p class="note">Nenhuma oferta fixa cadastrada para este marketplace.</p>';
       }
 
+      function selectMarket(market) {
+        if (!productData[market]) {
+          return;
+        }
+        marketButtons.forEach((item) => item.classList.toggle("active", item.dataset.market === market));
+        renderProducts(market);
+      }
+
+      function openTab(target, { updateHash = true } = {}) {
+        tabButtons.forEach((item) => {
+          const selected = item.dataset.tab === target;
+          item.classList.toggle("active", selected);
+          item.setAttribute("aria-selected", selected ? "true" : "false");
+        });
+
+        tabPanels.forEach((panel) => {
+          panel.classList.toggle("active", panel.id === target);
+        });
+
+        if (updateHash) {
+          const hash = target === "offers-panel" ? "#ofertas" : "";
+          history.replaceState(null, "", `${location.pathname}${location.search}${hash}`);
+        }
+      }
+
+      marketButtons.forEach((button) => {
+        const total = (productData[button.dataset.market] || []).length;
+        if (total) {
+          button.insertAdjacentHTML("beforeend", ` <span class="count">${total}</span>`);
+        }
+      });
+
 
       tabButtons.forEach((button) => {
-        button.addEventListener("click", () => {
-          const target = button.dataset.tab;
-
-          tabButtons.forEach((item) => {
-            const selected = item === button;
-            item.classList.toggle("active", selected);
-            item.setAttribute("aria-selected", selected ? "true" : "false");
-          });
-
-          tabPanels.forEach((panel) => {
-            panel.classList.toggle("active", panel.id === target);
-          });
-        });
+        button.addEventListener("click", () => openTab(button.dataset.tab));
       });
 
       marketButtons.forEach((button) => {
+        button.addEventListener("click", () => selectMarket(button.dataset.market));
+      });
+
+      document.querySelectorAll("[data-open-market]").forEach((button) => {
         button.addEventListener("click", () => {
-          const market = button.dataset.market;
-          marketButtons.forEach((item) => item.classList.toggle("active", item === button));
-          renderProducts(market);
+          selectMarket(button.dataset.openMarket);
+          openTab("offers-panel");
+          document.querySelector("#offers-panel").scrollIntoView({ behavior: "smooth", block: "start" });
         });
       });
 
+      if (sortSelect) {
+        sortSelect.addEventListener("change", () => renderProducts(activeMarket));
+      }
+
       renderProducts(activeMarket);
+
+      function syncTabWithHash() {
+        openTab(location.hash === "#ofertas" ? "offers-panel" : "home-panel", { updateHash: false });
+      }
+
+      window.addEventListener("hashchange", syncTabWithHash);
+      if (location.hash === "#ofertas") {
+        syncTabWithHash();
+      }
     </script>
   </body>
 </html>
