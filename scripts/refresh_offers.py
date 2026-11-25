@@ -342,8 +342,11 @@ REFRESHERS = {
     "mercado": refresh_mercado,
     "shopee": refresh_shopee,
     "aliexpress": refresh_aliexpress,
-    "amazon": refresh_amazon,
 }
+# A Amazon bloqueia consultas automaticas, entao os precos dela ficam fixos.
+# Para tentar mesmo assim (ex. no seu PC): REFRESH_AMAZON=1
+if os.getenv("REFRESH_AMAZON") == "1":
+    REFRESHERS["amazon"] = refresh_amazon
 REQUIRED_ENV = {
     "shopee": ["SHOPEE_PARTNER_ID", "SHOPEE_API_KEY"],
     "aliexpress": ["ALIEXPRESS_APP_KEY", "ALIEXPRESS_APP_SECRET"],
