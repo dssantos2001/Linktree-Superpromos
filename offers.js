@@ -1,5 +1,5 @@
 window.BIGODE_OFFERS = {
-  "updatedAt": "2026-11-24T23:19:24-03:00",
+  "updatedAt": "2026-11-24T23:23:37-03:00",
   "markets": {
     "mercado": [
       {
@@ -12,7 +12,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido | Preco no Pix",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_735657-MLA74476572905_022024-V.webp",
         "url": "https://meli.la/2hirV1t",
-        "checkedAt": "2026-11-24T23:18:35-03:00"
+        "checkedAt": "2026-11-24T23:22:57-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -24,7 +24,7 @@ window.BIGODE_OFFERS = {
         "sales": "Samsung | Preco no Pix",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_967872-MLA87279987383_072025-V.webp",
         "url": "https://meli.la/1mBnoti",
-        "checkedAt": "2026-11-24T23:18:36-03:00"
+        "checkedAt": "2026-11-24T23:22:58-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -36,7 +36,7 @@ window.BIGODE_OFFERS = {
         "sales": "Nescafe | Preco no Pix",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_920452-MLA99875518403_112025-V.webp",
         "url": "https://meli.la/2f3BcFk",
-        "checkedAt": "2026-11-24T23:18:38-03:00"
+        "checkedAt": "2026-11-24T23:23:00-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -48,7 +48,7 @@ window.BIGODE_OFFERS = {
         "sales": "Puma | Frete gratis",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_952078-MLA106636612396_022026-V.webp",
         "url": "https://meli.la/2nn2Eod",
-        "checkedAt": "2026-11-24T23:18:39-03:00"
+        "checkedAt": "2026-11-24T23:23:01-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -60,7 +60,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_662415-MLA97812910758_112025-V.webp",
         "url": "https://meli.la/1jK7rjm",
-        "checkedAt": "2026-11-24T23:18:40-03:00"
+        "checkedAt": "2026-11-24T23:23:03-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -72,7 +72,7 @@ window.BIGODE_OFFERS = {
         "sales": "Max Titanium",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_813467-MLA112393792119_052026-V.webp",
         "url": "https://meli.la/15HNwTZ",
-        "checkedAt": "2026-11-24T23:18:42-03:00"
+        "checkedAt": "2026-11-24T23:23:04-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -84,7 +84,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_831652-MLA119453464213_102026-V.webp",
         "url": "https://meli.la/11HpkLG",
-        "checkedAt": "2026-11-24T23:18:43-03:00"
+        "checkedAt": "2026-11-24T23:23:06-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -96,7 +96,7 @@ window.BIGODE_OFFERS = {
         "sales": "Microsoft | Preco no Pix",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_706410-MLA54692702580_032023-V.webp",
         "url": "https://meli.la/1KjqMLZ",
-        "checkedAt": "2026-11-24T23:18:45-03:00"
+        "checkedAt": "2026-11-24T23:23:07-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -108,7 +108,7 @@ window.BIGODE_OFFERS = {
         "sales": "Papaiz | Preco no Pix",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_803233-MLA111146746461_052026-V.webp",
         "url": "https://meli.la/1PrSofS",
-        "checkedAt": "2026-11-24T23:18:46-03:00"
+        "checkedAt": "2026-11-24T23:23:09-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -120,7 +120,7 @@ window.BIGODE_OFFERS = {
         "sales": "Kit completo | Bivolt",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_835659-MLA116548375638_092026-V.webp",
         "url": "https://meli.la/1svnJEp",
-        "checkedAt": "2026-11-24T23:18:47-03:00"
+        "checkedAt": "2026-11-24T23:23:10-03:00"
       }
     ],
     "shopee": [
@@ -138,7 +138,7 @@ window.BIGODE_OFFERS = {
           "shopId": "987393610",
           "itemId": "23098440348"
         },
-        "checkedAt": "2026-11-24T23:18:49-03:00"
+        "checkedAt": "2026-11-24T23:23:12-03:00"
       },
       {
         "source": "Shopee",
@@ -154,7 +154,7 @@ window.BIGODE_OFFERS = {
           "shopId": "771750144",
           "itemId": "21797631048"
         },
-        "checkedAt": "2026-11-24T23:18:50-03:00"
+        "checkedAt": "2026-11-24T23:23:13-03:00"
       },
       {
         "source": "Shopee",
@@ -170,7 +170,7 @@ window.BIGODE_OFFERS = {
           "shopId": "1108921660",
           "itemId": "22192647025"
         },
-        "checkedAt": "2026-11-24T23:18:51-03:00"
+        "checkedAt": "2026-11-24T23:23:14-03:00"
       },
       {
         "source": "Shopee",
@@ -186,7 +186,7 @@ window.BIGODE_OFFERS = {
           "shopId": "1860098702",
           "itemId": "58264684239"
         },
-        "checkedAt": "2026-11-24T23:18:52-03:00"
+        "checkedAt": "2026-11-24T23:23:15-03:00"
       },
       {
         "source": "Shopee",
@@ -202,7 +202,7 @@ window.BIGODE_OFFERS = {
           "shopId": "1439190466",
           "itemId": "18599879164"
         },
-        "checkedAt": "2026-11-24T23:18:53-03:00"
+        "checkedAt": "2026-11-24T23:23:16-03:00"
       },
       {
         "source": "Shopee",
@@ -218,7 +218,7 @@ window.BIGODE_OFFERS = {
           "shopId": "832036467",
           "itemId": "22892833180"
         },
-        "checkedAt": "2026-11-24T23:18:55-03:00"
+        "checkedAt": "2026-11-24T23:23:17-03:00"
       },
       {
         "source": "Shopee",
@@ -234,7 +234,7 @@ window.BIGODE_OFFERS = {
           "shopId": "1459307687",
           "itemId": "21799836330"
         },
-        "checkedAt": "2026-11-24T23:18:56-03:00"
+        "checkedAt": "2026-11-24T23:23:18-03:00"
       },
       {
         "source": "Shopee",
@@ -250,7 +250,7 @@ window.BIGODE_OFFERS = {
           "shopId": "1459307687",
           "itemId": "18199657078"
         },
-        "checkedAt": "2026-11-24T23:18:57-03:00"
+        "checkedAt": "2026-11-24T23:23:19-03:00"
       },
       {
         "source": "Shopee",
@@ -266,7 +266,7 @@ window.BIGODE_OFFERS = {
           "shopId": "1023760886",
           "itemId": "22996121313"
         },
-        "checkedAt": "2026-11-24T23:18:58-03:00"
+        "checkedAt": "2026-11-24T23:23:21-03:00"
       },
       {
         "source": "Shopee",
@@ -282,7 +282,7 @@ window.BIGODE_OFFERS = {
           "shopId": "629805123",
           "itemId": "22099046331"
         },
-        "checkedAt": "2026-11-24T23:18:59-03:00"
+        "checkedAt": "2026-11-24T23:23:22-03:00"
       }
     ],
     "aliexpress": [
@@ -299,7 +299,7 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005007739555426"
         },
-        "checkedAt": "2026-11-24T23:19:02-03:00"
+        "checkedAt": "2026-11-24T23:23:24-03:00"
       },
       {
         "source": "AliExpress",
@@ -314,7 +314,7 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005008850261694"
         },
-        "checkedAt": "2026-11-24T23:19:03-03:00"
+        "checkedAt": "2026-11-24T23:23:26-03:00"
       },
       {
         "source": "AliExpress",
@@ -329,7 +329,7 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005012978011412"
         },
-        "checkedAt": "2026-11-24T23:19:04-03:00"
+        "checkedAt": "2026-11-24T23:23:27-03:00"
       },
       {
         "source": "AliExpress",
@@ -344,7 +344,7 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005012258533541"
         },
-        "checkedAt": "2026-11-24T23:19:06-03:00"
+        "checkedAt": "2026-11-24T23:23:29-03:00"
       },
       {
         "source": "AliExpress",
@@ -359,7 +359,7 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005008406176499"
         },
-        "checkedAt": "2026-11-24T23:19:08-03:00"
+        "checkedAt": "2026-11-24T23:23:30-03:00"
       },
       {
         "source": "AliExpress",
@@ -374,7 +374,7 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005006678196106"
         },
-        "checkedAt": "2026-11-24T23:19:09-03:00"
+        "checkedAt": "2026-11-24T23:23:32-03:00"
       },
       {
         "source": "AliExpress",
@@ -389,7 +389,7 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005012649993817"
         },
-        "checkedAt": "2026-11-24T23:19:11-03:00"
+        "checkedAt": "2026-11-24T23:23:33-03:00"
       },
       {
         "source": "AliExpress",
@@ -404,7 +404,7 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005011654082041"
         },
-        "checkedAt": "2026-11-24T23:19:12-03:00"
+        "checkedAt": "2026-11-24T23:23:35-03:00"
       },
       {
         "source": "AliExpress",
@@ -419,7 +419,7 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005012011141446"
         },
-        "checkedAt": "2026-11-24T23:19:14-03:00"
+        "checkedAt": "2026-11-24T23:23:36-03:00"
       }
     ],
     "amazon": [
