@@ -68,6 +68,8 @@
       .page {
         position: relative;
         display: grid;
+        /* coluna nunca maior que a tela: filas que rolam de lado (sub-abas) nao esticam a pagina */
+        grid-template-columns: minmax(0, 1fr);
         min-height: 100vh;
         place-items: center;
         padding: 52px 20px 32px;
@@ -103,6 +105,7 @@
         position: relative;
         z-index: 1;
         width: min(100%, 1080px);
+        min-width: 0;
         text-align: center;
       }
 
