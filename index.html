@@ -753,6 +753,46 @@
         color: var(--brand-ink);
       }
 
+      .niche-tabs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin: -6px 0 18px;
+        padding: 10px 0 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .niche-tabs:empty {
+        display: none;
+      }
+
+      .niche-pill {
+        min-height: 32px;
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        border-radius: 999px;
+        background: transparent;
+        color: var(--soft);
+        cursor: pointer;
+        padding: 0 13px;
+        font: inherit;
+        font-size: 0.8rem;
+        font-weight: 750;
+        white-space: nowrap;
+      }
+
+      .niche-pill:hover,
+      .niche-pill:focus-visible {
+        border-color: rgba(47, 227, 90, 0.55);
+        color: #fff;
+      }
+
+      .niche-pill.active {
+        border-color: rgba(47, 227, 90, 0.85);
+        background: rgba(47, 227, 90, 0.14);
+        color: #fff;
+      }
+
+
       .product-grid {
         display: grid;
         grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -975,6 +1015,18 @@
           display: grid;
         }
 
+        .niche-tabs {
+          flex-wrap: nowrap;
+          overflow-x: auto;
+          margin-right: -16px;
+          padding-right: 16px;
+          scrollbar-width: none;
+        }
+
+        .niche-tabs::-webkit-scrollbar {
+          display: none;
+        }
+
         .product-grid {
           grid-template-columns: repeat(2, minmax(0, 1fr));
           gap: 10px;
@@ -1160,6 +1212,8 @@
             <button class="market-pill" type="button" disabled>Magalu <span class="count">em breve</span></button>
           </div>
 
+          <div class="niche-tabs" id="niche-tabs" role="tablist" aria-label="Categorias do marketplace"></div>
+
           <div class="offers-toolbar">
             <span>Preços atualizados automaticamente a cada hora. Última atualização: <time id="offers-updated" datetime="2026-11-12">12/11/2026</time>. Podem mudar a qualquer momento na loja.</span>
             <label>Ordenar
@@ -1331,8 +1385,11 @@
       const marketButtons = document.querySelectorAll(".market-pill[data-market]");
       const productGrid = document.querySelector("#product-grid");
       const sortSelect = document.querySelector("#sort-select");
+      const nicheTabs = document.querySelector("#niche-tabs");
       let activeMarket = "mercado";
+      let activeNiche = "";
       const productData = (window.BIGODE_OFFERS && window.BIGODE_OFFERS.markets) || {};
+      const nicheData = (window.BIGODE_OFFERS && window.BIGODE_OFFERS.niches) || {};
 
       function escapeHtml(value) {
         return String(value ?? "").replace(/[&<>"']/g, (char) => ({
@@ -1439,20 +1496,62 @@
         return list;
       }
 
+      function nichesOf(market) {
+        const products = productData[market] || [];
+        return (nicheData[market] || [])
+          .map((niche) => ({ ...niche, total: products.filter((item) => item.niche === niche.id).length }))
+          .filter((niche) => niche.total > 0);
+      }
+
+      function renderNiches(market) {
+        const niches = nichesOf(market);
+        if (!niches.length) {
+          nicheTabs.innerHTML = "";
+          return;
+        }
+        const pills = [...niches, { id: "todos", label: "Ver tudo" }];
+        nicheTabs.innerHTML = pills.map((niche) => `
+          <button class="niche-pill${niche.id === activeNiche ? " active" : ""}" type="button" role="tab"
+            aria-selected="${niche.id === activeNiche}" data-niche="${escapeHtml(niche.id)}">${escapeHtml(niche.label)}</button>
+        `).join("");
+      }
+
       function renderProducts(market) {
         activeMarket = market;
-        const products = sortProducts(productData[market] || []);
+        const all = productData[market] || [];
+        const filtered = activeNiche && activeNiche !== "todos" ? all.filter((item) => item.niche === activeNiche) : all;
+        const products = sortProducts(filtered);
         productGrid.innerHTML = products.length
           ? products.map(cardMarkup).join("")
           : '<p class="note">Nenhuma oferta fixa cadastrada para este marketplace.</p>';
       }
 
-      function selectMarket(market) {
+      function updateOffersHash() {
+        if (!document.querySelector("#offers-panel").classList.contains("active")) {
+          return;
+        }
+        const niche = activeNiche ? `/${activeNiche}` : "";
+        history.replaceState(null, "", `${location.pathname}${location.search}#ofertas/${activeMarket}${niche}`);
+      }
+
+      function selectMarket(market, niche = "") {
         if (!productData[market]) {
           return;
         }
+        const niches = nichesOf(market);
+        const valid = niche === "todos" || niches.some((item) => item.id === niche);
+        activeNiche = valid ? niche : (niches[0] ? niches[0].id : "");
         marketButtons.forEach((item) => item.classList.toggle("active", item.dataset.market === market));
+        renderNiches(market);
         renderProducts(market);
+        updateOffersHash();
+      }
+
+      function selectNiche(niche) {
+        activeNiche = niche;
+        renderNiches(activeMarket);
+        renderProducts(activeMarket);
+        updateOffersHash();
       }
 
       function openTab(target, { updateHash = true } = {}) {
@@ -1467,17 +1566,13 @@
         });
 
         if (updateHash) {
-          const hash = target === "offers-panel" ? "#ofertas" : "";
-          history.replaceState(null, "", `${location.pathname}${location.search}${hash}`);
+          if (target === "offers-panel") {
+            updateOffersHash();
+          } else {
+            history.replaceState(null, "", `${location.pathname}${location.search}`);
+          }
         }
       }
-
-      marketButtons.forEach((button) => {
-        const total = (productData[button.dataset.market] || []).length;
-        if (total) {
-          button.insertAdjacentHTML("beforeend", ` <span class="count">${total}</span>`);
-        }
-      });
 
 
       tabButtons.forEach((button) => {
@@ -1486,6 +1581,13 @@
 
       marketButtons.forEach((button) => {
         button.addEventListener("click", () => selectMarket(button.dataset.market));
+      });
+
+      nicheTabs.addEventListener("click", (event) => {
+        const button = event.target.closest("[data-niche]");
+        if (button) {
+          selectNiche(button.dataset.niche);
+        }
       });
 
       document.querySelectorAll("[data-open-market]").forEach((button) => {
@@ -1500,7 +1602,7 @@
         sortSelect.addEventListener("change", () => renderProducts(activeMarket));
       }
 
-      renderProducts(activeMarket);
+      selectMarket(activeMarket);
 
       function showOffersUpdatedAt() {
         const target = document.querySelector("#offers-updated");
@@ -1530,11 +1632,16 @@
       showOffersUpdatedAt();
 
       function syncTabWithHash() {
-        openTab(location.hash === "#ofertas" ? "offers-panel" : "home-panel", { updateHash: false });
+        const [section, market, niche] = decodeURIComponent(location.hash.slice(1)).split("/");
+        const isOffers = section === "ofertas";
+        openTab(isOffers ? "offers-panel" : "home-panel", { updateHash: false });
+        if (isOffers && market && productData[market]) {
+          selectMarket(market, niche || "");
+        }
       }
 
       window.addEventListener("hashchange", syncTabWithHash);
-      if (location.hash === "#ofertas") {
+      if (location.hash.startsWith("#ofertas")) {
         syncTabWithHash();
       }
     </script>

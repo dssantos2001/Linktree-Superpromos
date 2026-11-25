@@ -197,9 +197,14 @@ async def refresh_aliexpress(client, offer):
     }
     params = {k: v for k, v in params.items() if v}
     params["sign"] = ali_sign(params, os.environ["ALIEXPRESS_APP_SECRET"])
-    response = await client.get(ALI_API, params=params)
-    response.raise_for_status()
-    data = response.json()
+    for attempt in range(3):
+        response = await client.get(ALI_API, params=params)
+        response.raise_for_status()
+        data = response.json()
+        # limite de chamadas por segundo da API: espera um pouco e tenta de novo
+        if (data.get("error_response") or {}).get("code") != "ApiCallLimit":
+            break
+        await asyncio.sleep(3 * (attempt + 1))
     if data.get("error_response"):
         raise RuntimeError(data["error_response"])
     result = (
@@ -368,30 +373,40 @@ def write_offers(data):
     )
 
 
+async def refresh_market(client, market, offers):
+    """Atualiza as ofertas de um marketplace. Retorna (ok, falhas)."""
+    refresher = REFRESHERS.get(market)
+    missing = [name for name in REQUIRED_ENV.get(market, []) if not os.getenv(name)]
+    if not refresher or missing:
+        print(f"[{market}] pulado: {'faltam ' + ', '.join(missing) if missing else 'sem atualizador'}")
+        return 0, 0
+    ok = failed = 0
+    for offer in offers:
+        before = (offer.get("price"), offer.get("originalPrice"))
+        try:
+            if await refresher(client, offer):
+                ok += 1
+                after = (offer.get("price"), offer.get("originalPrice"))
+                mark = "" if after == before else f"  (antes {before[0]})"
+                print(f"[{market}] ok   {offer['price']:>12}  {offer['title'][:50]}{mark}")
+        except Exception as exc:  # noqa: BLE001 - mantem ultimo preco conhecido
+            failed += 1
+            print(f"[{market}] FALHA {offer['title'][:50]}: {type(exc).__name__}: {str(exc)[:160]}")
+        await asyncio.sleep(1)
+    return ok, failed
+
+
 async def main():
     load_env_file()
     data = read_offers()
-    ok = failed = 0
 
+    # cada marketplace roda em paralelo (sao sites diferentes), um produto por vez em cada
     async with httpx.AsyncClient(timeout=25, follow_redirects=True) as client:
-        for market, offers in data["markets"].items():
-            refresher = REFRESHERS.get(market)
-            missing = [name for name in REQUIRED_ENV.get(market, []) if not os.getenv(name)]
-            if not refresher or missing:
-                print(f"[{market}] pulado: {'faltam ' + ', '.join(missing) if missing else 'sem atualizador'}")
-                continue
-            for offer in offers:
-                before = (offer.get("price"), offer.get("originalPrice"))
-                try:
-                    if await refresher(client, offer):
-                        ok += 1
-                        after = (offer.get("price"), offer.get("originalPrice"))
-                        mark = "" if after == before else f"  (antes {before[0]})"
-                        print(f"[{market}] ok   {offer['price']:>12}  {offer['title'][:50]}{mark}")
-                except Exception as exc:  # noqa: BLE001 - mantem ultimo preco conhecido
-                    failed += 1
-                    print(f"[{market}] FALHA {offer['title'][:50]}: {type(exc).__name__}: {str(exc)[:160]}")
-                await asyncio.sleep(1)
+        results = await asyncio.gather(
+            *(refresh_market(client, market, offers) for market, offers in data["markets"].items())
+        )
+    ok = sum(r[0] for r in results)
+    failed = sum(r[1] for r in results)
 
     if ok:
         data["updatedAt"] = datetime.now(BRT).isoformat(timespec="seconds")

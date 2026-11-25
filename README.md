@@ -26,4 +26,23 @@ python scripts/fetch_selected_amazon_links.py
 python scripts/fetch_marketplace_deals.py
 ```
 
-Os links exibidos no site ficam embutidos no `index.html`.
+Os produtos exibidos na aba Ofertas ficam em `offers.js`.
+
+## Nichos (sub-abas)
+
+Todos os marketplaces usam as mesmas sub-abas, com até 12 produtos cada:
+Eletrônicos, Games, Casa e cozinha, Beleza e cuidados, Fitness e Ferramentas e carro.
+Os nichos (`STANDARD_NICHES`) e as palavras-chave de busca (`KEYWORDS`) ficam no topo
+de `scripts/build_catalog.py`.
+
+```powershell
+$env:ENV_FILE = "C:\Users\daniel\Documents\BlueBot-main\.env"
+python scripts/build_catalog.py
+```
+
+- Shopee e AliExpress: as vagas livres de cada nicho são preenchidas pelas APIs de afiliado.
+- Mercado Livre e Amazon: bloqueiam busca automática; os candidatos vêm de um JSON
+  (`--import amazon=arquivo.json`), cada item com o campo `niche`.
+- `--rebuild shopee` descarta os produtos atuais daquele marketplace antes de montar.
+
+Link direto para um nicho: `/#ofertas/shopee/beleza`.
