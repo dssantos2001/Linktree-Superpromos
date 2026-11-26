@@ -1,5 +1,5 @@
 window.BIGODE_OFFERS = {
-  "updatedAt": "2026-11-26T02:06:22-03:00",
+  "updatedAt": "2026-11-26T12:21:16-03:00",
   "markets": {
     "mercado": [
       {
@@ -12,7 +12,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido | Preco no Pix",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_735657-MLA74476572905_022024-V.webp",
         "url": "https://meli.la/2hirV1t",
-        "checkedAt": "2026-11-26T02:04:28-03:00",
+        "checkedAt": "2026-11-26T12:16:45-03:00",
         "niche": "eletronicos"
       },
       {
@@ -25,7 +25,7 @@ window.BIGODE_OFFERS = {
         "sales": "Samsung | Preco no Pix",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_967872-MLA87279987383_072025-V.webp",
         "url": "https://meli.la/1mBnoti",
-        "checkedAt": "2026-11-26T02:04:30-03:00",
+        "checkedAt": "2026-11-26T12:16:46-03:00",
         "niche": "eletronicos"
       },
       {
@@ -33,26 +33,26 @@ window.BIGODE_OFFERS = {
         "category": "fone de ouvido bluetooth",
         "niche": "eletronicos",
         "title": "Fone de Ouvido Soundcore by Anker P20i Bluetooth 5.3, 30h de Bateria",
-        "price": "R$ 118,75",
+        "price": "R$ 112,80",
         "originalPrice": "R$ 299,00",
-        "discount": 60,
+        "discount": 62,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_730568-MLA99983575997_112025-O.webp",
         "url": "https://meli.la/1FF9cNJ",
-        "checkedAt": "2026-11-26T02:04:31-03:00"
+        "checkedAt": "2026-11-26T12:16:48-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "smartwatch",
         "niche": "eletronicos",
         "title": "Relógio Inteligente Smartwatch GPS Amoled 3ATM Sport Preto",
-        "price": "R$ 299,00",
+        "price": "R$ 266,50",
         "originalPrice": "R$ 599,00",
-        "discount": 50,
+        "discount": 56,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_984233-MLA105531058053_012026-O.webp",
         "url": "https://meli.la/1VkVuG4",
-        "checkedAt": "2026-11-26T02:04:33-03:00"
+        "checkedAt": "2026-11-26T12:16:49-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -60,12 +60,12 @@ window.BIGODE_OFFERS = {
         "niche": "eletronicos",
         "title": "Caixa de Som Bluetooth Portátil JBL Boombox 4, 210W",
         "price": "R$ 2.349,00",
-        "originalPrice": "R$ 4.000,00",
-        "discount": 41,
+        "originalPrice": "R$ 3.199,00",
+        "discount": 27,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_863194-MLA118534430667_092026-O.webp",
         "url": "https://meli.la/2dgi2fY",
-        "checkedAt": "2026-11-26T02:04:35-03:00"
+        "checkedAt": "2026-11-26T12:16:51-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -78,7 +78,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_889169-MLA96868779849_102025-O.webp",
         "url": "https://meli.la/1zyjXGE",
-        "checkedAt": "2026-11-26T02:04:36-03:00"
+        "checkedAt": "2026-11-26T12:16:52-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -91,7 +91,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_765444-MLA120009570640_112026-O.webp",
         "url": "https://meli.la/2BMkLSY",
-        "checkedAt": "2026-11-26T02:04:38-03:00"
+        "checkedAt": "2026-11-26T12:16:54-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -104,20 +104,20 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_719636-MLA99381510294_112025-O.webp",
         "url": "https://meli.la/33P5qze",
-        "checkedAt": "2026-11-26T02:04:40-03:00"
+        "checkedAt": "2026-11-26T12:16:55-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "smart speaker alexa",
         "niche": "eletronicos",
         "title": "Amazon Echo Dot 5ª Geração com Alexa Preto",
-        "price": "R$ 417,73",
+        "price": "R$ 349,00",
         "originalPrice": "R$ 649,00",
-        "discount": 36,
+        "discount": 46,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_814549-MLA118334012041_092026-O.webp",
         "url": "https://meli.la/2oZp6f3",
-        "checkedAt": "2026-11-26T02:04:41-03:00"
+        "checkedAt": "2026-11-26T12:16:57-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -130,7 +130,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_952238-MLA115300753579_072026-O.webp",
         "url": "https://meli.la/29XTbnz",
-        "checkedAt": "2026-11-26T02:04:43-03:00"
+        "checkedAt": "2026-11-26T12:16:58-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -143,32 +143,32 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_723680-MLA121916642941_112026-O.webp",
         "url": "https://meli.la/2zSnQ9k",
-        "checkedAt": "2026-11-26T02:04:45-03:00"
+        "checkedAt": "2026-11-26T12:17:00-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "smartwatch",
         "niche": "eletronicos",
         "title": "Smartwatch HUAWEI Band 10 com Análise do Sono",
-        "price": "R$ 208,55",
-        "originalPrice": "R$ 659,00",
-        "discount": 68,
+        "price": "R$ 215,00",
+        "originalPrice": "",
+        "discount": 0,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_772291-MLA100008466405_122025-O.webp",
         "url": "https://meli.la/2vxPJ8F",
-        "checkedAt": "2026-11-26T02:04:46-03:00"
+        "checkedAt": "2026-11-26T12:17:01-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "games",
         "title": "Controle Microsoft Wireless Carbon Black para Xbox Series X|S e PC",
-        "price": "R$ 340,39",
+        "price": "R$ 267,99",
         "originalPrice": "R$ 499,00",
-        "discount": 32,
+        "discount": 46,
         "sales": "Microsoft | Preco no Pix",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_706410-MLA54692702580_032023-V.webp",
         "url": "https://meli.la/1KjqMLZ",
-        "checkedAt": "2026-11-26T02:04:48-03:00",
+        "checkedAt": "2026-11-26T12:17:02-03:00",
         "niche": "games"
       },
       {
@@ -176,52 +176,52 @@ window.BIGODE_OFFERS = {
         "category": "controle xbox",
         "niche": "games",
         "title": "Controle Sem Fio Sony DualSense PS5 Azul Claro",
-        "price": "R$ 459,00",
-        "originalPrice": "",
-        "discount": 0,
+        "price": "R$ 474,90",
+        "originalPrice": "R$ 499,90",
+        "discount": 5,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_891520-MLA97399587870_112025-O.webp",
         "url": "https://meli.la/1iq9Q1h",
-        "checkedAt": "2026-11-26T02:04:50-03:00"
+        "checkedAt": "2026-11-26T12:17:04-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "controle playstation",
         "niche": "games",
         "title": "Controle Sem Fio REDFIN Bluetooth Compatível com PS4 e PC",
-        "price": "R$ 52,35",
+        "price": "R$ 56,90",
         "originalPrice": "R$ 114,90",
-        "discount": 54,
+        "discount": 50,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_762912-MLA105696431793_012026-O.webp",
         "url": "https://meli.la/1goBeV8",
-        "checkedAt": "2026-11-26T02:04:51-03:00"
+        "checkedAt": "2026-11-26T12:17:05-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "jogo playstation 5",
         "niche": "games",
         "title": "Console PlayStation 5 Slim com Disco + ASTRO BOT e Gran Turismo 7",
-        "price": "R$ 5.899,00",
-        "originalPrice": "",
-        "discount": 0,
+        "price": "R$ 4.844,00",
+        "originalPrice": "R$ 5.099,00",
+        "discount": 5,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_756719-MLA92558518158_092025-O.webp",
         "url": "https://meli.la/1TiXooT",
-        "checkedAt": "2026-11-26T02:04:53-03:00"
+        "checkedAt": "2026-11-26T12:17:07-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "mouse gamer",
         "niche": "games",
         "title": "Mouse Gamer Recarregável Bluetooth Sem Fio LED RGB",
-        "price": "R$ 20,99",
+        "price": "R$ 20,19",
         "originalPrice": "R$ 49,99",
-        "discount": 58,
+        "discount": 60,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_698387-MLA112152526650_062026-O.webp",
         "url": "https://meli.la/2iX58Zr",
-        "checkedAt": "2026-11-26T02:04:54-03:00"
+        "checkedAt": "2026-11-26T12:17:08-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -234,7 +234,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_664235-MLA112022117474_062026-O.webp",
         "url": "https://meli.la/2gKLJDZ",
-        "checkedAt": "2026-11-26T02:04:56-03:00"
+        "checkedAt": "2026-11-26T12:17:10-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -247,7 +247,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_951583-MLA105697862101_012026-O.webp",
         "url": "https://meli.la/1b95Tus",
-        "checkedAt": "2026-11-26T02:04:58-03:00"
+        "checkedAt": "2026-11-26T12:17:11-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -260,20 +260,20 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_962495-MLA116220464242_092026-O.webp",
         "url": "https://meli.la/225LCQq",
-        "checkedAt": "2026-11-26T02:04:59-03:00"
+        "checkedAt": "2026-11-26T12:17:13-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "controle playstation",
         "niche": "games",
         "title": "Controle Sem Fio Sony PlayStation 5 DualSense Midnight Black",
-        "price": "R$ 359,10",
+        "price": "R$ 399,00",
         "originalPrice": "R$ 499,90",
-        "discount": 28,
+        "discount": 20,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_759059-MLA99508283678_112025-O.webp",
         "url": "https://meli.la/1uBT6Ws",
-        "checkedAt": "2026-11-26T02:05:01-03:00"
+        "checkedAt": "2026-11-26T12:17:14-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -286,20 +286,20 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_928841-MLA93525033946_102025-O.webp",
         "url": "https://meli.la/1Lau34G",
-        "checkedAt": "2026-11-26T02:05:02-03:00"
+        "checkedAt": "2026-11-26T12:17:16-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "mouse gamer",
         "niche": "games",
         "title": "Mouse Gamer Redragon Cobra Chroma M711 12.400 DPI RGB",
-        "price": "R$ 62,91",
+        "price": "R$ 58,41",
         "originalPrice": "R$ 143,43",
-        "discount": 56,
+        "discount": 59,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_898286-MLA95664298408_102025-O.webp",
         "url": "https://meli.la/2QJX62n",
-        "checkedAt": "2026-11-26T02:05:04-03:00"
+        "checkedAt": "2026-11-26T12:17:17-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -312,7 +312,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_804923-MLA114376583165_072026-O.webp",
         "url": "https://meli.la/2kMXEYj",
-        "checkedAt": "2026-11-26T02:05:06-03:00"
+        "checkedAt": "2026-11-26T12:17:18-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -324,7 +324,7 @@ window.BIGODE_OFFERS = {
         "sales": "Nescafe | Preco no Pix",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_920452-MLA99875518403_112025-V.webp",
         "url": "https://meli.la/2f3BcFk",
-        "checkedAt": "2026-11-26T02:05:07-03:00",
+        "checkedAt": "2026-11-26T12:17:20-03:00",
         "niche": "casa"
       },
       {
@@ -337,7 +337,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_831652-MLA119453464213_102026-V.webp",
         "url": "https://meli.la/11HpkLG",
-        "checkedAt": "2026-11-26T02:05:09-03:00",
+        "checkedAt": "2026-11-26T12:17:21-03:00",
         "niche": "casa"
       },
       {
@@ -350,7 +350,7 @@ window.BIGODE_OFFERS = {
         "sales": "Papaiz | Preco no Pix",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_803233-MLA111146746461_052026-V.webp",
         "url": "https://meli.la/1PrSofS",
-        "checkedAt": "2026-11-26T02:05:10-03:00",
+        "checkedAt": "2026-11-26T12:17:23-03:00",
         "niche": "casa"
       },
       {
@@ -358,13 +358,13 @@ window.BIGODE_OFFERS = {
         "category": "cafeteira",
         "niche": "casa",
         "title": "Cafeteira Italiana Moka de Alumínio 6 Xícaras",
-        "price": "R$ 43,47",
+        "price": "R$ 47,46",
         "originalPrice": "R$ 89,90",
-        "discount": 52,
+        "discount": 47,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_733961-MLA115050784182_082026-O.webp",
         "url": "https://meli.la/1f49g5q",
-        "checkedAt": "2026-11-26T02:05:12-03:00"
+        "checkedAt": "2026-11-26T12:17:24-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -377,7 +377,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_846694-MLA120225355865_102026-O.webp",
         "url": "https://meli.la/127LVKk",
-        "checkedAt": "2026-11-26T02:05:14-03:00"
+        "checkedAt": "2026-11-26T12:17:26-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -390,33 +390,33 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_766837-MLA98259429221_112025-O.webp",
         "url": "https://meli.la/2MUVdtT",
-        "checkedAt": "2026-11-26T02:05:15-03:00"
+        "checkedAt": "2026-11-26T12:17:27-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "aspirador robo",
         "niche": "casa",
         "title": "Robô Aspirador WAP Robot W90 Varre, Aspira e Passa Pano",
-        "price": "R$ 297,41",
+        "price": "R$ 286,92",
         "originalPrice": "R$ 514,14",
-        "discount": 42,
+        "discount": 44,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_748103-MLA99906601653_112025-O.webp",
         "url": "https://meli.la/2hdVxv8",
-        "checkedAt": "2026-11-26T02:05:17-03:00"
+        "checkedAt": "2026-11-26T12:17:29-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "fechadura digital",
         "niche": "casa",
         "title": "Fechadura Digital de Sobrepor Intelbras FR 101 Preta",
-        "price": "R$ 249,90",
-        "originalPrice": "",
-        "discount": 0,
+        "price": "R$ 194,17",
+        "originalPrice": "R$ 359,90",
+        "discount": 46,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_916058-MLA109588424588_042026-O.webp",
         "url": "https://meli.la/2ysjiMD",
-        "checkedAt": "2026-11-26T02:05:18-03:00"
+        "checkedAt": "2026-11-26T12:17:30-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -429,7 +429,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_982900-MLA100082607605_122025-O.webp",
         "url": "https://meli.la/2bw85RN",
-        "checkedAt": "2026-11-26T02:05:20-03:00"
+        "checkedAt": "2026-11-26T12:17:32-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -442,7 +442,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_866410-MLA106357490185_022026-O.webp",
         "url": "https://meli.la/14bBjv2",
-        "checkedAt": "2026-11-26T02:05:21-03:00"
+        "checkedAt": "2026-11-26T12:17:33-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -455,7 +455,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_836493-MLA119919360079_102026-O.webp",
         "url": "https://meli.la/19yzknV",
-        "checkedAt": "2026-11-26T02:05:23-03:00"
+        "checkedAt": "2026-11-26T12:17:35-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -468,7 +468,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_881674-MLA106260237067_012026-O.webp",
         "url": "https://meli.la/2rwABPp",
-        "checkedAt": "2026-11-26T02:05:25-03:00"
+        "checkedAt": "2026-11-26T12:17:36-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -481,7 +481,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_889465-MLA99767551238_122025-O.webp",
         "url": "https://meli.la/1VAp8Mb",
-        "checkedAt": "2026-11-26T02:05:26-03:00"
+        "checkedAt": "2026-11-26T12:17:37-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -494,33 +494,33 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_853204-MLB119940047190_112026-O.webp",
         "url": "https://meli.la/2iWHsrp",
-        "checkedAt": "2026-11-26T02:05:28-03:00"
+        "checkedAt": "2026-11-26T12:17:39-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "secador de cabelo",
         "niche": "beleza",
         "title": "Secador de Cabelos Philco PSC3500 4 em 1 Motor BLDC",
-        "price": "R$ 429,90",
-        "originalPrice": "R$ 599,00",
-        "discount": 28,
+        "price": "R$ 428,00",
+        "originalPrice": "R$ 799,90",
+        "discount": 46,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_875331-MLA117081876247_092026-O.webp",
         "url": "https://meli.la/1TFnBtC",
-        "checkedAt": "2026-11-26T02:05:30-03:00"
+        "checkedAt": "2026-11-26T12:17:40-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "prancha alisadora",
         "niche": "beleza",
         "title": "Chapinha Profissional Lizze Extreme 480",
-        "price": "R$ 372,00",
+        "price": "R$ 353,40",
         "originalPrice": "R$ 459,00",
-        "discount": 19,
+        "discount": 23,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_912494-MLA99992658679_112025-O.webp",
         "url": "https://meli.la/2GQsNkR",
-        "checkedAt": "2026-11-26T02:05:31-03:00"
+        "checkedAt": "2026-11-26T12:17:42-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -533,20 +533,20 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_963728-MLA99930559657_112025-O.webp",
         "url": "https://meli.la/1Yrvtfd",
-        "checkedAt": "2026-11-26T02:05:33-03:00"
+        "checkedAt": "2026-11-26T12:17:43-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "hidratante corporal",
         "niche": "beleza",
         "title": "Loção Hidratante Corporal CeraVe 3 Ceramidas 473ml",
-        "price": "R$ 86,70",
-        "originalPrice": "",
-        "discount": 0,
+        "price": "R$ 71,89",
+        "originalPrice": "R$ 143,90",
+        "discount": 50,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_930930-MLA118355221530_102026-O.webp",
         "url": "https://meli.la/2ncCejh",
-        "checkedAt": "2026-11-26T02:05:34-03:00"
+        "checkedAt": "2026-11-26T12:17:45-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -559,7 +559,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_695558-MLA119937437423_102026-O.webp",
         "url": "https://meli.la/1nEaZaK",
-        "checkedAt": "2026-11-26T02:05:36-03:00"
+        "checkedAt": "2026-11-26T12:17:46-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -572,7 +572,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_617155-MLA118231595864_102026-O.webp",
         "url": "https://meli.la/2jxH3oh",
-        "checkedAt": "2026-11-26T02:05:37-03:00"
+        "checkedAt": "2026-11-26T12:17:48-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -585,20 +585,20 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_690853-MLA99434991990_112025-O.webp",
         "url": "https://meli.la/2bE55vC",
-        "checkedAt": "2026-11-26T02:05:39-03:00"
+        "checkedAt": "2026-11-26T12:17:49-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "secador de cabelo",
         "niche": "beleza",
         "title": "Secador de Cabelo Taiff Style 2000W Azul Tiffany",
-        "price": "R$ 196,01",
+        "price": "R$ 160,73",
         "originalPrice": "R$ 259,90",
-        "discount": 25,
+        "discount": 38,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_655896-MLU72845973255_112023-O.webp",
         "url": "https://meli.la/1b1FsmD",
-        "checkedAt": "2026-11-26T02:05:40-03:00"
+        "checkedAt": "2026-11-26T12:17:51-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -611,7 +611,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_625242-MLA109735920377_032026-O.webp",
         "url": "https://meli.la/1k8ed1D",
-        "checkedAt": "2026-11-26T02:05:42-03:00"
+        "checkedAt": "2026-11-26T12:17:52-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -624,7 +624,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_999891-MLA99419559234_112025-O.webp",
         "url": "https://meli.la/1QLzfdZ",
-        "checkedAt": "2026-11-26T02:05:43-03:00"
+        "checkedAt": "2026-11-26T12:17:53-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -636,7 +636,7 @@ window.BIGODE_OFFERS = {
         "sales": "Puma | Frete gratis",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_952078-MLA106636612396_022026-V.webp",
         "url": "https://meli.la/2nn2Eod",
-        "checkedAt": "2026-11-26T02:05:45-03:00",
+        "checkedAt": "2026-11-26T12:17:55-03:00",
         "niche": "fitness"
       },
       {
@@ -649,7 +649,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_662415-MLA97812910758_112025-V.webp",
         "url": "https://meli.la/1jK7rjm",
-        "checkedAt": "2026-11-26T02:05:47-03:00",
+        "checkedAt": "2026-11-26T12:17:56-03:00",
         "niche": "fitness"
       },
       {
@@ -662,7 +662,7 @@ window.BIGODE_OFFERS = {
         "sales": "Max Titanium",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_813467-MLA112393792119_052026-V.webp",
         "url": "https://meli.la/15HNwTZ",
-        "checkedAt": "2026-11-26T02:05:48-03:00",
+        "checkedAt": "2026-11-26T12:17:58-03:00",
         "niche": "fitness"
       },
       {
@@ -676,20 +676,20 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_664503-MLU79261871661_092024-O.webp",
         "url": "https://meli.la/2uCj66V",
-        "checkedAt": "2026-11-26T02:05:50-03:00"
+        "checkedAt": "2026-11-26T12:17:59-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "halteres",
         "niche": "fitness",
         "title": "Kit Halteres e Kettlebell Boldfit Ajustáveis 20kg",
-        "price": "R$ 379,05",
-        "originalPrice": "R$ 399,00",
-        "discount": 5,
+        "price": "R$ 399,00",
+        "originalPrice": "",
+        "discount": 0,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_744718-MLA116905886210_092026-O.webp",
         "url": "https://meli.la/2zrkvmx",
-        "checkedAt": "2026-11-26T02:05:51-03:00"
+        "checkedAt": "2026-11-26T12:18:01-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -702,7 +702,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_604942-MLA118643998329_102026-O.webp",
         "url": "https://meli.la/1DpvSow",
-        "checkedAt": "2026-11-26T02:05:53-03:00"
+        "checkedAt": "2026-11-26T12:18:02-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -715,7 +715,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_611502-MLA119489351892_112026-O.webp",
         "url": "https://meli.la/2FT4YWW",
-        "checkedAt": "2026-11-26T02:05:54-03:00"
+        "checkedAt": "2026-11-26T12:18:04-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -728,7 +728,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_603981-MLA115262802698_082026-O.webp",
         "url": "https://meli.la/1vXKTqP",
-        "checkedAt": "2026-11-26T02:05:56-03:00"
+        "checkedAt": "2026-11-26T12:18:05-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -741,7 +741,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_707007-MLA99931804565_112025-O.webp",
         "url": "https://meli.la/22rToZJ",
-        "checkedAt": "2026-11-26T02:05:57-03:00"
+        "checkedAt": "2026-11-26T12:18:06-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -754,7 +754,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_843786-MLA99568269730_122025-O.webp",
         "url": "https://meli.la/2PquJCA",
-        "checkedAt": "2026-11-26T02:05:59-03:00"
+        "checkedAt": "2026-11-26T12:18:08-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -767,7 +767,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_726141-MLA110658004725_042026-O.webp",
         "url": "https://meli.la/2qTEbqW",
-        "checkedAt": "2026-11-26T02:06:01-03:00"
+        "checkedAt": "2026-11-26T12:18:09-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -780,19 +780,19 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_736679-MLA121751753241_112026-O.webp",
         "url": "https://meli.la/1HidgEw",
-        "checkedAt": "2026-11-26T02:06:02-03:00"
+        "checkedAt": "2026-11-26T12:18:11-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "ferramentas",
         "title": "Parafusadeira Furadeira com 2 Baterias e Maleta Kit Completo",
-        "price": "R$ 119,60",
+        "price": "R$ 95,68",
         "originalPrice": "R$ 299,00",
-        "discount": 60,
+        "discount": 68,
         "sales": "Kit completo | Bivolt",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_835659-MLA116548375638_092026-V.webp",
         "url": "https://meli.la/1svnJEp",
-        "checkedAt": "2026-11-26T02:06:04-03:00",
+        "checkedAt": "2026-11-26T12:18:12-03:00",
         "niche": "ferramentas"
       },
       {
@@ -800,26 +800,26 @@ window.BIGODE_OFFERS = {
         "category": "parafusadeira",
         "niche": "ferramentas",
         "title": "Cortador de Chapa para Furadeira e Parafusadeira",
-        "price": "R$ 33,35",
-        "originalPrice": "",
-        "discount": 0,
+        "price": "R$ 34,91",
+        "originalPrice": "R$ 69,90",
+        "discount": 50,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_876929-MLA101777298433_122025-O.webp",
         "url": "https://meli.la/2sprted",
-        "checkedAt": "2026-11-26T02:06:05-03:00"
+        "checkedAt": "2026-11-26T12:18:14-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "trena laser",
         "niche": "ferramentas",
         "title": "Nível Laser Luatek Level Pro 03 com Trena e Régua",
-        "price": "R$ 22,49",
+        "price": "R$ 24,99",
         "originalPrice": "R$ 26,90",
-        "discount": 16,
+        "discount": 7,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_712733-MLA119027723457_102026-O.webp",
         "url": "https://meli.la/2Lj7o1r",
-        "checkedAt": "2026-11-26T02:06:07-03:00"
+        "checkedAt": "2026-11-26T12:18:15-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -832,7 +832,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_842487-MLA120158163710_112026-O.webp",
         "url": "https://meli.la/2AQybWi",
-        "checkedAt": "2026-11-26T02:06:08-03:00"
+        "checkedAt": "2026-11-26T12:18:17-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -845,7 +845,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_933618-MLA113308998651_062026-O.webp",
         "url": "https://meli.la/2286Zgu",
-        "checkedAt": "2026-11-26T02:06:10-03:00"
+        "checkedAt": "2026-11-26T12:18:18-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -858,7 +858,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_946931-MLA112216224006_062026-O.webp",
         "url": "https://meli.la/12GxBQL",
-        "checkedAt": "2026-11-26T02:06:12-03:00"
+        "checkedAt": "2026-11-26T12:18:20-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -871,7 +871,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_870161-MLA120459134357_102026-O.webp",
         "url": "https://meli.la/27jXff8",
-        "checkedAt": "2026-11-26T02:06:13-03:00"
+        "checkedAt": "2026-11-26T12:18:21-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -884,7 +884,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_902029-MLA115080685203_072026-O.webp",
         "url": "https://meli.la/2Rz4tzZ",
-        "checkedAt": "2026-11-26T02:06:15-03:00"
+        "checkedAt": "2026-11-26T12:18:23-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -897,33 +897,33 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_919649-MLA112122698633_052026-O.webp",
         "url": "https://meli.la/18hybpw",
-        "checkedAt": "2026-11-26T02:06:16-03:00"
+        "checkedAt": "2026-11-26T12:18:24-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "multimetro",
         "niche": "ferramentas",
         "title": "Multímetro Digital Portátil Profissional com Bateria",
-        "price": "R$ 19,54",
+        "price": "R$ 22,99",
         "originalPrice": "R$ 29,99",
-        "discount": 35,
+        "discount": 23,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_863906-MLA110244293958_052026-O.webp",
         "url": "https://meli.la/1CaCiqe",
-        "checkedAt": "2026-11-26T02:06:18-03:00"
+        "checkedAt": "2026-11-26T12:18:25-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "lavadora de alta pressao",
         "niche": "ferramentas",
         "title": "Furadeira de Impacto Bosch GSB 16 RE 850W",
-        "price": "R$ 519,99",
-        "originalPrice": "R$ 554,99",
-        "discount": 6,
+        "price": "R$ 469,90",
+        "originalPrice": "R$ 608,89",
+        "discount": 23,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_783016-MLA99454285438_112025-O.webp",
         "url": "https://meli.la/2av2tCa",
-        "checkedAt": "2026-11-26T02:06:19-03:00"
+        "checkedAt": "2026-11-26T12:18:27-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -936,7 +936,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_693251-MLA112453781702_062026-O.webp",
         "url": "https://meli.la/2JCWmsx",
-        "checkedAt": "2026-11-26T02:06:21-03:00"
+        "checkedAt": "2026-11-26T12:18:28-03:00"
       }
     ],
     "shopee": [
@@ -954,7 +954,7 @@ window.BIGODE_OFFERS = {
           "shopId": "987393610",
           "itemId": "23098440348"
         },
-        "checkedAt": "2026-11-26T02:04:28-03:00",
+        "checkedAt": "2026-11-26T12:16:45-03:00",
         "niche": "eletronicos"
       },
       {
@@ -971,7 +971,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 18,99",
         "originalPrice": "R$ 70,33",
         "discount": 73,
-        "checkedAt": "2026-11-26T02:04:29-03:00",
+        "checkedAt": "2026-11-26T12:16:46-03:00",
         "niche": "eletronicos"
       },
       {
@@ -988,7 +988,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 71,90",
         "originalPrice": "R$ 140,98",
         "discount": 49,
-        "checkedAt": "2026-11-26T02:04:30-03:00",
+        "checkedAt": "2026-11-26T12:16:47-03:00",
         "niche": "eletronicos"
       },
       {
@@ -1005,7 +1005,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 19,99",
         "originalPrice": "R$ 38,44",
         "discount": 48,
-        "checkedAt": "2026-11-26T02:04:31-03:00",
+        "checkedAt": "2026-11-26T12:16:48-03:00",
         "niche": "eletronicos"
       },
       {
@@ -1019,10 +1019,10 @@ window.BIGODE_OFFERS = {
           "shopId": "987393610",
           "itemId": "22397182247"
         },
-        "price": "R$ 16,89",
-        "originalPrice": "R$ 49,68",
-        "discount": 66,
-        "checkedAt": "2026-11-26T02:04:32-03:00",
+        "price": "R$ 18,49",
+        "originalPrice": "R$ 49,97",
+        "discount": 63,
+        "checkedAt": "2026-11-26T12:16:49-03:00",
         "niche": "eletronicos"
       },
       {
@@ -1039,7 +1039,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 46,99",
         "originalPrice": "R$ 90,37",
         "discount": 48,
-        "checkedAt": "2026-11-26T02:04:33-03:00",
+        "checkedAt": "2026-11-26T12:16:50-03:00",
         "niche": "eletronicos"
       },
       {
@@ -1056,7 +1056,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 17,97",
         "originalPrice": "R$ 38,23",
         "discount": 53,
-        "checkedAt": "2026-11-26T02:04:35-03:00",
+        "checkedAt": "2026-11-26T12:16:52-03:00",
         "niche": "eletronicos"
       },
       {
@@ -1073,7 +1073,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 31,97",
         "originalPrice": "R$ 168,26",
         "discount": 81,
-        "checkedAt": "2026-11-26T02:04:36-03:00",
+        "checkedAt": "2026-11-26T12:16:53-03:00",
         "niche": "eletronicos"
       },
       {
@@ -1090,7 +1090,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 29,79",
         "originalPrice": "R$ 63,38",
         "discount": 53,
-        "checkedAt": "2026-11-26T02:04:37-03:00",
+        "checkedAt": "2026-11-26T12:16:54-03:00",
         "niche": "eletronicos"
       },
       {
@@ -1107,7 +1107,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 46,99",
         "originalPrice": "R$ 79,64",
         "discount": 41,
-        "checkedAt": "2026-11-26T02:04:38-03:00",
+        "checkedAt": "2026-11-26T12:16:55-03:00",
         "niche": "eletronicos"
       },
       {
@@ -1124,7 +1124,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 29,96",
         "originalPrice": "R$ 62,42",
         "discount": 52,
-        "checkedAt": "2026-11-26T02:04:39-03:00",
+        "checkedAt": "2026-11-26T12:16:56-03:00",
         "niche": "eletronicos"
       },
       {
@@ -1141,7 +1141,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 49,98",
         "originalPrice": "R$ 192,23",
         "discount": 74,
-        "checkedAt": "2026-11-26T02:04:40-03:00",
+        "checkedAt": "2026-11-26T12:16:57-03:00",
         "niche": "eletronicos"
       },
       {
@@ -1158,7 +1158,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 9,89",
         "originalPrice": "R$ 24,73",
         "discount": 60,
-        "checkedAt": "2026-11-26T02:04:41-03:00",
+        "checkedAt": "2026-11-26T12:16:58-03:00",
         "niche": "games"
       },
       {
@@ -1175,7 +1175,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 18,88",
         "originalPrice": "R$ 29,97",
         "discount": 37,
-        "checkedAt": "2026-11-26T02:04:42-03:00",
+        "checkedAt": "2026-11-26T12:16:59-03:00",
         "niche": "games"
       },
       {
@@ -1192,7 +1192,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 20,90",
         "originalPrice": "R$ 41,80",
         "discount": 50,
-        "checkedAt": "2026-11-26T02:04:44-03:00",
+        "checkedAt": "2026-11-26T12:17:01-03:00",
         "niche": "games"
       },
       {
@@ -1209,7 +1209,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 60,98",
         "originalPrice": "R$ 110,87",
         "discount": 45,
-        "checkedAt": "2026-11-26T02:04:45-03:00",
+        "checkedAt": "2026-11-26T12:17:02-03:00",
         "niche": "games"
       },
       {
@@ -1226,7 +1226,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 11,58",
         "originalPrice": "R$ 39,93",
         "discount": 71,
-        "checkedAt": "2026-11-26T02:04:46-03:00",
+        "checkedAt": "2026-11-26T12:17:03-03:00",
         "niche": "games"
       },
       {
@@ -1243,7 +1243,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 17,90",
         "originalPrice": "R$ 31,96",
         "discount": 44,
-        "checkedAt": "2026-11-26T02:04:47-03:00",
+        "checkedAt": "2026-11-26T12:17:04-03:00",
         "niche": "games"
       },
       {
@@ -1260,7 +1260,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 403,99",
         "originalPrice": "R$ 1.496,26",
         "discount": 73,
-        "checkedAt": "2026-11-26T02:04:48-03:00",
+        "checkedAt": "2026-11-26T12:17:05-03:00",
         "niche": "games"
       },
       {
@@ -1277,7 +1277,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 88,99",
         "originalPrice": "R$ 139,05",
         "discount": 36,
-        "checkedAt": "2026-11-26T02:04:49-03:00",
+        "checkedAt": "2026-11-26T12:17:06-03:00",
         "niche": "games"
       },
       {
@@ -1294,7 +1294,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 20,99",
         "originalPrice": "R$ 80,73",
         "discount": 74,
-        "checkedAt": "2026-11-26T02:04:50-03:00",
+        "checkedAt": "2026-11-26T12:17:08-03:00",
         "niche": "games"
       },
       {
@@ -1309,9 +1309,9 @@ window.BIGODE_OFFERS = {
           "itemId": "23198988208"
         },
         "price": "R$ 15,89",
-        "originalPrice": "R$ 29,98",
-        "discount": 47,
-        "checkedAt": "2026-11-26T02:04:52-03:00",
+        "originalPrice": "R$ 36,11",
+        "discount": 56,
+        "checkedAt": "2026-11-26T12:17:09-03:00",
         "niche": "games"
       },
       {
@@ -1328,7 +1328,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 48,99",
         "originalPrice": "R$ 99,98",
         "discount": 51,
-        "checkedAt": "2026-11-26T02:04:53-03:00",
+        "checkedAt": "2026-11-26T12:17:10-03:00",
         "niche": "games"
       },
       {
@@ -1345,7 +1345,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 63,79",
         "originalPrice": "R$ 99,67",
         "discount": 36,
-        "checkedAt": "2026-11-26T02:04:54-03:00",
+        "checkedAt": "2026-11-26T12:17:11-03:00",
         "niche": "games"
       },
       {
@@ -1362,7 +1362,7 @@ window.BIGODE_OFFERS = {
           "shopId": "771750144",
           "itemId": "21797631048"
         },
-        "checkedAt": "2026-11-26T02:04:55-03:00",
+        "checkedAt": "2026-11-26T12:17:12-03:00",
         "niche": "casa"
       },
       {
@@ -1379,7 +1379,7 @@ window.BIGODE_OFFERS = {
           "shopId": "1108921660",
           "itemId": "22192647025"
         },
-        "checkedAt": "2026-11-26T02:04:56-03:00",
+        "checkedAt": "2026-11-26T12:17:13-03:00",
         "niche": "casa"
       },
       {
@@ -1396,7 +1396,7 @@ window.BIGODE_OFFERS = {
           "shopId": "1023760886",
           "itemId": "22996121313"
         },
-        "checkedAt": "2026-11-26T02:04:57-03:00",
+        "checkedAt": "2026-11-26T12:17:14-03:00",
         "niche": "casa"
       },
       {
@@ -1413,7 +1413,7 @@ window.BIGODE_OFFERS = {
           "shopId": "629805123",
           "itemId": "22099046331"
         },
-        "checkedAt": "2026-11-26T02:04:59-03:00",
+        "checkedAt": "2026-11-26T12:17:15-03:00",
         "niche": "casa"
       },
       {
@@ -1430,7 +1430,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 49,98",
         "originalPrice": "R$ 99,96",
         "discount": 50,
-        "checkedAt": "2026-11-26T02:05:00-03:00",
+        "checkedAt": "2026-11-26T12:17:17-03:00",
         "niche": "casa"
       },
       {
@@ -1447,7 +1447,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 14,99",
         "originalPrice": "R$ 49,97",
         "discount": 70,
-        "checkedAt": "2026-11-26T02:05:01-03:00",
+        "checkedAt": "2026-11-26T12:17:18-03:00",
         "niche": "casa"
       },
       {
@@ -1462,9 +1462,9 @@ window.BIGODE_OFFERS = {
           "itemId": "53616416772"
         },
         "price": "R$ 14,89",
-        "originalPrice": "R$ 33,84",
-        "discount": 56,
-        "checkedAt": "2026-11-26T02:05:02-03:00",
+        "originalPrice": "R$ 26,12",
+        "discount": 43,
+        "checkedAt": "2026-11-26T12:17:19-03:00",
         "niche": "casa"
       },
       {
@@ -1481,7 +1481,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 99,90",
         "originalPrice": "R$ 120,36",
         "discount": 17,
-        "checkedAt": "2026-11-26T02:05:03-03:00",
+        "checkedAt": "2026-11-26T12:17:20-03:00",
         "niche": "casa"
       },
       {
@@ -1498,7 +1498,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 13,89",
         "originalPrice": "R$ 15,97",
         "discount": 13,
-        "checkedAt": "2026-11-26T02:05:04-03:00",
+        "checkedAt": "2026-11-26T12:17:21-03:00",
         "niche": "casa"
       },
       {
@@ -1515,7 +1515,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 44,98",
         "originalPrice": "R$ 99,96",
         "discount": 55,
-        "checkedAt": "2026-11-26T02:05:06-03:00",
+        "checkedAt": "2026-11-26T12:17:22-03:00",
         "niche": "casa"
       },
       {
@@ -1532,7 +1532,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 32,98",
         "originalPrice": "R$ 68,71",
         "discount": 52,
-        "checkedAt": "2026-11-26T02:05:07-03:00",
+        "checkedAt": "2026-11-26T12:17:23-03:00",
         "niche": "casa"
       },
       {
@@ -1549,7 +1549,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 179,99",
         "originalPrice": "R$ 399,98",
         "discount": 55,
-        "checkedAt": "2026-11-26T02:05:08-03:00",
+        "checkedAt": "2026-11-26T12:17:25-03:00",
         "niche": "casa"
       },
       {
@@ -1566,7 +1566,7 @@ window.BIGODE_OFFERS = {
           "shopId": "1860098702",
           "itemId": "58264684239"
         },
-        "checkedAt": "2026-11-26T02:05:09-03:00",
+        "checkedAt": "2026-11-26T12:17:26-03:00",
         "niche": "beleza"
       },
       {
@@ -1583,7 +1583,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 59,90",
         "originalPrice": "R$ 93,59",
         "discount": 36,
-        "checkedAt": "2026-11-26T02:05:10-03:00",
+        "checkedAt": "2026-11-26T12:17:27-03:00",
         "niche": "beleza"
       },
       {
@@ -1600,7 +1600,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 35,90",
         "originalPrice": "R$ 39,89",
         "discount": 10,
-        "checkedAt": "2026-11-26T02:05:11-03:00",
+        "checkedAt": "2026-11-26T12:17:28-03:00",
         "niche": "beleza"
       },
       {
@@ -1617,7 +1617,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 29,90",
         "originalPrice": "R$ 36,91",
         "discount": 19,
-        "checkedAt": "2026-11-26T02:05:12-03:00",
+        "checkedAt": "2026-11-26T12:17:29-03:00",
         "niche": "beleza"
       },
       {
@@ -1634,7 +1634,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 27,59",
         "originalPrice": "R$ 35,37",
         "discount": 22,
-        "checkedAt": "2026-11-26T02:05:13-03:00",
+        "checkedAt": "2026-11-26T12:17:31-03:00",
         "niche": "beleza"
       },
       {
@@ -1651,7 +1651,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 79,90",
         "originalPrice": "R$ 140,18",
         "discount": 43,
-        "checkedAt": "2026-11-26T02:05:15-03:00",
+        "checkedAt": "2026-11-26T12:17:32-03:00",
         "niche": "beleza"
       },
       {
@@ -1668,7 +1668,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 29,90",
         "originalPrice": "R$ 52,46",
         "discount": 43,
-        "checkedAt": "2026-11-26T02:05:16-03:00",
+        "checkedAt": "2026-11-26T12:17:33-03:00",
         "niche": "beleza"
       },
       {
@@ -1685,7 +1685,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 32,88",
         "originalPrice": "R$ 156,57",
         "discount": 79,
-        "checkedAt": "2026-11-26T02:05:17-03:00",
+        "checkedAt": "2026-11-26T12:17:34-03:00",
         "niche": "beleza"
       },
       {
@@ -1702,7 +1702,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 18,87",
         "originalPrice": "R$ 29,95",
         "discount": 37,
-        "checkedAt": "2026-11-26T02:05:18-03:00",
+        "checkedAt": "2026-11-26T12:17:35-03:00",
         "niche": "beleza"
       },
       {
@@ -1719,7 +1719,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 31,90",
         "originalPrice": "R$ 49,84",
         "discount": 36,
-        "checkedAt": "2026-11-26T02:05:19-03:00",
+        "checkedAt": "2026-11-26T12:17:36-03:00",
         "niche": "beleza"
       },
       {
@@ -1736,7 +1736,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 19,90",
         "originalPrice": "R$ 39,80",
         "discount": 50,
-        "checkedAt": "2026-11-26T02:05:20-03:00",
+        "checkedAt": "2026-11-26T12:17:38-03:00",
         "niche": "beleza"
       },
       {
@@ -1753,7 +1753,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 44,90",
         "originalPrice": "R$ 60,68",
         "discount": 26,
-        "checkedAt": "2026-11-26T02:05:21-03:00",
+        "checkedAt": "2026-11-26T12:17:39-03:00",
         "niche": "beleza"
       },
       {
@@ -1770,7 +1770,7 @@ window.BIGODE_OFFERS = {
           "shopId": "1439190466",
           "itemId": "18599879164"
         },
-        "checkedAt": "2026-11-26T02:05:23-03:00",
+        "checkedAt": "2026-11-26T12:17:40-03:00",
         "niche": "fitness"
       },
       {
@@ -1787,7 +1787,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 59,99",
         "originalPrice": "R$ 139,51",
         "discount": 57,
-        "checkedAt": "2026-11-26T02:05:24-03:00",
+        "checkedAt": "2026-11-26T12:17:41-03:00",
         "niche": "fitness"
       },
       {
@@ -1804,7 +1804,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 49,98",
         "originalPrice": "R$ 138,83",
         "discount": 64,
-        "checkedAt": "2026-11-26T02:05:25-03:00",
+        "checkedAt": "2026-11-26T12:17:42-03:00",
         "niche": "fitness"
       },
       {
@@ -1821,7 +1821,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 27,90",
         "originalPrice": "R$ 48,95",
         "discount": 43,
-        "checkedAt": "2026-11-26T02:05:26-03:00",
+        "checkedAt": "2026-11-26T12:17:43-03:00",
         "niche": "fitness"
       },
       {
@@ -1838,7 +1838,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 15,50",
         "originalPrice": "R$ 81,58",
         "discount": 81,
-        "checkedAt": "2026-11-26T02:05:27-03:00",
+        "checkedAt": "2026-11-26T12:17:45-03:00",
         "niche": "fitness"
       },
       {
@@ -1855,7 +1855,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 13,99",
         "originalPrice": "R$ 29,77",
         "discount": 53,
-        "checkedAt": "2026-11-26T02:05:28-03:00",
+        "checkedAt": "2026-11-26T12:17:46-03:00",
         "niche": "fitness"
       },
       {
@@ -1872,7 +1872,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 19,99",
         "originalPrice": "R$ 31,23",
         "discount": 36,
-        "checkedAt": "2026-11-26T02:05:29-03:00",
+        "checkedAt": "2026-11-26T12:17:47-03:00",
         "niche": "fitness"
       },
       {
@@ -1889,7 +1889,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 16,90",
         "originalPrice": "R$ 21,39",
         "discount": 21,
-        "checkedAt": "2026-11-26T02:05:30-03:00",
+        "checkedAt": "2026-11-26T12:17:48-03:00",
         "niche": "fitness"
       },
       {
@@ -1906,7 +1906,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 10,69",
         "originalPrice": "R$ 50,90",
         "discount": 79,
-        "checkedAt": "2026-11-26T02:05:32-03:00",
+        "checkedAt": "2026-11-26T12:17:49-03:00",
         "niche": "fitness"
       },
       {
@@ -1923,7 +1923,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 39,90",
         "originalPrice": "R$ 110,83",
         "discount": 64,
-        "checkedAt": "2026-11-26T02:05:33-03:00",
+        "checkedAt": "2026-11-26T12:17:50-03:00",
         "niche": "fitness"
       },
       {
@@ -1940,7 +1940,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 38,60",
         "originalPrice": "R$ 80,42",
         "discount": 52,
-        "checkedAt": "2026-11-26T02:05:34-03:00",
+        "checkedAt": "2026-11-26T12:17:51-03:00",
         "niche": "fitness"
       },
       {
@@ -1957,7 +1957,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 27,99",
         "originalPrice": "R$ 116,62",
         "discount": 76,
-        "checkedAt": "2026-11-26T02:05:35-03:00",
+        "checkedAt": "2026-11-26T12:17:52-03:00",
         "niche": "fitness"
       },
       {
@@ -1974,7 +1974,7 @@ window.BIGODE_OFFERS = {
           "shopId": "832036467",
           "itemId": "22892833180"
         },
-        "checkedAt": "2026-11-26T02:05:36-03:00",
+        "checkedAt": "2026-11-26T12:17:54-03:00",
         "niche": "ferramentas"
       },
       {
@@ -1991,7 +1991,7 @@ window.BIGODE_OFFERS = {
           "shopId": "1459307687",
           "itemId": "21799836330"
         },
-        "checkedAt": "2026-11-26T02:05:37-03:00",
+        "checkedAt": "2026-11-26T12:17:55-03:00",
         "niche": "ferramentas"
       },
       {
@@ -2008,7 +2008,7 @@ window.BIGODE_OFFERS = {
           "shopId": "1459307687",
           "itemId": "18199657078"
         },
-        "checkedAt": "2026-11-26T02:05:38-03:00",
+        "checkedAt": "2026-11-26T12:17:56-03:00",
         "niche": "ferramentas"
       },
       {
@@ -2022,10 +2022,10 @@ window.BIGODE_OFFERS = {
           "shopId": "1456626119",
           "itemId": "22198813710"
         },
-        "price": "R$ 37,98",
-        "originalPrice": "R$ 80,81",
+        "price": "R$ 37,99",
+        "originalPrice": "R$ 80,83",
         "discount": 53,
-        "checkedAt": "2026-11-26T02:05:40-03:00",
+        "checkedAt": "2026-11-26T12:17:57-03:00",
         "niche": "ferramentas"
       },
       {
@@ -2042,7 +2042,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 27,99",
         "originalPrice": "R$ 50,89",
         "discount": 45,
-        "checkedAt": "2026-11-26T02:05:41-03:00",
+        "checkedAt": "2026-11-26T12:17:58-03:00",
         "niche": "ferramentas"
       },
       {
@@ -2059,7 +2059,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 178,99",
         "originalPrice": "R$ 458,95",
         "discount": 61,
-        "checkedAt": "2026-11-26T02:05:42-03:00",
+        "checkedAt": "2026-11-26T12:17:59-03:00",
         "niche": "ferramentas"
       },
       {
@@ -2076,7 +2076,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 20,99",
         "originalPrice": "R$ 99,95",
         "discount": 79,
-        "checkedAt": "2026-11-26T02:05:43-03:00",
+        "checkedAt": "2026-11-26T12:18:00-03:00",
         "niche": "ferramentas"
       },
       {
@@ -2093,7 +2093,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 24,99",
         "originalPrice": "R$ 69,42",
         "discount": 64,
-        "checkedAt": "2026-11-26T02:05:44-03:00",
+        "checkedAt": "2026-11-26T12:18:02-03:00",
         "niche": "ferramentas"
       },
       {
@@ -2110,7 +2110,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 10,99",
         "originalPrice": "R$ 24,98",
         "discount": 56,
-        "checkedAt": "2026-11-26T02:05:45-03:00",
+        "checkedAt": "2026-11-26T12:18:03-03:00",
         "niche": "ferramentas"
       },
       {
@@ -2127,7 +2127,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 18,48",
         "originalPrice": "R$ 63,72",
         "discount": 71,
-        "checkedAt": "2026-11-26T02:05:46-03:00",
+        "checkedAt": "2026-11-26T12:18:04-03:00",
         "niche": "ferramentas"
       },
       {
@@ -2144,7 +2144,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 13,99",
         "originalPrice": "R$ 27,98",
         "discount": 50,
-        "checkedAt": "2026-11-26T02:05:48-03:00",
+        "checkedAt": "2026-11-26T12:18:05-03:00",
         "niche": "ferramentas"
       },
       {
@@ -2161,7 +2161,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 104,90",
         "originalPrice": "R$ 243,95",
         "discount": 57,
-        "checkedAt": "2026-11-26T02:05:49-03:00",
+        "checkedAt": "2026-11-26T12:18:06-03:00",
         "niche": "ferramentas"
       }
     ],
@@ -2170,7 +2170,7 @@ window.BIGODE_OFFERS = {
         "source": "AliExpress",
         "category": "eletronicos",
         "title": "Fone Sem Fio Bettdow Bluetooth 5.3 Esportivo a Prova d'Agua",
-        "price": "R$ 38,38",
+        "price": "R$ 38,44",
         "originalPrice": "R$ 99,00",
         "discount": 61,
         "sales": "96% avaliacoes positivas | 4.389 vendidos",
@@ -2179,15 +2179,15 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005007739555426"
         },
-        "checkedAt": "2026-11-26T02:04:28-03:00",
+        "checkedAt": "2026-11-26T12:16:49-03:00",
         "niche": "eletronicos"
       },
       {
         "source": "AliExpress",
         "category": "eletronicos",
         "title": "Smartwatch HAYLOU 4S GPS com Tela AMOLED 1.43\"",
-        "price": "R$ 249,59",
-        "originalPrice": "R$ 491,82",
+        "price": "R$ 243,97",
+        "originalPrice": "R$ 480,72",
         "discount": 49,
         "sales": "96% avaliacoes positivas | 3.095 vendidos",
         "image": "https://ae-pic-a1.aliexpress-media.com/kf/A72a6074062ef4c448a487255a1246d81g.jpg",
@@ -2195,7 +2195,7 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005008850261694"
         },
-        "checkedAt": "2026-11-26T02:04:30-03:00",
+        "checkedAt": "2026-11-26T12:16:51-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2208,10 +2208,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005007431129955"
         },
-        "price": "R$ 57,78",
-        "originalPrice": "R$ 155,54",
-        "discount": 63,
-        "checkedAt": "2026-11-26T02:04:31-03:00",
+        "price": "R$ 62,49",
+        "originalPrice": "R$ 152,41",
+        "discount": 59,
+        "checkedAt": "2026-11-26T12:16:52-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2224,10 +2224,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005007938221156"
         },
-        "price": "R$ 9,16",
-        "originalPrice": "R$ 19,50",
+        "price": "R$ 8,99",
+        "originalPrice": "R$ 19,12",
         "discount": 53,
-        "checkedAt": "2026-11-26T02:04:33-03:00",
+        "checkedAt": "2026-11-26T12:16:54-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2240,10 +2240,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005010376374580"
         },
-        "price": "R$ 133,99",
-        "originalPrice": "R$ 289,70",
+        "price": "R$ 130,99",
+        "originalPrice": "R$ 283,22",
         "discount": 54,
-        "checkedAt": "2026-11-26T02:04:34-03:00",
+        "checkedAt": "2026-11-26T12:16:55-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2256,10 +2256,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005006579895295"
         },
-        "price": "R$ 253,72",
-        "originalPrice": "R$ 638,60",
+        "price": "R$ 248,00",
+        "originalPrice": "R$ 624,19",
         "discount": 60,
-        "checkedAt": "2026-11-26T02:04:36-03:00",
+        "checkedAt": "2026-11-26T12:16:56-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2275,7 +2275,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 29,95",
         "originalPrice": "R$ 39,99",
         "discount": 25,
-        "checkedAt": "2026-11-26T02:04:38-03:00",
+        "checkedAt": "2026-11-26T12:17:01-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2288,10 +2288,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005013362909618"
         },
-        "price": "R$ 340,94",
-        "originalPrice": "R$ 681,88",
+        "price": "R$ 333,74",
+        "originalPrice": "R$ 667,49",
         "discount": 50,
-        "checkedAt": "2026-11-26T02:04:39-03:00",
+        "checkedAt": "2026-11-26T12:17:03-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2304,10 +2304,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005010124613431"
         },
-        "price": "R$ 17,54",
-        "originalPrice": "R$ 44,19",
+        "price": "R$ 17,27",
+        "originalPrice": "R$ 43,26",
         "discount": 60,
-        "checkedAt": "2026-11-26T02:04:40-03:00",
+        "checkedAt": "2026-11-26T12:17:04-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2320,10 +2320,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005006995232696"
         },
-        "price": "R$ 36,49",
-        "originalPrice": "R$ 77,64",
+        "price": "R$ 35,79",
+        "originalPrice": "R$ 76,14",
         "discount": 53,
-        "checkedAt": "2026-11-26T02:04:41-03:00",
+        "checkedAt": "2026-11-26T12:17:06-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2336,10 +2336,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005006678116483"
         },
-        "price": "R$ 37,09",
-        "originalPrice": "R$ 80,63",
+        "price": "R$ 36,70",
+        "originalPrice": "R$ 78,93",
         "discount": 54,
-        "checkedAt": "2026-11-26T02:04:43-03:00",
+        "checkedAt": "2026-11-26T12:17:07-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2352,10 +2352,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005006997324750"
         },
-        "price": "R$ 60,99",
-        "originalPrice": "R$ 125,76",
-        "discount": 52,
-        "checkedAt": "2026-11-26T02:04:44-03:00",
+        "price": "R$ 59,69",
+        "originalPrice": "R$ 123,06",
+        "discount": 51,
+        "checkedAt": "2026-11-26T12:17:18-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2368,10 +2368,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005005470604431"
         },
-        "price": "R$ 134,27",
-        "originalPrice": "R$ 447,05",
+        "price": "R$ 131,23",
+        "originalPrice": "R$ 436,95",
         "discount": 70,
-        "checkedAt": "2026-11-26T02:04:46-03:00",
+        "checkedAt": "2026-11-26T12:17:20-03:00",
         "niche": "games"
       },
       {
@@ -2384,10 +2384,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005010450433504"
         },
-        "price": "R$ 27,49",
-        "originalPrice": "R$ 62,33",
+        "price": "R$ 27,00",
+        "originalPrice": "R$ 60,90",
         "discount": 56,
-        "checkedAt": "2026-11-26T02:04:47-03:00",
+        "checkedAt": "2026-11-26T12:17:25-03:00",
         "niche": "games"
       },
       {
@@ -2432,10 +2432,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005011867772370"
         },
-        "price": "R$ 388,51",
-        "originalPrice": "R$ 840,03",
+        "price": "R$ 379,99",
+        "originalPrice": "R$ 821,66",
         "discount": 54,
-        "checkedAt": "2026-11-26T02:04:52-03:00",
+        "checkedAt": "2026-11-26T12:18:18-03:00",
         "niche": "games"
       },
       {
@@ -2448,10 +2448,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005006995109629"
         },
-        "price": "R$ 37,49",
-        "originalPrice": "R$ 75,96",
-        "discount": 51,
-        "checkedAt": "2026-11-26T02:04:53-03:00",
+        "price": "R$ 36,99",
+        "originalPrice": "R$ 74,36",
+        "discount": 50,
+        "checkedAt": "2026-11-26T12:18:20-03:00",
         "niche": "games"
       },
       {
@@ -2464,10 +2464,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005007170899685"
         },
-        "price": "R$ 35,69",
-        "originalPrice": "R$ 77,58",
+        "price": "R$ 35,29",
+        "originalPrice": "R$ 75,90",
         "discount": 54,
-        "checkedAt": "2026-11-26T02:04:54-03:00",
+        "checkedAt": "2026-11-26T12:18:22-03:00",
         "niche": "games"
       },
       {
@@ -2480,10 +2480,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005007309486822"
         },
-        "price": "R$ 17,79",
-        "originalPrice": "R$ 33,57",
+        "price": "R$ 17,42",
+        "originalPrice": "R$ 32,85",
         "discount": 47,
-        "checkedAt": "2026-11-26T02:04:56-03:00",
+        "checkedAt": "2026-11-26T12:18:23-03:00",
         "niche": "games"
       },
       {
@@ -2496,10 +2496,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005007689455499"
         },
-        "price": "R$ 125,12",
-        "originalPrice": "R$ 422,81",
+        "price": "R$ 123,09",
+        "originalPrice": "R$ 413,89",
         "discount": 70,
-        "checkedAt": "2026-11-26T02:04:58-03:00",
+        "checkedAt": "2026-11-26T12:18:28-03:00",
         "niche": "games"
       },
       {
@@ -2512,10 +2512,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005012234106869"
         },
-        "price": "R$ 20,19",
-        "originalPrice": "R$ 26,24",
+        "price": "R$ 19,77",
+        "originalPrice": "R$ 25,69",
         "discount": 23,
-        "checkedAt": "2026-11-26T02:04:59-03:00",
+        "checkedAt": "2026-11-26T12:18:33-03:00",
         "niche": "games"
       },
       {
@@ -2528,10 +2528,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005010114496978"
         },
-        "price": "R$ 143,59",
-        "originalPrice": "R$ 310,46",
+        "price": "R$ 143,99",
+        "originalPrice": "R$ 311,32",
         "discount": 54,
-        "checkedAt": "2026-11-26T02:05:00-03:00",
+        "checkedAt": "2026-11-26T12:18:35-03:00",
         "niche": "games"
       },
       {
@@ -2544,26 +2544,26 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005012743092233"
         },
-        "price": "R$ 108,21",
-        "originalPrice": "R$ 216,41",
+        "price": "R$ 106,09",
+        "originalPrice": "R$ 212,11",
         "discount": 50,
-        "checkedAt": "2026-11-26T02:05:01-03:00",
+        "checkedAt": "2026-11-26T12:18:36-03:00",
         "niche": "games"
       },
       {
         "source": "AliExpress",
         "category": "pet",
         "title": "Tapete Arranhador de Sisal para Gatos Protetor de Sofa",
-        "price": "R$ 22,59",
-        "originalPrice": "R$ 45,78",
-        "discount": 51,
+        "price": "R$ 22,30",
+        "originalPrice": "R$ 44,83",
+        "discount": 50,
         "sales": "98% avaliacoes positivas | 10.377 vendidos",
         "image": "https://ae-pic-a1.aliexpress-media.com/kf/S341b690cbe384a57a1bdda9d0f03b5046.jpg",
         "url": "https://s.click.aliexpress.com/e/_c35IBciJ",
         "ref": {
           "productId": "1005011654082041"
         },
-        "checkedAt": "2026-11-26T02:05:03-03:00",
+        "checkedAt": "2026-11-26T12:18:41-03:00",
         "niche": "casa"
       },
       {
@@ -2576,10 +2576,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005010323716760"
         },
-        "price": "R$ 20,04",
-        "originalPrice": "R$ 43,32",
+        "price": "R$ 19,59",
+        "originalPrice": "R$ 42,36",
         "discount": 54,
-        "checkedAt": "2026-11-26T02:05:04-03:00",
+        "checkedAt": "2026-11-26T12:18:46-03:00",
         "niche": "casa"
       },
       {
@@ -2592,10 +2592,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005010106524395"
         },
-        "price": "R$ 17,82",
-        "originalPrice": "R$ 42,42",
-        "discount": 58,
-        "checkedAt": "2026-11-26T02:05:06-03:00",
+        "price": "R$ 21,13",
+        "originalPrice": "R$ 42,24",
+        "discount": 50,
+        "checkedAt": "2026-11-26T12:18:58-03:00",
         "niche": "casa"
       },
       {
@@ -2608,10 +2608,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005012099690367"
         },
-        "price": "R$ 169,59",
-        "originalPrice": "R$ 368,60",
-        "discount": 54,
-        "checkedAt": "2026-11-26T02:05:08-03:00",
+        "price": "R$ 167,59",
+        "originalPrice": "R$ 360,36",
+        "discount": 53,
+        "checkedAt": "2026-11-26T12:18:59-03:00",
         "niche": "casa"
       },
       {
@@ -2624,10 +2624,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005011742833890"
         },
-        "price": "R$ 9,99",
-        "originalPrice": "R$ 21,60",
+        "price": "R$ 9,79",
+        "originalPrice": "R$ 21,16",
         "discount": 54,
-        "checkedAt": "2026-11-26T02:05:09-03:00",
+        "checkedAt": "2026-11-26T12:19:01-03:00",
         "niche": "casa"
       },
       {
@@ -2640,10 +2640,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005009297533485"
         },
-        "price": "R$ 10,18",
-        "originalPrice": "R$ 20,37",
+        "price": "R$ 9,99",
+        "originalPrice": "R$ 19,98",
         "discount": 50,
-        "checkedAt": "2026-11-26T02:05:11-03:00",
+        "checkedAt": "2026-11-26T12:19:03-03:00",
         "niche": "casa"
       },
       {
@@ -2656,10 +2656,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005008940662381"
         },
-        "price": "R$ 12,59",
-        "originalPrice": "R$ 14,30",
+        "price": "R$ 12,33",
+        "originalPrice": "R$ 14,00",
         "discount": 12,
-        "checkedAt": "2026-11-26T02:05:12-03:00",
+        "checkedAt": "2026-11-26T12:19:04-03:00",
         "niche": "casa"
       },
       {
@@ -2672,10 +2672,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005008585669872"
         },
-        "price": "R$ 8,02",
-        "originalPrice": "R$ 18,53",
+        "price": "R$ 7,89",
+        "originalPrice": "R$ 18,14",
         "discount": 57,
-        "checkedAt": "2026-11-26T02:05:14-03:00",
+        "checkedAt": "2026-11-26T12:19:06-03:00",
         "niche": "casa"
       },
       {
@@ -2688,10 +2688,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005006967658011"
         },
-        "price": "R$ 19,50",
-        "originalPrice": "R$ 41,49",
+        "price": "R$ 19,08",
+        "originalPrice": "R$ 40,61",
         "discount": 53,
-        "checkedAt": "2026-11-26T02:05:15-03:00",
+        "checkedAt": "2026-11-26T12:19:07-03:00",
         "niche": "casa"
       },
       {
@@ -2707,7 +2707,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 29,31",
         "originalPrice": "R$ 48,85",
         "discount": 40,
-        "checkedAt": "2026-11-26T02:05:17-03:00",
+        "checkedAt": "2026-11-26T12:19:09-03:00",
         "niche": "casa"
       },
       {
@@ -2720,10 +2720,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005007038380495"
         },
-        "price": "R$ 16,28",
-        "originalPrice": "R$ 32,56",
+        "price": "R$ 15,99",
+        "originalPrice": "R$ 31,98",
         "discount": 50,
-        "checkedAt": "2026-11-26T02:05:18-03:00",
+        "checkedAt": "2026-11-26T12:19:10-03:00",
         "niche": "casa"
       },
       {
@@ -2736,18 +2736,18 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005009582410542"
         },
-        "price": "R$ 24,09",
-        "originalPrice": "R$ 49,66",
+        "price": "R$ 23,69",
+        "originalPrice": "R$ 48,84",
         "discount": 51,
-        "checkedAt": "2026-11-26T02:05:20-03:00",
+        "checkedAt": "2026-11-26T12:19:22-03:00",
         "niche": "casa"
       },
       {
         "source": "AliExpress",
         "category": "beleza",
         "title": "Kit Profissional Manicure e Pedicure 1/7 Pecas",
-        "price": "R$ 12,59",
-        "originalPrice": "R$ 27,39",
+        "price": "R$ 12,46",
+        "originalPrice": "R$ 26,81",
         "discount": 54,
         "sales": "98% avaliacoes positivas | 9.600 vendidos",
         "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6d3c5e88931c4847986fa9c445e67e11m.jpg",
@@ -2755,7 +2755,7 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005012258533541"
         },
-        "checkedAt": "2026-11-26T02:05:21-03:00",
+        "checkedAt": "2026-11-26T12:19:23-03:00",
         "niche": "beleza"
       },
       {
@@ -2768,10 +2768,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005010439252861"
         },
-        "price": "R$ 40,49",
-        "originalPrice": "R$ 84,36",
+        "price": "R$ 39,81",
+        "originalPrice": "R$ 82,50",
         "discount": 52,
-        "checkedAt": "2026-11-26T02:05:23-03:00",
+        "checkedAt": "2026-11-26T12:19:28-03:00",
         "niche": "beleza"
       },
       {
@@ -2800,10 +2800,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005006123069106"
         },
-        "price": "R$ 26,89",
-        "originalPrice": "R$ 62,47",
+        "price": "R$ 26,29",
+        "originalPrice": "R$ 61,06",
         "discount": 57,
-        "checkedAt": "2026-11-26T02:05:26-03:00",
+        "checkedAt": "2026-11-26T12:19:50-03:00",
         "niche": "beleza"
       },
       {
@@ -2816,10 +2816,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005010044095266"
         },
-        "price": "R$ 39,39",
-        "originalPrice": "R$ 79,82",
-        "discount": 51,
-        "checkedAt": "2026-11-26T02:05:27-03:00",
+        "price": "R$ 38,80",
+        "originalPrice": "R$ 78,01",
+        "discount": 50,
+        "checkedAt": "2026-11-26T12:19:56-03:00",
         "niche": "beleza"
       },
       {
@@ -2832,10 +2832,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005006302286440"
         },
-        "price": "R$ 9,93",
-        "originalPrice": "R$ 11,87",
-        "discount": 16,
-        "checkedAt": "2026-11-26T02:05:29-03:00",
+        "price": "R$ 11,59",
+        "originalPrice": "R$ 11,64",
+        "discount": 0,
+        "checkedAt": "2026-11-26T12:19:57-03:00",
         "niche": "beleza"
       },
       {
@@ -2848,10 +2848,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005008429925489"
         },
-        "price": "R$ 24,19",
-        "originalPrice": "R$ 48,38",
+        "price": "R$ 23,69",
+        "originalPrice": "R$ 47,38",
         "discount": 50,
-        "checkedAt": "2026-11-26T02:05:30-03:00",
+        "checkedAt": "2026-11-26T12:19:58-03:00",
         "niche": "beleza"
       },
       {
@@ -2864,10 +2864,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005010376355638"
         },
-        "price": "R$ 9,99",
-        "originalPrice": "R$ 20,60",
+        "price": "R$ 9,72",
+        "originalPrice": "R$ 20,05",
         "discount": 52,
-        "checkedAt": "2026-11-26T02:05:32-03:00",
+        "checkedAt": "2026-11-26T12:20:03-03:00",
         "niche": "beleza"
       },
       {
@@ -2880,10 +2880,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005005235572701"
         },
-        "price": "R$ 16,27",
-        "originalPrice": "R$ 41,50",
-        "discount": 61,
-        "checkedAt": "2026-11-26T02:05:33-03:00",
+        "price": "R$ 16,07",
+        "originalPrice": "R$ 40,62",
+        "discount": 60,
+        "checkedAt": "2026-11-26T12:20:08-03:00",
         "niche": "beleza"
       },
       {
@@ -2896,10 +2896,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005007457277100"
         },
-        "price": "R$ 7,80",
-        "originalPrice": "R$ 28,91",
+        "price": "R$ 7,59",
+        "originalPrice": "R$ 28,30",
         "discount": 73,
-        "checkedAt": "2026-11-26T02:05:35-03:00",
+        "checkedAt": "2026-11-26T12:20:09-03:00",
         "niche": "beleza"
       },
       {
@@ -2912,10 +2912,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005005356228751"
         },
-        "price": "R$ 12,52",
-        "originalPrice": "R$ 29,26",
+        "price": "R$ 12,27",
+        "originalPrice": "R$ 28,65",
         "discount": 57,
-        "checkedAt": "2026-11-26T02:05:36-03:00",
+        "checkedAt": "2026-11-26T12:20:14-03:00",
         "niche": "beleza"
       },
       {
@@ -2931,15 +2931,15 @@ window.BIGODE_OFFERS = {
         "price": "R$ 29,70",
         "originalPrice": "R$ 45,00",
         "discount": 34,
-        "checkedAt": "2026-11-26T02:05:38-03:00",
+        "checkedAt": "2026-11-26T12:20:19-03:00",
         "niche": "beleza"
       },
       {
         "source": "AliExpress",
         "category": "fitness",
         "title": "Garrafa de Agua Esportiva 560ml sem BPA a Prova de Vazamentos",
-        "price": "R$ 29,69",
-        "originalPrice": "R$ 59,40",
+        "price": "R$ 29,09",
+        "originalPrice": "R$ 58,18",
         "discount": 50,
         "sales": "98% avaliacoes positivas | 21.084 vendidos",
         "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8f38080df33a48e788043acce23d87a1C.jpg",
@@ -2947,7 +2947,7 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005012978011412"
         },
-        "checkedAt": "2026-11-26T02:05:39-03:00",
+        "checkedAt": "2026-11-26T12:20:20-03:00",
         "niche": "fitness"
       },
       {
@@ -2960,10 +2960,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005006997546458"
         },
-        "price": "R$ 13,00",
-        "originalPrice": "R$ 26,80",
+        "price": "R$ 12,79",
+        "originalPrice": "R$ 26,36",
         "discount": 51,
-        "checkedAt": "2026-11-26T02:05:40-03:00",
+        "checkedAt": "2026-11-26T12:20:22-03:00",
         "niche": "fitness"
       },
       {
@@ -2976,10 +2976,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005009045232494"
         },
-        "price": "R$ 44,59",
-        "originalPrice": "R$ 96,40",
+        "price": "R$ 42,79",
+        "originalPrice": "R$ 92,52",
         "discount": 54,
-        "checkedAt": "2026-11-26T02:05:42-03:00",
+        "checkedAt": "2026-11-26T12:20:23-03:00",
         "niche": "fitness"
       },
       {
@@ -2992,10 +2992,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005008764004435"
         },
-        "price": "R$ 66,42",
-        "originalPrice": "R$ 152,42",
+        "price": "R$ 65,55",
+        "originalPrice": "R$ 149,21",
         "discount": 56,
-        "checkedAt": "2026-11-26T02:05:43-03:00",
+        "checkedAt": "2026-11-26T12:20:24-03:00",
         "niche": "fitness"
       },
       {
@@ -3008,10 +3008,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005007476845289"
         },
-        "price": "R$ 13,30",
-        "originalPrice": "R$ 27,13",
+        "price": "R$ 13,08",
+        "originalPrice": "R$ 26,56",
         "discount": 51,
-        "checkedAt": "2026-11-26T02:05:44-03:00",
+        "checkedAt": "2026-11-26T12:20:26-03:00",
         "niche": "fitness"
       },
       {
@@ -3024,10 +3024,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005011653714954"
         },
-        "price": "R$ 38,70",
-        "originalPrice": "R$ 83,68",
+        "price": "R$ 38,09",
+        "originalPrice": "R$ 82,34",
         "discount": 54,
-        "checkedAt": "2026-11-26T02:05:46-03:00",
+        "checkedAt": "2026-11-26T12:20:31-03:00",
         "niche": "fitness"
       },
       {
@@ -3040,10 +3040,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005013358051005"
         },
-        "price": "R$ 20,80",
-        "originalPrice": "R$ 45,00",
+        "price": "R$ 13,61",
+        "originalPrice": "R$ 29,42",
         "discount": 54,
-        "checkedAt": "2026-11-26T02:05:47-03:00",
+        "checkedAt": "2026-11-26T12:20:33-03:00",
         "niche": "fitness"
       },
       {
@@ -3056,10 +3056,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005008932506726"
         },
-        "price": "R$ 20,21",
-        "originalPrice": "R$ 42,10",
+        "price": "R$ 20,18",
+        "originalPrice": "R$ 41,83",
         "discount": 52,
-        "checkedAt": "2026-11-26T02:05:48-03:00",
+        "checkedAt": "2026-11-26T12:20:34-03:00",
         "niche": "fitness"
       },
       {
@@ -3088,10 +3088,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005012106622739"
         },
-        "price": "R$ 11,40",
-        "originalPrice": "R$ 25,54",
+        "price": "R$ 11,23",
+        "originalPrice": "R$ 25,00",
         "discount": 55,
-        "checkedAt": "2026-11-26T02:05:52-03:00",
+        "checkedAt": "2026-11-26T12:20:37-03:00",
         "niche": "fitness"
       },
       {
@@ -3104,10 +3104,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005013255717015"
         },
-        "price": "R$ 25,69",
-        "originalPrice": "R$ 55,54",
+        "price": "R$ 25,19",
+        "originalPrice": "R$ 54,46",
         "discount": 54,
-        "checkedAt": "2026-11-26T02:05:53-03:00",
+        "checkedAt": "2026-11-26T12:20:38-03:00",
         "niche": "fitness"
       },
       {
@@ -3120,18 +3120,18 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005007264395061"
         },
-        "price": "R$ 19,81",
-        "originalPrice": "R$ 39,64",
+        "price": "R$ 19,40",
+        "originalPrice": "R$ 38,81",
         "discount": 50,
-        "checkedAt": "2026-11-26T02:05:54-03:00",
+        "checkedAt": "2026-11-26T12:20:39-03:00",
         "niche": "fitness"
       },
       {
         "source": "AliExpress",
         "category": "ferramentas",
         "title": "Jogo de Brocas Hexagonais com Titanio 1.5-6.5mm",
-        "price": "R$ 26,69",
-        "originalPrice": "R$ 57,69",
+        "price": "R$ 26,19",
+        "originalPrice": "R$ 56,62",
         "discount": 54,
         "sales": "98% avaliacoes positivas | 8.663 vendidos",
         "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3e02d0e557eb4c15b969d37b4fd93822V.jpg",
@@ -3139,15 +3139,15 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005008406176499"
         },
-        "checkedAt": "2026-11-26T02:05:56-03:00",
+        "checkedAt": "2026-11-26T12:20:44-03:00",
         "niche": "ferramentas"
       },
       {
         "source": "AliExpress",
         "category": "ferramentas",
         "title": "Adaptador Chave de Fenda Angular 105 Graus Magnetico com Bits",
-        "price": "R$ 11,47",
-        "originalPrice": "R$ 23,91",
+        "price": "R$ 11,35",
+        "originalPrice": "R$ 23,53",
         "discount": 52,
         "sales": "98% avaliacoes positivas | 13.818 vendidos",
         "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2bfe362987cf4361ac2092e935270bc1M.png",
@@ -3155,15 +3155,15 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005006678196106"
         },
-        "checkedAt": "2026-11-26T02:05:57-03:00",
+        "checkedAt": "2026-11-26T12:20:56-03:00",
         "niche": "ferramentas"
       },
       {
         "source": "AliExpress",
         "category": "automotivo",
         "title": "Soprador e Aspirador Automotivo Portatil Turbo",
-        "price": "R$ 88,29",
-        "originalPrice": "R$ 190,90",
+        "price": "R$ 86,40",
+        "originalPrice": "R$ 186,83",
         "discount": 54,
         "sales": "98% avaliacoes positivas | 6.031 vendidos",
         "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb0089cdbeb824f9399e0aa4b9bb20b570.jpg",
@@ -3171,15 +3171,15 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005012649993817"
         },
-        "checkedAt": "2026-11-26T02:05:59-03:00",
+        "checkedAt": "2026-11-26T12:20:58-03:00",
         "niche": "ferramentas"
       },
       {
         "source": "AliExpress",
         "category": "automotivo",
         "title": "Organizador Portatil para Porta-Malas do Carro",
-        "price": "R$ 18,35",
-        "originalPrice": "R$ 38,23",
+        "price": "R$ 18,06",
+        "originalPrice": "R$ 37,43",
         "discount": 52,
         "sales": "98% avaliacoes positivas | 4.667 vendidos",
         "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4b76a3b0469e49e686b710cc3842a768k.jpg",
@@ -3187,7 +3187,7 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005012011141446"
         },
-        "checkedAt": "2026-11-26T02:06:00-03:00",
+        "checkedAt": "2026-11-26T12:20:59-03:00",
         "niche": "ferramentas"
       },
       {
@@ -3200,10 +3200,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005009193781794"
         },
-        "price": "R$ 107,89",
-        "originalPrice": "R$ 222,47",
+        "price": "R$ 105,99",
+        "originalPrice": "R$ 218,54",
         "discount": 52,
-        "checkedAt": "2026-11-26T02:06:02-03:00",
+        "checkedAt": "2026-11-26T12:21:04-03:00",
         "niche": "ferramentas"
       },
       {
@@ -3216,10 +3216,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005005922585864"
         },
-        "price": "R$ 7,53",
-        "originalPrice": "R$ 24,74",
+        "price": "R$ 7,35",
+        "originalPrice": "R$ 24,21",
         "discount": 70,
-        "checkedAt": "2026-11-26T02:06:03-03:00",
+        "checkedAt": "2026-11-26T12:21:06-03:00",
         "niche": "ferramentas"
       },
       {
@@ -3232,10 +3232,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005006967526150"
         },
-        "price": "R$ 16,36",
-        "originalPrice": "R$ 35,39",
+        "price": "R$ 16,25",
+        "originalPrice": "R$ 35,15",
         "discount": 54,
-        "checkedAt": "2026-11-26T02:06:05-03:00",
+        "checkedAt": "2026-11-26T12:21:08-03:00",
         "niche": "ferramentas"
       },
       {
@@ -3248,10 +3248,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005010439290709"
         },
-        "price": "R$ 129,59",
-        "originalPrice": "R$ 267,18",
+        "price": "R$ 126,99",
+        "originalPrice": "R$ 261,82",
         "discount": 51,
-        "checkedAt": "2026-11-26T02:06:06-03:00",
+        "checkedAt": "2026-11-26T12:21:09-03:00",
         "niche": "ferramentas"
       },
       {
@@ -3264,10 +3264,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005010157020393"
         },
-        "price": "R$ 459,80",
-        "originalPrice": "R$ 1.084,85",
-        "discount": 58,
-        "checkedAt": "2026-11-26T02:06:07-03:00",
+        "price": "R$ 452,39",
+        "originalPrice": "R$ 1.061,96",
+        "discount": 57,
+        "checkedAt": "2026-11-26T12:21:10-03:00",
         "niche": "ferramentas"
       },
       {
@@ -3280,10 +3280,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005013255385431"
         },
-        "price": "R$ 188,59",
-        "originalPrice": "R$ 392,80",
+        "price": "R$ 185,59",
+        "originalPrice": "R$ 384,54",
         "discount": 52,
-        "checkedAt": "2026-11-26T02:06:12-03:00",
+        "checkedAt": "2026-11-26T12:21:12-03:00",
         "niche": "ferramentas"
       },
       {
@@ -3296,10 +3296,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005006332093484"
         },
-        "price": "R$ 10,99",
-        "originalPrice": "R$ 21,98",
+        "price": "R$ 10,79",
+        "originalPrice": "R$ 21,58",
         "discount": 50,
-        "checkedAt": "2026-11-26T02:06:13-03:00",
+        "checkedAt": "2026-11-26T12:21:13-03:00",
         "niche": "ferramentas"
       },
       {
@@ -3312,10 +3312,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005007010437525"
         },
-        "price": "R$ 237,87",
-        "originalPrice": "R$ 565,00",
+        "price": "R$ 234,04",
+        "originalPrice": "R$ 553,08",
         "discount": 58,
-        "checkedAt": "2026-11-26T02:06:15-03:00",
+        "checkedAt": "2026-11-26T12:21:15-03:00",
         "niche": "ferramentas"
       }
     ],
