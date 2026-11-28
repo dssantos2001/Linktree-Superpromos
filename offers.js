@@ -1,5 +1,5 @@
 window.BIGODE_OFFERS = {
-  "updatedAt": "2026-11-27T16:01:40-03:00",
+  "updatedAt": "2026-11-27T23:01:43-03:00",
   "markets": {
     "mercado": [
       {
@@ -12,7 +12,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido | Preco no Pix",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_735657-MLA74476572905_022024-V.webp",
         "url": "https://meli.la/2hirV1t",
-        "checkedAt": "2026-11-27T15:59:39-03:00",
+        "checkedAt": "2026-11-27T22:59:47-03:00",
         "niche": "eletronicos"
       },
       {
@@ -25,7 +25,7 @@ window.BIGODE_OFFERS = {
         "sales": "Samsung | Preco no Pix",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_967872-MLA87279987383_072025-V.webp",
         "url": "https://meli.la/1mBnoti",
-        "checkedAt": "2026-11-27T15:59:41-03:00",
+        "checkedAt": "2026-11-27T22:59:48-03:00",
         "niche": "eletronicos"
       },
       {
@@ -39,7 +39,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_730568-MLA99983575997_112025-O.webp",
         "url": "https://meli.la/1FF9cNJ",
-        "checkedAt": "2026-11-27T15:59:42-03:00"
+        "checkedAt": "2026-11-27T22:59:50-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -52,7 +52,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_984233-MLA105531058053_012026-O.webp",
         "url": "https://meli.la/1VkVuG4",
-        "checkedAt": "2026-11-27T15:59:44-03:00"
+        "checkedAt": "2026-11-27T22:59:51-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -65,33 +65,33 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_863194-MLA118534430667_092026-O.webp",
         "url": "https://meli.la/2dgi2fY",
-        "checkedAt": "2026-11-27T15:59:45-03:00"
+        "checkedAt": "2026-11-27T22:59:52-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "celular smartphone",
         "niche": "eletronicos",
         "title": "Celular Samsung Galaxy A17 256GB, 8GB RAM, Câmera de 50MP",
-        "price": "R$ 1.334,00",
-        "originalPrice": "R$ 1.799,00",
-        "discount": 26,
+        "price": "R$ 1.197,00",
+        "originalPrice": "R$ 1.377,00",
+        "discount": 13,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_889169-MLA96868779849_102025-O.webp",
         "url": "https://meli.la/1zyjXGE",
-        "checkedAt": "2026-11-27T15:59:47-03:00"
+        "checkedAt": "2026-11-27T22:59:54-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "tablet",
         "niche": "eletronicos",
         "title": "Tablet Samsung Galaxy Tab A11+ 128GB, 6GB RAM, Tela de 11\"",
-        "price": "R$ 1.329,00",
-        "originalPrice": "R$ 2.349,00",
-        "discount": 43,
+        "price": "R$ 1.399,00",
+        "originalPrice": "R$ 1.842,00",
+        "discount": 24,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_765444-MLA120009570640_112026-O.webp",
         "url": "https://meli.la/2BMkLSY",
-        "checkedAt": "2026-11-27T15:59:48-03:00"
+        "checkedAt": "2026-11-27T22:59:55-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -104,59 +104,59 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_719636-MLA99381510294_112025-O.webp",
         "url": "https://meli.la/33P5qze",
-        "checkedAt": "2026-11-27T15:59:50-03:00"
+        "checkedAt": "2026-11-27T22:59:56-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "smart speaker alexa",
         "niche": "eletronicos",
         "title": "Amazon Echo Dot 5ª Geração com Alexa Preto",
-        "price": "R$ 479,00",
+        "price": "R$ 449,00",
         "originalPrice": "",
         "discount": 0,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_814549-MLA118334012041_092026-O.webp",
         "url": "https://meli.la/2oZp6f3",
-        "checkedAt": "2026-11-27T15:59:51-03:00"
+        "checkedAt": "2026-11-27T22:59:58-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "smart tv",
         "niche": "eletronicos",
         "title": "Smart TV 4K 50\" LG QNED Mini LED AI QNED70 2026",
-        "price": "R$ 2.459,00",
-        "originalPrice": "R$ 3.407,00",
-        "discount": 28,
+        "price": "R$ 2.579,00",
+        "originalPrice": "R$ 2.659,00",
+        "discount": 3,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_952238-MLA115300753579_072026-O.webp",
         "url": "https://meli.la/29XTbnz",
-        "checkedAt": "2026-11-27T15:59:53-03:00"
+        "checkedAt": "2026-11-27T22:59:59-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "fone de ouvido bluetooth",
         "niche": "eletronicos",
         "title": "Fone de Ouvido Bluetooth Pro 4 Branco com Case",
-        "price": "R$ 24,99",
+        "price": "R$ 25,99",
         "originalPrice": "R$ 69,99",
-        "discount": 64,
+        "discount": 63,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_723680-MLA121916642941_112026-O.webp",
         "url": "https://meli.la/2zSnQ9k",
-        "checkedAt": "2026-11-27T15:59:54-03:00"
+        "checkedAt": "2026-11-27T23:00:01-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "smartwatch",
         "niche": "eletronicos",
         "title": "Smartwatch HUAWEI Band 10 com Análise do Sono",
-        "price": "R$ 164,43",
+        "price": "R$ 160,65",
         "originalPrice": "R$ 215,00",
-        "discount": 24,
+        "discount": 25,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_772291-MLA100008466405_122025-O.webp",
         "url": "https://meli.la/2vxPJ8F",
-        "checkedAt": "2026-11-27T15:59:56-03:00"
+        "checkedAt": "2026-11-27T23:00:02-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -168,7 +168,7 @@ window.BIGODE_OFFERS = {
         "sales": "Microsoft | Preco no Pix",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_706410-MLA54692702580_032023-V.webp",
         "url": "https://meli.la/1KjqMLZ",
-        "checkedAt": "2026-11-27T15:59:57-03:00",
+        "checkedAt": "2026-11-27T23:00:04-03:00",
         "niche": "games"
       },
       {
@@ -182,7 +182,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_891520-MLA97399587870_112025-O.webp",
         "url": "https://meli.la/1iq9Q1h",
-        "checkedAt": "2026-11-27T15:59:59-03:00"
+        "checkedAt": "2026-11-27T23:00:05-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -195,46 +195,46 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_762912-MLA105696431793_012026-O.webp",
         "url": "https://meli.la/1goBeV8",
-        "checkedAt": "2026-11-27T16:00:00-03:00"
+        "checkedAt": "2026-11-27T23:00:07-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "jogo playstation 5",
         "niche": "games",
         "title": "Console PlayStation 5 Slim com Disco + ASTRO BOT e Gran Turismo 7",
-        "price": "R$ 6.499,00",
+        "price": "R$ 7.300,00",
         "originalPrice": "",
         "discount": 0,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_756719-MLA92558518158_092025-O.webp",
         "url": "https://meli.la/1TiXooT",
-        "checkedAt": "2026-11-27T16:00:02-03:00"
+        "checkedAt": "2026-11-27T23:00:08-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "mouse gamer",
         "niche": "games",
         "title": "Mouse Gamer Recarregável Bluetooth Sem Fio LED RGB",
-        "price": "R$ 20,19",
+        "price": "R$ 17,16",
         "originalPrice": "R$ 49,99",
-        "discount": 60,
+        "discount": 66,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_698387-MLA112152526650_062026-O.webp",
         "url": "https://meli.la/2iX58Zr",
-        "checkedAt": "2026-11-27T16:00:03-03:00"
+        "checkedAt": "2026-11-27T23:00:10-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "teclado gamer",
         "niche": "games",
         "title": "Teclado Gamer Gurumania Semi Mecânico RGB Anti-Ghosting",
-        "price": "R$ 43,55",
+        "price": "R$ 37,02",
         "originalPrice": "R$ 65,99",
-        "discount": 34,
+        "discount": 44,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_664235-MLA112022117474_062026-O.webp",
         "url": "https://meli.la/2gKLJDZ",
-        "checkedAt": "2026-11-27T16:00:05-03:00"
+        "checkedAt": "2026-11-27T23:00:11-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -247,7 +247,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_951583-MLA105697862101_012026-O.webp",
         "url": "https://meli.la/1b95Tus",
-        "checkedAt": "2026-11-27T16:00:06-03:00"
+        "checkedAt": "2026-11-27T23:00:13-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -260,7 +260,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_962495-MLA116220464242_092026-O.webp",
         "url": "https://meli.la/225LCQq",
-        "checkedAt": "2026-11-27T16:00:08-03:00"
+        "checkedAt": "2026-11-27T23:00:14-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -273,7 +273,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_759059-MLA99508283678_112025-O.webp",
         "url": "https://meli.la/1uBT6Ws",
-        "checkedAt": "2026-11-27T16:00:09-03:00"
+        "checkedAt": "2026-11-27T23:00:15-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -286,7 +286,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_928841-MLA93525033946_102025-O.webp",
         "url": "https://meli.la/1Lau34G",
-        "checkedAt": "2026-11-27T16:00:11-03:00"
+        "checkedAt": "2026-11-27T23:00:17-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -299,20 +299,20 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_898286-MLA95664298408_102025-O.webp",
         "url": "https://meli.la/2QJX62n",
-        "checkedAt": "2026-11-27T16:00:12-03:00"
+        "checkedAt": "2026-11-27T23:00:18-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "teclado gamer",
         "niche": "games",
         "title": "Teclado Magnético Monsgeek Akko Fun60 Pro RGB 60%",
-        "price": "R$ 199,00",
+        "price": "R$ 169,15",
         "originalPrice": "R$ 249,00",
-        "discount": 20,
+        "discount": 32,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_804923-MLA114376583165_072026-O.webp",
         "url": "https://meli.la/2kMXEYj",
-        "checkedAt": "2026-11-27T16:00:14-03:00"
+        "checkedAt": "2026-11-27T23:00:20-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -324,7 +324,7 @@ window.BIGODE_OFFERS = {
         "sales": "Nescafe | Preco no Pix",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_920452-MLA99875518403_112025-V.webp",
         "url": "https://meli.la/2f3BcFk",
-        "checkedAt": "2026-11-27T16:00:15-03:00",
+        "checkedAt": "2026-11-27T23:00:21-03:00",
         "niche": "casa"
       },
       {
@@ -337,7 +337,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_831652-MLA119453464213_102026-V.webp",
         "url": "https://meli.la/11HpkLG",
-        "checkedAt": "2026-11-27T16:00:17-03:00",
+        "checkedAt": "2026-11-27T23:00:22-03:00",
         "niche": "casa"
       },
       {
@@ -350,7 +350,7 @@ window.BIGODE_OFFERS = {
         "sales": "Papaiz | Preco no Pix",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_803233-MLA111146746461_052026-V.webp",
         "url": "https://meli.la/1PrSofS",
-        "checkedAt": "2026-11-27T16:00:18-03:00",
+        "checkedAt": "2026-11-27T23:00:24-03:00",
         "niche": "casa"
       },
       {
@@ -364,20 +364,20 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_733961-MLA115050784182_082026-O.webp",
         "url": "https://meli.la/1f49g5q",
-        "checkedAt": "2026-11-27T16:00:20-03:00"
+        "checkedAt": "2026-11-27T23:00:25-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "jogo de panelas",
         "niche": "casa",
         "title": "Jogo de Panelas Antiaderente 10 Peças com Tampas de Vidro",
-        "price": "R$ 189,90",
+        "price": "R$ 165,21",
         "originalPrice": "R$ 264,90",
-        "discount": 28,
+        "discount": 38,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_846694-MLA120225355865_102026-O.webp",
         "url": "https://meli.la/127LVKk",
-        "checkedAt": "2026-11-27T16:00:21-03:00"
+        "checkedAt": "2026-11-27T23:00:27-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -390,7 +390,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_766837-MLA98259429221_112025-O.webp",
         "url": "https://meli.la/2MUVdtT",
-        "checkedAt": "2026-11-27T16:00:23-03:00"
+        "checkedAt": "2026-11-27T23:00:28-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -403,7 +403,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_748103-MLA99906601653_112025-O.webp",
         "url": "https://meli.la/2hdVxv8",
-        "checkedAt": "2026-11-27T16:00:24-03:00"
+        "checkedAt": "2026-11-27T23:00:29-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -416,7 +416,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_916058-MLA109588424588_042026-O.webp",
         "url": "https://meli.la/2ysjiMD",
-        "checkedAt": "2026-11-27T16:00:26-03:00"
+        "checkedAt": "2026-11-27T23:00:31-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -429,7 +429,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_982900-MLA100082607605_122025-O.webp",
         "url": "https://meli.la/2bw85RN",
-        "checkedAt": "2026-11-27T16:00:27-03:00"
+        "checkedAt": "2026-11-27T23:00:32-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -442,7 +442,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_866410-MLA106357490185_022026-O.webp",
         "url": "https://meli.la/14bBjv2",
-        "checkedAt": "2026-11-27T16:00:29-03:00"
+        "checkedAt": "2026-11-27T23:00:34-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -455,59 +455,59 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_836493-MLA119919360079_102026-O.webp",
         "url": "https://meli.la/19yzknV",
-        "checkedAt": "2026-11-27T16:00:30-03:00"
+        "checkedAt": "2026-11-27T23:00:35-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "jogo de panelas",
         "niche": "casa",
         "title": "Conjunto de Panelas Antiaderente 10 Peças Imperial",
-        "price": "R$ 147,15",
-        "originalPrice": "R$ 299,99",
-        "discount": 51,
+        "price": "R$ 147,52",
+        "originalPrice": "R$ 179,90",
+        "discount": 18,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_881674-MLA106260237067_012026-O.webp",
         "url": "https://meli.la/2rwABPp",
-        "checkedAt": "2026-11-27T16:00:32-03:00"
+        "checkedAt": "2026-11-27T23:00:37-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "perfume masculino",
         "niche": "beleza",
         "title": "Perfume Floratta Flores Secretas 75ml O Boticário",
-        "price": "R$ 86,90",
+        "price": "R$ 78,21",
         "originalPrice": "R$ 174,90",
-        "discount": 50,
+        "discount": 55,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_889465-MLA99767551238_122025-O.webp",
         "url": "https://meli.la/1VAp8Mb",
-        "checkedAt": "2026-11-27T16:00:34-03:00"
+        "checkedAt": "2026-11-27T23:00:39-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "protetor solar",
         "niche": "beleza",
         "title": "Hidrabene Protetor Solar Facial FPS 70 Toque Seco 50g",
-        "price": "R$ 30,62",
-        "originalPrice": "R$ 58,00",
+        "price": "R$ 31,80",
+        "originalPrice": "R$ 59,90",
         "discount": 47,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_853204-MLB119940047190_112026-O.webp",
         "url": "https://meli.la/2iWHsrp",
-        "checkedAt": "2026-11-27T16:00:35-03:00"
+        "checkedAt": "2026-11-27T23:00:40-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "secador de cabelo",
         "niche": "beleza",
         "title": "Secador de Cabelos Philco PSC3500 4 em 1 Motor BLDC",
-        "price": "R$ 374,00",
-        "originalPrice": "R$ 780,00",
-        "discount": 52,
+        "price": "R$ 391,00",
+        "originalPrice": "R$ 799,90",
+        "discount": 51,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_875331-MLA117081876247_092026-O.webp",
         "url": "https://meli.la/1TFnBtC",
-        "checkedAt": "2026-11-27T16:00:37-03:00"
+        "checkedAt": "2026-11-27T23:00:42-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -520,59 +520,59 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_912494-MLA99992658679_112025-O.webp",
         "url": "https://meli.la/2GQsNkR",
-        "checkedAt": "2026-11-27T16:00:38-03:00"
+        "checkedAt": "2026-11-27T23:00:43-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "aparador de barba",
         "niche": "beleza",
         "title": "Aparelho de Depilação Gillette Venus Íntima",
-        "price": "R$ 26,60",
-        "originalPrice": "R$ 36,90",
-        "discount": 28,
+        "price": "R$ 52,41",
+        "originalPrice": "R$ 59,90",
+        "discount": 13,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_963728-MLA99930559657_112025-O.webp",
         "url": "https://meli.la/1Yrvtfd",
-        "checkedAt": "2026-11-27T16:00:40-03:00"
+        "checkedAt": "2026-11-27T23:00:45-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "hidratante corporal",
         "niche": "beleza",
         "title": "Loção Hidratante Corporal CeraVe 3 Ceramidas 473ml",
-        "price": "R$ 75,67",
+        "price": "R$ 91,22",
         "originalPrice": "R$ 143,90",
-        "discount": 47,
+        "discount": 37,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_930930-MLA118355221530_102026-O.webp",
         "url": "https://meli.la/2ncCejh",
-        "checkedAt": "2026-11-27T16:00:41-03:00"
+        "checkedAt": "2026-11-27T23:00:46-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "serum facial",
         "niche": "beleza",
         "title": "Creme Multirreparador Cicaplast Baume B5+ La Roche-Posay 40ml",
-        "price": "R$ 61,15",
+        "price": "R$ 69,11",
         "originalPrice": "R$ 109,90",
-        "discount": 44,
+        "discount": 37,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_695558-MLA119937437423_102026-O.webp",
         "url": "https://meli.la/1nEaZaK",
-        "checkedAt": "2026-11-27T16:00:43-03:00"
+        "checkedAt": "2026-11-27T23:00:47-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "perfume masculino",
         "niche": "beleza",
         "title": "Body Splash Masculino Vibration 200ml Primacial",
-        "price": "R$ 39,13",
+        "price": "R$ 41,19",
         "originalPrice": "R$ 69,90",
-        "discount": 44,
+        "discount": 41,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_617155-MLA118231595864_102026-O.webp",
         "url": "https://meli.la/2jxH3oh",
-        "checkedAt": "2026-11-27T16:00:44-03:00"
+        "checkedAt": "2026-11-27T23:00:49-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -585,7 +585,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_690853-MLA99434991990_112025-O.webp",
         "url": "https://meli.la/2bE55vC",
-        "checkedAt": "2026-11-27T16:00:46-03:00"
+        "checkedAt": "2026-11-27T23:00:50-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -598,20 +598,20 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_655896-MLU72845973255_112023-O.webp",
         "url": "https://meli.la/1b1FsmD",
-        "checkedAt": "2026-11-27T16:00:48-03:00"
+        "checkedAt": "2026-11-27T23:00:52-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "prancha alisadora",
         "niche": "beleza",
         "title": "Prancha de Cabelo Gama Italy Eleganza Plus",
-        "price": "R$ 79,90",
+        "price": "R$ 69,88",
         "originalPrice": "R$ 149,90",
-        "discount": 47,
+        "discount": 53,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_625242-MLA109735920377_032026-O.webp",
         "url": "https://meli.la/1k8ed1D",
-        "checkedAt": "2026-11-27T16:00:49-03:00"
+        "checkedAt": "2026-11-27T23:00:53-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -624,7 +624,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_999891-MLA99419559234_112025-O.webp",
         "url": "https://meli.la/1QLzfdZ",
-        "checkedAt": "2026-11-27T16:00:51-03:00"
+        "checkedAt": "2026-11-27T23:00:55-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -636,33 +636,33 @@ window.BIGODE_OFFERS = {
         "sales": "Puma | Frete gratis",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_952078-MLA106636612396_022026-V.webp",
         "url": "https://meli.la/2nn2Eod",
-        "checkedAt": "2026-11-27T16:00:52-03:00",
+        "checkedAt": "2026-11-27T23:00:56-03:00",
         "niche": "fitness"
       },
       {
         "source": "Mercado Livre",
         "category": "creatina",
         "title": "Creatina Growth Supplements Monohidratada Sem Sabor 250g",
-        "price": "R$ 29,61",
+        "price": "R$ 28,62",
         "originalPrice": "R$ 64,90",
-        "discount": 54,
+        "discount": 56,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_662415-MLA97812910758_112025-V.webp",
         "url": "https://meli.la/1jK7rjm",
-        "checkedAt": "2026-11-27T16:00:54-03:00",
+        "checkedAt": "2026-11-27T23:00:58-03:00",
         "niche": "fitness"
       },
       {
         "source": "Mercado Livre",
         "category": "whey protein",
         "title": "Super Whey Protein Refil 900g Max Titanium Morango",
-        "price": "R$ 72,02",
+        "price": "R$ 69,25",
         "originalPrice": "R$ 269,85",
-        "discount": 73,
+        "discount": 74,
         "sales": "Max Titanium",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_813467-MLA112393792119_052026-V.webp",
         "url": "https://meli.la/15HNwTZ",
-        "checkedAt": "2026-11-27T16:00:55-03:00",
+        "checkedAt": "2026-11-27T23:00:59-03:00",
         "niche": "fitness"
       },
       {
@@ -676,20 +676,20 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_664503-MLU79261871661_092024-O.webp",
         "url": "https://meli.la/2uCj66V",
-        "checkedAt": "2026-11-27T16:00:57-03:00"
+        "checkedAt": "2026-11-27T23:01:01-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "halteres",
         "niche": "fitness",
         "title": "Kit Halteres e Kettlebell Boldfit Ajustáveis 20kg",
-        "price": "R$ 258,70",
+        "price": "R$ 227,90",
         "originalPrice": "R$ 399,00",
-        "discount": 35,
+        "discount": 43,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_744718-MLA116905886210_092026-O.webp",
         "url": "https://meli.la/2zrkvmx",
-        "checkedAt": "2026-11-27T16:00:58-03:00"
+        "checkedAt": "2026-11-27T23:01:02-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -702,7 +702,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_604942-MLA118643998329_102026-O.webp",
         "url": "https://meli.la/1DpvSow",
-        "checkedAt": "2026-11-27T16:01:00-03:00"
+        "checkedAt": "2026-11-27T23:01:04-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -715,7 +715,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_611502-MLA119489351892_112026-O.webp",
         "url": "https://meli.la/2FT4YWW",
-        "checkedAt": "2026-11-27T16:01:01-03:00"
+        "checkedAt": "2026-11-27T23:01:05-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -728,7 +728,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_603981-MLA115262802698_082026-O.webp",
         "url": "https://meli.la/1vXKTqP",
-        "checkedAt": "2026-11-27T16:01:03-03:00"
+        "checkedAt": "2026-11-27T23:01:07-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -741,7 +741,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_707007-MLA99931804565_112025-O.webp",
         "url": "https://meli.la/22rToZJ",
-        "checkedAt": "2026-11-27T16:01:04-03:00"
+        "checkedAt": "2026-11-27T23:01:08-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -754,20 +754,20 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_843786-MLA99568269730_122025-O.webp",
         "url": "https://meli.la/2PquJCA",
-        "checkedAt": "2026-11-27T16:01:06-03:00"
+        "checkedAt": "2026-11-27T23:01:10-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "corda de pular",
         "niche": "fitness",
         "title": "Corda de Pular Speed Rope com Rolamento e Cabo de Aço",
-        "price": "R$ 22,99",
+        "price": "R$ 21,90",
         "originalPrice": "R$ 39,90",
-        "discount": 42,
+        "discount": 45,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_726141-MLA110658004725_042026-O.webp",
         "url": "https://meli.la/2qTEbqW",
-        "checkedAt": "2026-11-27T16:01:07-03:00"
+        "checkedAt": "2026-11-27T23:01:11-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -780,7 +780,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_736679-MLA121751753241_112026-O.webp",
         "url": "https://meli.la/1HidgEw",
-        "checkedAt": "2026-11-27T16:01:09-03:00"
+        "checkedAt": "2026-11-27T23:01:13-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -792,7 +792,7 @@ window.BIGODE_OFFERS = {
         "sales": "Kit completo | Bivolt",
         "image": "https://http2.mlstatic.com/D_Q_NP_2X_835659-MLA116548375638_092026-V.webp",
         "url": "https://meli.la/1svnJEp",
-        "checkedAt": "2026-11-27T16:01:11-03:00",
+        "checkedAt": "2026-11-27T23:01:14-03:00",
         "niche": "ferramentas"
       },
       {
@@ -800,39 +800,39 @@ window.BIGODE_OFFERS = {
         "category": "parafusadeira",
         "niche": "ferramentas",
         "title": "Cortador de Chapa para Furadeira e Parafusadeira",
-        "price": "R$ 24,59",
-        "originalPrice": "R$ 59,20",
-        "discount": 58,
+        "price": "R$ 27,93",
+        "originalPrice": "R$ 69,90",
+        "discount": 60,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_876929-MLA101777298433_122025-O.webp",
         "url": "https://meli.la/2sprted",
-        "checkedAt": "2026-11-27T16:01:12-03:00"
+        "checkedAt": "2026-11-27T23:01:16-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "trena laser",
         "niche": "ferramentas",
         "title": "Nível Laser Luatek Level Pro 03 com Trena e Régua",
-        "price": "R$ 22,49",
-        "originalPrice": "R$ 26,90",
-        "discount": 16,
+        "price": "R$ 24,50",
+        "originalPrice": "",
+        "discount": 0,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_712733-MLA119027723457_102026-O.webp",
         "url": "https://meli.la/2Lj7o1r",
-        "checkedAt": "2026-11-27T16:01:14-03:00"
+        "checkedAt": "2026-11-27T23:01:17-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "compressor de ar portatil pneu",
         "niche": "ferramentas",
         "title": "Compressor de Ar Portátil VERUNTO VER-B15 com Tela Digital",
-        "price": "R$ 51,82",
+        "price": "R$ 53,11",
         "originalPrice": "R$ 78,99",
-        "discount": 34,
+        "discount": 33,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_842487-MLA120158163710_112026-O.webp",
         "url": "https://meli.la/2AQybWi",
-        "checkedAt": "2026-11-27T16:01:15-03:00"
+        "checkedAt": "2026-11-27T23:01:18-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -845,7 +845,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_933618-MLA113308998651_062026-O.webp",
         "url": "https://meli.la/2286Zgu",
-        "checkedAt": "2026-11-27T16:01:17-03:00"
+        "checkedAt": "2026-11-27T23:01:20-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -858,20 +858,20 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_946931-MLA112216224006_062026-O.webp",
         "url": "https://meli.la/12GxBQL",
-        "checkedAt": "2026-11-27T16:01:18-03:00"
+        "checkedAt": "2026-11-27T23:01:21-03:00"
       },
       {
         "source": "Mercado Livre",
         "category": "parafusadeira",
         "niche": "ferramentas",
         "title": "Kit Adaptador Angular KYINS para Furadeira e Parafusadeira",
-        "price": "R$ 36,85",
+        "price": "R$ 38,79",
         "originalPrice": "R$ 79,99",
-        "discount": 54,
+        "discount": 52,
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_870161-MLA120459134357_102026-O.webp",
         "url": "https://meli.la/27jXff8",
-        "checkedAt": "2026-11-27T16:01:20-03:00"
+        "checkedAt": "2026-11-27T23:01:23-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -884,7 +884,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_902029-MLA115080685203_072026-O.webp",
         "url": "https://meli.la/2Rz4tzZ",
-        "checkedAt": "2026-11-27T16:01:21-03:00"
+        "checkedAt": "2026-11-27T23:01:24-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -897,7 +897,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_919649-MLA112122698633_052026-O.webp",
         "url": "https://meli.la/18hybpw",
-        "checkedAt": "2026-11-27T16:01:23-03:00"
+        "checkedAt": "2026-11-27T23:01:26-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -910,7 +910,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_863906-MLA110244293958_052026-O.webp",
         "url": "https://meli.la/1CaCiqe",
-        "checkedAt": "2026-11-27T16:01:25-03:00"
+        "checkedAt": "2026-11-27T23:01:27-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -923,7 +923,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_783016-MLA99454285438_112025-O.webp",
         "url": "https://meli.la/2av2tCa",
-        "checkedAt": "2026-11-27T16:01:26-03:00"
+        "checkedAt": "2026-11-27T23:01:29-03:00"
       },
       {
         "source": "Mercado Livre",
@@ -936,7 +936,7 @@ window.BIGODE_OFFERS = {
         "sales": "Mais vendido",
         "image": "https://http2.mlstatic.com/D_NQ_NP_693251-MLA112453781702_062026-O.webp",
         "url": "https://meli.la/2JCWmsx",
-        "checkedAt": "2026-11-27T16:01:28-03:00"
+        "checkedAt": "2026-11-27T23:01:30-03:00"
       }
     ],
     "shopee": [
@@ -947,21 +947,21 @@ window.BIGODE_OFFERS = {
         "price": "R$ 28,48",
         "originalPrice": "R$ 101,71",
         "discount": 72,
-        "sales": 8961,
+        "sales": 9039,
         "image": "https://cf.shopee.com.br/file/sg-11134201-7rff1-m96a3707agyh54",
         "url": "https://s.shopee.com.br/3qOd1f3FnX",
         "ref": {
           "shopId": "987393610",
           "itemId": "23098440348"
         },
-        "checkedAt": "2026-11-27T15:59:38-03:00",
+        "checkedAt": "2026-11-27T22:59:47-03:00",
         "niche": "eletronicos"
       },
       {
         "source": "Shopee",
         "category": "fone bluetooth",
         "title": "Fone De Ouvido Sem Fio M10 TWS Bluetooth 5.3 display Led Touch",
-        "sales": 14630,
+        "sales": 15146,
         "image": "https://cf.shopee.com.br/file/sg-11134201-8258z-mr0fi8bhfthid6",
         "url": "https://s.shopee.com.br/50atpqmKjX",
         "ref": {
@@ -971,14 +971,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 18,99",
         "originalPrice": "R$ 70,33",
         "discount": 73,
-        "checkedAt": "2026-11-27T15:59:40-03:00",
+        "checkedAt": "2026-11-27T22:59:48-03:00",
         "niche": "eletronicos"
       },
       {
         "source": "Shopee",
         "category": "caixa de som bluetooth",
         "title": "Rádio Caixa de Som Bluetooth Recarregável Lanterna Retro Portátil FM AM USB SD Pilha",
-        "sales": 3488,
+        "sales": 3574,
         "image": "https://cf.shopee.com.br/file/br-11134207-820me-mogu34styw3n6e",
         "url": "https://s.shopee.com.br/qlKsZ1ZEA",
         "ref": {
@@ -988,14 +988,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 71,90",
         "originalPrice": "R$ 140,98",
         "discount": 49,
-        "checkedAt": "2026-11-27T15:59:41-03:00",
+        "checkedAt": "2026-11-27T22:59:49-03:00",
         "niche": "eletronicos"
       },
       {
         "source": "Shopee",
         "category": "smartwatch",
         "title": "Smartwatch D20 - Relógio Inteligente y68 Esportivo Bluetooth Android/iOS - Com foto Na",
-        "sales": 5903,
+        "sales": 5954,
         "image": "https://cf.shopee.com.br/file/sg-11134201-7rffv-m43cb4hjqxjrce",
         "url": "https://s.shopee.com.br/AUvq0SmNpY",
         "ref": {
@@ -1005,14 +1005,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 17,96",
         "originalPrice": "R$ 38,21",
         "discount": 53,
-        "checkedAt": "2026-11-27T15:59:42-03:00",
+        "checkedAt": "2026-11-27T22:59:50-03:00",
         "niche": "eletronicos"
       },
       {
         "source": "Shopee",
         "category": "carregador turbo",
         "title": "Carregador iPhone Turbo Tipo-C 20W + Cabo Lightining para IPhone Carga rápida",
-        "sales": 12945,
+        "sales": 12974,
         "image": "https://cf.shopee.com.br/file/sg-11134201-7rbkw-lpcg9rytbas79a",
         "url": "https://s.shopee.com.br/4fy3Rv0xAf",
         "ref": {
@@ -1022,14 +1022,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 12,99",
         "originalPrice": "R$ 49,96",
         "discount": 74,
-        "checkedAt": "2026-11-27T15:59:43-03:00",
+        "checkedAt": "2026-11-27T22:59:51-03:00",
         "niche": "eletronicos"
       },
       {
         "source": "Shopee",
         "category": "ring light",
         "title": "Ring Light Iluminador Anel Luz 30cm 12 Polegadas Tripé 2,1m MarisaStore",
-        "sales": 2398,
+        "sales": 2336,
         "image": "https://cf.shopee.com.br/file/sg-11134201-824ha-menfu27m5p1jfb",
         "url": "https://s.shopee.com.br/9fMjOnyo07",
         "ref": {
@@ -1039,14 +1039,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 46,99",
         "originalPrice": "R$ 90,37",
         "discount": 48,
-        "checkedAt": "2026-11-27T15:59:44-03:00",
+        "checkedAt": "2026-11-27T22:59:52-03:00",
         "niche": "eletronicos"
       },
       {
         "source": "Shopee",
         "category": "mouse sem fio",
         "title": "Mouse sem fio dual band receptor nano 2,4ghz / Bluetooth RGB recarregável MS-S350L",
-        "sales": 4453,
+        "sales": 4382,
         "image": "https://cf.shopee.com.br/file/sg-11134201-8258o-mts6opcfhceia2",
         "url": "https://s.shopee.com.br/60TR24Ypce",
         "ref": {
@@ -1056,14 +1056,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 16,09",
         "originalPrice": "R$ 38,31",
         "discount": 58,
-        "checkedAt": "2026-11-27T15:59:46-03:00",
+        "checkedAt": "2026-11-27T22:59:54-03:00",
         "niche": "eletronicos"
       },
       {
         "source": "Shopee",
         "category": "power bank",
         "title": "Carregador Portátil 5000Mah/10000Mah Indução Sem fio Bateria Carga",
-        "sales": 11274,
+        "sales": 11595,
         "image": "https://cf.shopee.com.br/file/br-11134207-820ln-mlske0kwri132f",
         "url": "https://s.shopee.com.br/Lp4HfBWOh",
         "ref": {
@@ -1073,14 +1073,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 31,97",
         "originalPrice": "R$ 168,26",
         "discount": 81,
-        "checkedAt": "2026-11-27T15:59:47-03:00",
+        "checkedAt": "2026-11-27T22:59:55-03:00",
         "niche": "eletronicos"
       },
       {
         "source": "Shopee",
         "category": "cabo usb c",
         "title": "Cabo Carregador Carregamento Rápido Redondo 4 em 1 USB Tipo C Para Tipo C iP Silicone",
-        "sales": 7971,
+        "sales": 8386,
         "image": "https://cf.shopee.com.br/file/br-11134207-820mc-msb0ur82aghz80",
         "url": "https://s.shopee.com.br/6fj7pIwD6g",
         "ref": {
@@ -1090,14 +1090,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 26,72",
         "originalPrice": "R$ 63,62",
         "discount": 58,
-        "checkedAt": "2026-11-27T15:59:48-03:00",
+        "checkedAt": "2026-11-27T22:59:56-03:00",
         "niche": "eletronicos"
       },
       {
         "source": "Shopee",
         "category": "fone bluetooth",
         "title": "Fone de Ouvido Bluetooth 5.0 Sem Fio Headset Bateria de Longa Duração Fone Corrida",
-        "sales": 10923,
+        "sales": 10972,
         "image": "https://cf.shopee.com.br/file/br-11134207-820lw-mozd89yz0xdx96",
         "url": "https://s.shopee.com.br/2gCz3YvDT7",
         "ref": {
@@ -1107,14 +1107,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 46,99",
         "originalPrice": "R$ 79,64",
         "discount": 41,
-        "checkedAt": "2026-11-27T15:59:49-03:00",
+        "checkedAt": "2026-11-27T22:59:57-03:00",
         "niche": "eletronicos"
       },
       {
         "source": "Shopee",
         "category": "caixa de som bluetooth",
         "title": "Caixinha Caixa De Som Bluetooth Portátil Speaker MP3 AL-006",
-        "sales": 2867,
+        "sales": 2940,
         "image": "https://cf.shopee.com.br/file/sg-11134201-8260z-mkcuz65ruigy31",
         "url": "https://s.shopee.com.br/W8UTx2pu8",
         "ref": {
@@ -1124,14 +1124,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 29,96",
         "originalPrice": "R$ 62,42",
         "discount": 52,
-        "checkedAt": "2026-11-27T15:59:50-03:00",
+        "checkedAt": "2026-11-27T22:59:58-03:00",
         "niche": "eletronicos"
       },
       {
         "source": "Shopee",
         "category": "smartwatch",
         "title": "Smartwatch WL23 PRO(46mm)2026 3 Pulseiras inteligente GPS unisex Esportes Faz Recebe",
-        "sales": 2255,
+        "sales": 2279,
         "image": "https://cf.shopee.com.br/file/br-11134207-820m0-mpp5kpuip537a4",
         "url": "https://s.shopee.com.br/4qHTdv8TUS",
         "ref": {
@@ -1141,14 +1141,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 49,98",
         "originalPrice": "R$ 192,23",
         "discount": 74,
-        "checkedAt": "2026-11-27T15:59:51-03:00",
+        "checkedAt": "2026-11-27T22:59:59-03:00",
         "niche": "eletronicos"
       },
       {
         "source": "Shopee",
         "category": "controle gamer",
         "title": "Suporte Gamer Porta Controle Videogame Para Ps4 Xbox Ps5 Fone de Ouvido Headset",
-        "sales": 995,
+        "sales": 1005,
         "image": "https://cf.shopee.com.br/file/br-11134207-820ll-mlveq5qwu39je0",
         "url": "https://s.shopee.com.br/9pg9doj6WX",
         "ref": {
@@ -1158,14 +1158,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 9,89",
         "originalPrice": "R$ 24,73",
         "discount": 60,
-        "checkedAt": "2026-11-27T15:59:53-03:00",
+        "checkedAt": "2026-11-27T23:00:01-03:00",
         "niche": "games"
       },
       {
         "source": "Shopee",
         "category": "headset gamer",
         "title": "Fones de Ouvido gamer Bluetooth Com Microfone",
-        "sales": 1816,
+        "sales": 1830,
         "image": "https://cf.shopee.com.br/file/br-11134207-7r98o-lripszu6ku907c",
         "url": "https://s.shopee.com.br/3LSftrPmdH",
         "ref": {
@@ -1175,14 +1175,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 18,88",
         "originalPrice": "R$ 29,97",
         "discount": 37,
-        "checkedAt": "2026-11-27T15:59:54-03:00",
+        "checkedAt": "2026-11-27T23:00:02-03:00",
         "niche": "games"
       },
       {
         "source": "Shopee",
         "category": "mouse gamer",
         "title": "MousePad Grande Rosa Desk Pad Couro Gamer Office",
-        "sales": 3144,
+        "sales": 3171,
         "image": "https://cf.shopee.com.br/file/sg-11134201-82602-mmdcdzfop4oy2e",
         "url": "https://s.shopee.com.br/2BGiVid1aa",
         "ref": {
@@ -1192,14 +1192,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 20,90",
         "originalPrice": "R$ 41,80",
         "discount": 50,
-        "checkedAt": "2026-11-27T15:59:55-03:00",
+        "checkedAt": "2026-11-27T23:00:03-03:00",
         "niche": "games"
       },
       {
         "source": "Shopee",
         "category": "teclado gamer",
         "title": "Kit Mobilador Completo Teclado Mouse Gamer Rgb Mouse Pad Hub Tipo c Tripe",
-        "sales": 2058,
+        "sales": 2047,
         "image": "https://cf.shopee.com.br/file/br-11134207-820le-mnwytrtoaeis3d",
         "url": "https://s.shopee.com.br/2VtYuKbkug",
         "ref": {
@@ -1209,14 +1209,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 60,98",
         "originalPrice": "R$ 110,87",
         "discount": 45,
-        "checkedAt": "2026-11-27T15:59:56-03:00",
+        "checkedAt": "2026-11-27T23:00:04-03:00",
         "niche": "games"
       },
       {
         "source": "Shopee",
         "category": "mousepad gamer",
         "title": "Mouse Pad RGB Grande Gamer Personalizado Apoio Ergonômico Confortável Antiderrapante",
-        "sales": 1661,
+        "sales": 1651,
         "image": "https://cf.shopee.com.br/file/br-11134207-81z1k-mgz5o43odp1ha5",
         "url": "https://s.shopee.com.br/1LhbWBgCHV",
         "ref": {
@@ -1226,14 +1226,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 11,58",
         "originalPrice": "R$ 39,93",
         "discount": 71,
-        "checkedAt": "2026-11-27T15:59:57-03:00",
+        "checkedAt": "2026-11-27T23:00:06-03:00",
         "niche": "games"
       },
       {
         "source": "Shopee",
         "category": "suporte controle",
         "title": "Esteiras Suporte Porta Copos Braço Sofá Apoio Cerveja Controle",
-        "sales": 3280,
+        "sales": 3285,
         "image": "https://cf.shopee.com.br/file/br-11134207-7r98o-mddf4cp576rlde",
         "url": "https://s.shopee.com.br/6fj7rzv9wg",
         "ref": {
@@ -1243,14 +1243,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 17,90",
         "originalPrice": "R$ 31,96",
         "discount": 44,
-        "checkedAt": "2026-11-27T15:59:58-03:00",
+        "checkedAt": "2026-11-27T23:00:07-03:00",
         "niche": "games"
       },
       {
         "source": "Shopee",
         "category": "cadeira gamer",
         "title": "Cadeira Gamer Profissional - Reclinável, Ajustável e Confortável para Escritório e Estudos",
-        "sales": 1917,
+        "sales": 1938,
         "image": "https://cf.shopee.com.br/file/br-11134207-820lo-mukp32w4to8w5e",
         "url": "https://s.shopee.com.br/6L6HTO5IRs",
         "ref": {
@@ -1260,14 +1260,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 383,99",
         "originalPrice": "R$ 1.476,88",
         "discount": 74,
-        "checkedAt": "2026-11-27T16:00:00-03:00",
+        "checkedAt": "2026-11-27T23:00:08-03:00",
         "niche": "games"
       },
       {
         "source": "Shopee",
         "category": "controle gamer",
         "title": "Controle Xbox 360 Sem Fio Wireless para PC PS3 Android Joystick Gamer Ergonômico com",
-        "sales": 1021,
+        "sales": 1039,
         "image": "https://cf.shopee.com.br/file/sg-11134201-7rdvq-mdnf0t4fv6fp2b",
         "url": "https://s.shopee.com.br/4VedI0GbAK",
         "ref": {
@@ -1277,14 +1277,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 88,99",
         "originalPrice": "R$ 139,05",
         "discount": 36,
-        "checkedAt": "2026-11-27T16:00:01-03:00",
+        "checkedAt": "2026-11-27T23:00:09-03:00",
         "niche": "games"
       },
       {
         "source": "Shopee",
         "category": "headset gamer",
         "title": "Fone Sem Fio Bluetooth 5.3 Gamer Estéreo Touch Case M90 Pro - TOPMIX",
-        "sales": 1830,
+        "sales": 1808,
         "image": "https://cf.shopee.com.br/file/sg-11134201-820mh-mng5tsui4v0jc1",
         "url": "https://s.shopee.com.br/3B9FhYQPyG",
         "ref": {
@@ -1294,14 +1294,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 20,99",
         "originalPrice": "R$ 80,73",
         "discount": 74,
-        "checkedAt": "2026-11-27T16:00:02-03:00",
+        "checkedAt": "2026-11-27T23:00:11-03:00",
         "niche": "games"
       },
       {
         "source": "Shopee",
         "category": "mouse gamer",
         "title": "Mouse Pad Desk Pad Couro Borda Costurada Gigante Antiderrapante Tapete Mesa Gamer Setup",
-        "sales": 2902,
+        "sales": 2946,
         "image": "https://cf.shopee.com.br/file/br-11134207-820li-mlfcjdzl6ryf41",
         "url": "https://s.shopee.com.br/20xIJPdevZ",
         "ref": {
@@ -1311,14 +1311,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 15,89",
         "originalPrice": "R$ 36,11",
         "discount": 56,
-        "checkedAt": "2026-11-27T16:00:04-03:00",
+        "checkedAt": "2026-11-27T23:00:12-03:00",
         "niche": "games"
       },
       {
         "source": "Shopee",
         "category": "teclado gamer",
         "title": "Kit Gamer Teclado Semi Mecânico + Mouse 2400dpi Usb Rgb Iluminado Jogos Pc",
-        "sales": 1396,
+        "sales": 1402,
         "image": "https://cf.shopee.com.br/file/sg-11134201-8259c-muhwpxj6xclm6a",
         "url": "https://s.shopee.com.br/1qds76eIGc",
         "ref": {
@@ -1328,14 +1328,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 48,99",
         "originalPrice": "R$ 99,98",
         "discount": 51,
-        "checkedAt": "2026-11-27T16:00:05-03:00",
+        "checkedAt": "2026-11-27T23:00:13-03:00",
         "niche": "games"
       },
       {
         "source": "Shopee",
         "category": "mousepad gamer",
         "title": "Mousepad Gamer APEX Control Mouse pad Grande 49x42 Mouse Pad Branco Preto Blade Red Girl",
-        "sales": 1244,
+        "sales": 1264,
         "image": "https://cf.shopee.com.br/file/br-11134207-820l6-murqr7kx36df0f",
         "url": "https://s.shopee.com.br/3Vm66AXwsy",
         "ref": {
@@ -1345,7 +1345,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 64,90",
         "originalPrice": "R$ 99,85",
         "discount": 35,
-        "checkedAt": "2026-11-27T16:00:06-03:00",
+        "checkedAt": "2026-11-27T23:00:14-03:00",
         "niche": "games"
       },
       {
@@ -1355,14 +1355,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 18,98",
         "originalPrice": "R$ 49,95",
         "discount": 62,
-        "sales": 20168,
+        "sales": 19710,
         "image": "https://cf.shopee.com.br/file/br-11134207-7r98o-m275pnv5hbnq94",
         "url": "https://s.shopee.com.br/6q2DEGbggG",
         "ref": {
           "shopId": "771750144",
           "itemId": "21797631048"
         },
-        "checkedAt": "2026-11-27T16:00:08-03:00",
+        "checkedAt": "2026-11-27T23:00:15-03:00",
         "niche": "casa"
       },
       {
@@ -1372,31 +1372,31 @@ window.BIGODE_OFFERS = {
         "price": "R$ 20,99",
         "originalPrice": "R$ 59,97",
         "discount": 65,
-        "sales": 9540,
+        "sales": 9807,
         "image": "https://cf.shopee.com.br/file/sg-11134201-7rfgr-m9srcfiqmq8s1a",
         "url": "https://s.shopee.com.br/9fMPyoIb5i",
         "ref": {
           "shopId": "1108921660",
           "itemId": "22192647025"
         },
-        "checkedAt": "2026-11-27T16:00:09-03:00",
+        "checkedAt": "2026-11-27T23:00:16-03:00",
         "niche": "casa"
       },
       {
         "source": "Shopee",
         "category": "pet",
         "title": "Areia Catbio Biodegradavel 4 Kg Max Clean Graos Finos",
-        "price": "R$ 47,90",
-        "originalPrice": "R$ 69,42",
-        "discount": 31,
-        "sales": 33634,
+        "price": "R$ 40,00",
+        "originalPrice": "R$ 70,18",
+        "discount": 43,
+        "sales": 33618,
         "image": "https://cf.shopee.com.br/file/sg-11134201-824i5-meirt0lhhr0m31",
         "url": "https://s.shopee.com.br/6VPODSs8T2",
         "ref": {
           "shopId": "1023760886",
           "itemId": "22996121313"
         },
-        "checkedAt": "2026-11-27T16:00:10-03:00",
+        "checkedAt": "2026-11-27T23:00:17-03:00",
         "niche": "casa"
       },
       {
@@ -1406,21 +1406,21 @@ window.BIGODE_OFFERS = {
         "price": "R$ 11,45",
         "originalPrice": "R$ 42,41",
         "discount": 73,
-        "sales": 22695,
+        "sales": 22808,
         "image": "https://cf.shopee.com.br/file/br-11134207-81z1k-mfvb2gx4p34791",
         "url": "https://s.shopee.com.br/6fin1xcK1F",
         "ref": {
           "shopId": "629805123",
           "itemId": "22099046331"
         },
-        "checkedAt": "2026-11-27T16:00:11-03:00",
+        "checkedAt": "2026-11-27T23:00:19-03:00",
         "niche": "casa"
       },
       {
         "source": "Shopee",
         "category": "sapateira",
         "title": "Sapateira com 9 Prateleiras 9 andares para Organizar Sapatos Calçados Chinelo Roupa",
-        "sales": 5996,
+        "sales": 5803,
         "image": "https://cf.shopee.com.br/file/sg-11134201-7rdx6-mdnxzqpbt4kqdd",
         "url": "https://s.shopee.com.br/7fbf19Rwii",
         "ref": {
@@ -1430,31 +1430,31 @@ window.BIGODE_OFFERS = {
         "price": "R$ 44,99",
         "originalPrice": "R$ 99,98",
         "discount": 55,
-        "checkedAt": "2026-11-27T16:00:12-03:00",
+        "checkedAt": "2026-11-27T23:00:20-03:00",
         "niche": "casa"
       },
       {
         "source": "Shopee",
         "category": "jogo de lencol",
         "title": "Jogo de Lençol 400 Fios Extra Macio c/ Fronhas Ponto Palito Berço Solteiro Casal Queen",
-        "sales": 74513,
+        "sales": 75493,
         "image": "https://cf.shopee.com.br/file/br-11134207-7r98o-m6peqntiscvk4c",
         "url": "https://s.shopee.com.br/3g5WFo3Ah2",
         "ref": {
           "shopId": "313660590",
           "itemId": "22893738408"
         },
-        "price": "R$ 14,99",
-        "originalPrice": "R$ 49,97",
-        "discount": 70,
-        "checkedAt": "2026-11-27T16:00:14-03:00",
+        "price": "R$ 12,99",
+        "originalPrice": "R$ 49,96",
+        "discount": 74,
+        "checkedAt": "2026-11-27T23:00:21-03:00",
         "niche": "casa"
       },
       {
         "source": "Shopee",
         "category": "toalha de banho",
         "title": "Toalha Banhão Gigante E Rosto 100% Algodão Alta Absorção Toque Macio Aveludada Enxuga Bem",
-        "sales": 17109,
+        "sales": 16840,
         "image": "https://cf.shopee.com.br/file/br-11134207-820lm-mv3ffh8i3vghf8",
         "url": "https://s.shopee.com.br/3qOwS7OXFg",
         "ref": {
@@ -1464,14 +1464,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 14,89",
         "originalPrice": "R$ 26,12",
         "discount": 43,
-        "checkedAt": "2026-11-27T16:00:15-03:00",
+        "checkedAt": "2026-11-27T23:00:22-03:00",
         "niche": "casa"
       },
       {
         "source": "Shopee",
         "category": "jogo de panelas",
         "title": "Jogo de Panelas Caçarolas Alumínio 3 Peças com Tampa 5L 6L 8L Feijoada Caldos",
-        "sales": 3444,
+        "sales": 3411,
         "image": "https://cf.shopee.com.br/file/br-11134207-820m1-mtcupuumjev612",
         "url": "https://s.shopee.com.br/20xIJRhO8q",
         "ref": {
@@ -1481,31 +1481,31 @@ window.BIGODE_OFFERS = {
         "price": "R$ 99,90",
         "originalPrice": "R$ 120,36",
         "discount": 17,
-        "checkedAt": "2026-11-27T16:00:16-03:00",
+        "checkedAt": "2026-11-27T23:00:23-03:00",
         "niche": "casa"
       },
       {
         "source": "Shopee",
         "category": "porta tempero",
         "title": "Pote Porta Temperos Porta Condimentos com 4 conchas. Organizador com 4 divisórias",
-        "sales": 2848,
+        "sales": 2796,
         "image": "https://cf.shopee.com.br/file/br-11134207-7r98o-mcwe3of1dedd78",
         "url": "https://s.shopee.com.br/7KyocYxg3V",
         "ref": {
           "shopId": "384582961",
           "itemId": "23398776792"
         },
-        "price": "R$ 13,89",
-        "originalPrice": "R$ 15,97",
-        "discount": 13,
-        "checkedAt": "2026-11-27T16:00:17-03:00",
+        "price": "R$ 15,98",
+        "originalPrice": "",
+        "discount": 0,
+        "checkedAt": "2026-11-27T23:00:24-03:00",
         "niche": "casa"
       },
       {
         "source": "Shopee",
         "category": "garrafa termica",
         "title": "ROMANTIC CROWN Garrafa Térmica 800ml Aço Inox 304 Grande Capacidade com 2 Formas de Beber",
-        "sales": 5324,
+        "sales": 5422,
         "image": "https://cf.shopee.com.br/file/br-11134207-820m6-muvpgy6h648z59",
         "url": "https://s.shopee.com.br/114l7c7C3H",
         "ref": {
@@ -1515,14 +1515,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 40,48",
         "originalPrice": "R$ 101,20",
         "discount": 60,
-        "checkedAt": "2026-11-27T16:00:18-03:00",
+        "checkedAt": "2026-11-27T23:00:26-03:00",
         "niche": "casa"
       },
       {
         "source": "Shopee",
         "category": "utensilios cozinha",
         "title": "Jogo Completo de Utensílios de Cozinha de Silicone Itens Essenciais para sua Casa KITC/12",
-        "sales": 6213,
+        "sales": 6040,
         "image": "https://cf.shopee.com.br/file/sg-11134201-8261g-mk1iwuywbjlz8d",
         "url": "https://s.shopee.com.br/6L6HTQ40Wl",
         "ref": {
@@ -1532,14 +1532,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 34,99",
         "originalPrice": "R$ 68,61",
         "discount": 49,
-        "checkedAt": "2026-11-27T16:00:19-03:00",
+        "checkedAt": "2026-11-27T23:00:27-03:00",
         "niche": "casa"
       },
       {
         "source": "Shopee",
         "category": "sapateira",
         "title": "Sapateira Retrátil Inclinável 3 Portas Basculantes Organizador Multiuso Puxador Cava-Para",
-        "sales": 2674,
+        "sales": 2707,
         "image": "https://cf.shopee.com.br/file/br-11134207-820lk-mswo7d5jshs5b7",
         "url": "https://s.shopee.com.br/5LDkErapSM",
         "ref": {
@@ -1549,7 +1549,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 199,99",
         "originalPrice": "R$ 399,98",
         "discount": 50,
-        "checkedAt": "2026-11-27T16:00:21-03:00",
+        "checkedAt": "2026-11-27T23:00:28-03:00",
         "niche": "casa"
       },
       {
@@ -1559,21 +1559,21 @@ window.BIGODE_OFFERS = {
         "price": "R$ 71,16",
         "originalPrice": "R$ 161,73",
         "discount": 56,
-        "sales": 12700,
+        "sales": 12593,
         "image": "https://cf.shopee.com.br/file/br-11134207-820lx-mt45q21kcvt09d",
         "url": "https://s.shopee.com.br/4qHADyj49P",
         "ref": {
           "shopId": "1860098702",
           "itemId": "58264684239"
         },
-        "checkedAt": "2026-11-27T16:00:22-03:00",
+        "checkedAt": "2026-11-27T23:00:29-03:00",
         "niche": "beleza"
       },
       {
         "source": "Shopee",
         "category": "kit skincare",
         "title": "Kit Facial Kokeshi Completo 3 Passos Hidratação e Colágeno",
-        "sales": 10527,
+        "sales": 10534,
         "image": "https://cf.shopee.com.br/file/br-11134207-820lx-mqbygibr40sg7a",
         "url": "https://s.shopee.com.br/3B9FeuML3U",
         "ref": {
@@ -1583,14 +1583,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 42,66",
         "originalPrice": "R$ 92,74",
         "discount": 54,
-        "checkedAt": "2026-11-27T16:00:23-03:00",
+        "checkedAt": "2026-11-27T23:00:30-03:00",
         "niche": "beleza"
       },
       {
         "source": "Shopee",
         "category": "perfume",
         "title": "Trio Perfume Masculino 300ml | 211 For Men + Gold Milion + Selvage 100ml Cada",
-        "sales": 8195,
+        "sales": 8348,
         "image": "https://cf.shopee.com.br/file/br-11134207-820lh-mseg92p4be2s92",
         "url": "https://s.shopee.com.br/5LDjb5Bstl",
         "ref": {
@@ -1600,14 +1600,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 35,90",
         "originalPrice": "R$ 39,89",
         "discount": 10,
-        "checkedAt": "2026-11-27T16:00:24-03:00",
+        "checkedAt": "2026-11-27T23:00:31-03:00",
         "niche": "beleza"
       },
       {
         "source": "Shopee",
         "category": "protetor solar",
         "title": "Protetor Solar Facial Hidrabene FPS 70 Toque Seco - 50g",
-        "sales": 16657,
+        "sales": 16542,
         "image": "https://cf.shopee.com.br/file/br-11134207-820lb-mvp0dwbgkl4we0",
         "url": "https://s.shopee.com.br/3g5WFpKR2X",
         "ref": {
@@ -1617,14 +1617,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 29,90",
         "originalPrice": "R$ 36,91",
         "discount": 19,
-        "checkedAt": "2026-11-27T16:00:26-03:00",
+        "checkedAt": "2026-11-27T23:00:32-03:00",
         "niche": "beleza"
       },
       {
         "source": "Shopee",
         "category": "maquiagem",
         "title": "BB CreamBase/Corretivo com Esponja com Formato de Cogumelo Base Clareador Maquiagem Creme",
-        "sales": 25854,
+        "sales": 26248,
         "image": "https://cf.shopee.com.br/file/br-11134207-7r98o-m1jvmgodmffube",
         "url": "https://s.shopee.com.br/6AmrEQxNpN",
         "ref": {
@@ -1634,14 +1634,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 27,59",
         "originalPrice": "R$ 34,92",
         "discount": 21,
-        "checkedAt": "2026-11-27T16:00:27-03:00",
+        "checkedAt": "2026-11-27T23:00:34-03:00",
         "niche": "beleza"
       },
       {
         "source": "Shopee",
         "category": "escova secadora",
         "title": "Escova Secadora Britânia 4 em 1 Nanocerâmica 1300W BELLA01",
-        "sales": 8057,
+        "sales": 8546,
         "image": "https://cf.shopee.com.br/file/sg-11134201-8259k-mvxglwppgwzn22",
         "url": "https://s.shopee.com.br/7VIEQxO8N2",
         "ref": {
@@ -1651,14 +1651,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 84,90",
         "originalPrice": "R$ 139,18",
         "discount": 39,
-        "checkedAt": "2026-11-27T16:00:29-03:00",
+        "checkedAt": "2026-11-27T23:00:35-03:00",
         "niche": "beleza"
       },
       {
         "source": "Shopee",
         "category": "hidratante corporal",
         "title": "NIVEA Creme Hidratante Lata 145g",
-        "sales": 6499,
+        "sales": 6780,
         "image": "https://cf.shopee.com.br/file/br-11134207-81z1k-meeb6o4j241s19",
         "url": "https://s.shopee.com.br/4fy3RgT0jx",
         "ref": {
@@ -1668,14 +1668,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 29,90",
         "originalPrice": "R$ 52,46",
         "discount": 43,
-        "checkedAt": "2026-11-27T16:00:30-03:00",
+        "checkedAt": "2026-11-27T23:00:36-03:00",
         "niche": "beleza"
       },
       {
         "source": "Shopee",
         "category": "serum facial",
         "title": "Sérum Mix-01：Reduz poros e oleosidade, clareia manchas",
-        "sales": 3513,
+        "sales": 3602,
         "image": "https://cf.shopee.com.br/file/br-11134207-820m1-mq2ga1jkrocgae",
         "url": "https://s.shopee.com.br/5qA0ppgAWi",
         "ref": {
@@ -1685,14 +1685,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 32,88",
         "originalPrice": "R$ 156,57",
         "discount": 79,
-        "checkedAt": "2026-11-27T16:00:31-03:00",
+        "checkedAt": "2026-11-27T23:00:37-03:00",
         "niche": "beleza"
       },
       {
         "source": "Shopee",
         "category": "chapinha",
         "title": "Escova Barba Chapinha Modelador Pente Portatil Para Cabelo Masculino Pente Eletrico",
-        "sales": 13637,
+        "sales": 13848,
         "image": "https://cf.shopee.com.br/file/br-11134207-7r98o-lnsm3i25f2jt04",
         "url": "https://s.shopee.com.br/9zzZPYagQQ",
         "ref": {
@@ -1702,14 +1702,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 16,96",
         "originalPrice": "R$ 29,75",
         "discount": 43,
-        "checkedAt": "2026-11-27T16:00:32-03:00",
+        "checkedAt": "2026-11-27T23:00:39-03:00",
         "niche": "beleza"
       },
       {
         "source": "Shopee",
         "category": "kit skincare",
         "title": "Kit Dupla Renovadores Faciais Kokeshi Pele Porcelana Olhos Gueixa",
-        "sales": 10600,
+        "sales": 10686,
         "image": "https://cf.shopee.com.br/file/br-11134207-820lg-mv7qrwedl8n5f6",
         "url": "https://s.shopee.com.br/30ppSbMyOT",
         "ref": {
@@ -1719,14 +1719,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 31,90",
         "originalPrice": "R$ 49,84",
         "discount": 36,
-        "checkedAt": "2026-11-27T16:00:34-03:00",
+        "checkedAt": "2026-11-27T23:00:40-03:00",
         "niche": "beleza"
       },
       {
         "source": "Shopee",
         "category": "perfume",
         "title": "BODY SPLASH FEMININO ARABE AYRA 100ML - PRIMACIAL PERFUME FLORAL",
-        "sales": 6771,
+        "sales": 7305,
         "image": "https://cf.shopee.com.br/file/br-11134207-820m1-mukoqlfdn280c5",
         "url": "https://s.shopee.com.br/3B9F2ggYQR",
         "ref": {
@@ -1736,14 +1736,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 24,90",
         "originalPrice": "R$ 40,16",
         "discount": 38,
-        "checkedAt": "2026-11-27T16:00:35-03:00",
+        "checkedAt": "2026-11-27T23:00:41-03:00",
         "niche": "beleza"
       },
       {
         "source": "Shopee",
         "category": "protetor solar",
         "title": "Protetor Solar Facial L'Oréal Paris Solar Expertise Efeito Make-Up FPS 70 - 30g",
-        "sales": 9285,
+        "sales": 9590,
         "image": "https://cf.shopee.com.br/file/br-11134207-820l6-mpjgwmltkzy87b",
         "url": "https://s.shopee.com.br/1qds4Sw8xf",
         "ref": {
@@ -1753,7 +1753,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 42,90",
         "originalPrice": "R$ 61,29",
         "discount": 30,
-        "checkedAt": "2026-11-27T16:00:36-03:00",
+        "checkedAt": "2026-11-27T23:00:42-03:00",
         "niche": "beleza"
       },
       {
@@ -1763,38 +1763,38 @@ window.BIGODE_OFFERS = {
         "price": "R$ 10,99",
         "originalPrice": "R$ 29,70",
         "discount": 63,
-        "sales": 4951,
+        "sales": 4800,
         "image": "https://cf.shopee.com.br/file/sg-11134201-7repa-mdv3544s8w65bd",
         "url": "https://s.shopee.com.br/9V2zmcuU03",
         "ref": {
           "shopId": "1439190466",
           "itemId": "18599879164"
         },
-        "checkedAt": "2026-11-27T16:00:37-03:00",
+        "checkedAt": "2026-11-27T23:00:43-03:00",
         "niche": "fitness"
       },
       {
         "source": "Shopee",
         "category": "tenis corrida",
         "title": "Tênis de corrida, sola de borracha, parte superior em tecido de malha, unissex, tamanho",
-        "sales": 4031,
+        "sales": 3965,
         "image": "https://cf.shopee.com.br/file/cn-11134207-820l4-msqvigqau9ze31",
         "url": "https://s.shopee.com.br/9pg9dsLURd",
         "ref": {
           "shopId": "983645094",
           "itemId": "57113764077"
         },
-        "price": "R$ 53,99",
-        "originalPrice": "R$ 138,44",
-        "discount": 61,
-        "checkedAt": "2026-11-27T16:00:38-03:00",
+        "price": "R$ 59,99",
+        "originalPrice": "R$ 139,51",
+        "discount": 57,
+        "checkedAt": "2026-11-27T23:00:45-03:00",
         "niche": "fitness"
       },
       {
         "source": "Shopee",
         "category": "legging academia",
         "title": "Froog Calça Legging Feminina Roupa de Academia com Bolso +Zero Transparência +Cintura",
-        "sales": 7037,
+        "sales": 7054,
         "image": "https://cf.shopee.com.br/file/br-11134207-820m7-mt4m2bpslcskae",
         "url": "https://s.shopee.com.br/9zzZqBXdsR",
         "ref": {
@@ -1804,14 +1804,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 44,98",
         "originalPrice": "R$ 140,56",
         "discount": 68,
-        "checkedAt": "2026-11-27T16:00:39-03:00",
+        "checkedAt": "2026-11-27T23:00:46-03:00",
         "niche": "fitness"
       },
       {
         "source": "Shopee",
         "category": "garrafa academia",
         "title": "Garrafa Térmica Alça Academia Inox 350ml/600ml/800ml/1000ml",
-        "sales": 4250,
+        "sales": 4236,
         "image": "https://cf.shopee.com.br/file/br-11134207-820mf-mp9r35av9wjq14",
         "url": "https://s.shopee.com.br/1CDvmB057",
         "ref": {
@@ -1821,14 +1821,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 27,90",
         "originalPrice": "R$ 48,95",
         "discount": 43,
-        "checkedAt": "2026-11-27T16:00:41-03:00",
+        "checkedAt": "2026-11-27T23:00:47-03:00",
         "niche": "fitness"
       },
       {
         "source": "Shopee",
         "category": "elastico exercicio",
         "title": "Elástico Extensor de Exercícios Pull Reducer Multi Função Academia Em Casa Uso",
-        "sales": 9772,
+        "sales": 9694,
         "image": "https://cf.shopee.com.br/file/br-11134207-820la-moeclyshz4sm99",
         "url": "https://s.shopee.com.br/50att0D9l3",
         "ref": {
@@ -1838,14 +1838,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 13,95",
         "originalPrice": "R$ 82,06",
         "discount": 83,
-        "checkedAt": "2026-11-27T16:00:42-03:00",
+        "checkedAt": "2026-11-27T23:00:48-03:00",
         "niche": "fitness"
       },
       {
         "source": "Shopee",
         "category": "corda de pular",
         "title": "Corda De Pular Profissional Ajustavel Crossfit Malhar Academia Exercício em Casa",
-        "sales": 4323,
+        "sales": 4303,
         "image": "https://cf.shopee.com.br/file/br-11134207-7r98o-m5hs0m8ec8lh30",
         "url": "https://s.shopee.com.br/6AmrH9QAzr",
         "ref": {
@@ -1855,14 +1855,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 13,99",
         "originalPrice": "R$ 29,77",
         "discount": 53,
-        "checkedAt": "2026-11-27T16:00:43-03:00",
+        "checkedAt": "2026-11-27T23:00:49-03:00",
         "niche": "fitness"
       },
       {
         "source": "Shopee",
         "category": "tapete yoga",
         "title": "Colchonete Academia EVA 100x50cm Tapete Yoga Pilates Fitness",
-        "sales": 7641,
+        "sales": 7780,
         "image": "https://cf.shopee.com.br/file/br-11134207-820lj-mtdx6pha9iip4f",
         "url": "https://s.shopee.com.br/3Vm66FrvZx",
         "ref": {
@@ -1872,14 +1872,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 20,99",
         "originalPrice": "R$ 30,87",
         "discount": 32,
-        "checkedAt": "2026-11-27T16:00:44-03:00",
+        "checkedAt": "2026-11-27T23:00:50-03:00",
         "niche": "fitness"
       },
       {
         "source": "Shopee",
         "category": "luva academia",
         "title": "Par De Luva Para Academia Neoprene Treino Musculação Feminina Masculina",
-        "sales": 2911,
+        "sales": 2940,
         "image": "https://cf.shopee.com.br/file/sg-11134201-7rcew-ls7b25owj8ui43",
         "url": "https://s.shopee.com.br/7fbf3uov8z",
         "ref": {
@@ -1889,14 +1889,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 16,90",
         "originalPrice": "R$ 21,39",
         "discount": 21,
-        "checkedAt": "2026-11-27T16:00:45-03:00",
+        "checkedAt": "2026-11-27T23:00:51-03:00",
         "niche": "fitness"
       },
       {
         "source": "Shopee",
         "category": "pochete corrida",
         "title": "Pochete Corrida Celular Esportiva Sem Volume Compacta Leve Impermeável Porta Celular",
-        "sales": 2055,
+        "sales": 2046,
         "image": "https://cf.shopee.com.br/file/br-11134207-820lf-mnhru8m7vmrk23",
         "url": "https://s.shopee.com.br/2qWPJ1CXKc",
         "ref": {
@@ -1906,14 +1906,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 10,69",
         "originalPrice": "R$ 50,90",
         "discount": 79,
-        "checkedAt": "2026-11-27T16:00:47-03:00",
+        "checkedAt": "2026-11-27T23:00:53-03:00",
         "niche": "fitness"
       },
       {
         "source": "Shopee",
         "category": "tenis corrida",
         "title": "Tênis Feminino Esportivo Academia Treino Caminhada Corrida Envio Rápido",
-        "sales": 2834,
+        "sales": 2935,
         "image": "https://cf.shopee.com.br/file/br-11134207-820l8-mq94rs8p9d6q4b",
         "url": "https://s.shopee.com.br/9Kjt2xNOSY",
         "ref": {
@@ -1923,31 +1923,31 @@ window.BIGODE_OFFERS = {
         "price": "R$ 39,90",
         "originalPrice": "R$ 110,83",
         "discount": 64,
-        "checkedAt": "2026-11-27T16:00:48-03:00",
+        "checkedAt": "2026-11-27T23:00:54-03:00",
         "niche": "fitness"
       },
       {
         "source": "Shopee",
         "category": "legging academia",
         "title": "Calça Legging Canelada Premium de Cintura Alta Sem Costura Academia Feminina Elástica e",
-        "sales": 5716,
+        "sales": 5700,
         "image": "https://cf.shopee.com.br/file/br-11134207-820ld-mlphu75k4mpw72",
         "url": "https://s.shopee.com.br/9pg9dsYHDQ",
         "ref": {
           "shopId": "1438124849",
           "itemId": "21498326018"
         },
-        "price": "R$ 39,89",
-        "originalPrice": "R$ 79,78",
-        "discount": 50,
-        "checkedAt": "2026-11-27T16:00:49-03:00",
+        "price": "R$ 42,89",
+        "originalPrice": "R$ 79,43",
+        "discount": 46,
+        "checkedAt": "2026-11-27T23:00:55-03:00",
         "niche": "fitness"
       },
       {
         "source": "Shopee",
         "category": "garrafa academia",
         "title": "Garrafa Térmica WATERSY 500ml - 48h Frio! Perfeita para Academia, Futebol e Dia a Dia⚽🏋️",
-        "sales": 4559,
+        "sales": 4639,
         "image": "https://cf.shopee.com.br/file/br-11134207-820lb-msl12l6zbq4k5a",
         "url": "https://s.shopee.com.br/W8UWh964E",
         "ref": {
@@ -1957,7 +1957,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 27,99",
         "originalPrice": "R$ 116,62",
         "discount": 76,
-        "checkedAt": "2026-11-27T16:00:51-03:00",
+        "checkedAt": "2026-11-27T23:00:56-03:00",
         "niche": "fitness"
       },
       {
@@ -1967,14 +1967,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 28,99",
         "originalPrice": "R$ 87,85",
         "discount": 67,
-        "sales": 17671,
+        "sales": 17765,
         "image": "https://cf.shopee.com.br/file/br-11134207-820l9-mqt86n8incape7",
         "url": "https://s.shopee.com.br/906jBrnwlc",
         "ref": {
           "shopId": "832036467",
           "itemId": "22892833180"
         },
-        "checkedAt": "2026-11-27T16:00:52-03:00",
+        "checkedAt": "2026-11-27T23:00:57-03:00",
         "niche": "ferramentas"
       },
       {
@@ -1984,14 +1984,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 118,99",
         "originalPrice": "R$ 247,90",
         "discount": 52,
-        "sales": 9411,
+        "sales": 9452,
         "image": "https://cf.shopee.com.br/file/sg-11134201-823oc-moipjw1uysr064",
         "url": "https://s.shopee.com.br/6AmXo1W0ay",
         "ref": {
           "shopId": "1459307687",
           "itemId": "21799836330"
         },
-        "checkedAt": "2026-11-27T16:00:53-03:00",
+        "checkedAt": "2026-11-27T23:00:58-03:00",
         "niche": "ferramentas"
       },
       {
@@ -2001,21 +2001,21 @@ window.BIGODE_OFFERS = {
         "price": "R$ 53,09",
         "originalPrice": "R$ 139,71",
         "discount": 62,
-        "sales": 15822,
+        "sales": 15666,
         "image": "https://cf.shopee.com.br/file/sg-11134201-81zvz-mig6w6yij1fmb5",
         "url": "https://s.shopee.com.br/4fxk1IoWVN",
         "ref": {
           "shopId": "1459307687",
           "itemId": "18199657078"
         },
-        "checkedAt": "2026-11-27T16:00:54-03:00",
+        "checkedAt": "2026-11-27T23:00:59-03:00",
         "niche": "ferramentas"
       },
       {
         "source": "Shopee",
         "category": "parafusadeira",
         "title": "Kit Parafusadeira Elétrica/Furadeira 48 Peças À Bateria Sem Fio Carregador Usb Portátil",
-        "sales": 3526,
+        "sales": 3442,
         "image": "https://cf.shopee.com.br/file/br-11134207-7r98o-md1js8nzgjr517",
         "url": "https://s.shopee.com.br/1gKRsEGomT",
         "ref": {
@@ -2025,14 +2025,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 37,99",
         "originalPrice": "R$ 80,83",
         "discount": 53,
-        "checkedAt": "2026-11-27T16:00:55-03:00",
+        "checkedAt": "2026-11-27T23:01:01-03:00",
         "niche": "ferramentas"
       },
       {
         "source": "Shopee",
         "category": "jogo de chaves",
         "title": "Jogo Chaves De Fenda Precisão Com 115 peças 1 Kit Ferramentas P/ Manutenção Celular",
-        "sales": 3070,
+        "sales": 3098,
         "image": "https://cf.shopee.com.br/file/sg-11134201-8257t-ms7c4j0v7gueac",
         "url": "https://s.shopee.com.br/20xIGpXxo7",
         "ref": {
@@ -2042,31 +2042,31 @@ window.BIGODE_OFFERS = {
         "price": "R$ 21,59",
         "originalPrice": "R$ 51,40",
         "discount": 58,
-        "checkedAt": "2026-11-27T16:00:56-03:00",
+        "checkedAt": "2026-11-27T23:01:02-03:00",
         "niche": "ferramentas"
       },
       {
         "source": "Shopee",
         "category": "compressor de ar portatil",
         "title": "Compressor de Ar Portátil 4 em 1 Sem Fio + Auxiliar de Partida + Power Bank + Lanterna",
-        "sales": 2937,
+        "sales": 3021,
         "image": "https://cf.shopee.com.br/file/br-11134207-820le-mlz1bgcccop350",
         "url": "https://s.shopee.com.br/7fbf1GGSKe",
         "ref": {
           "shopId": "1177319319",
           "itemId": "58257139840"
         },
-        "price": "R$ 149,99",
-        "originalPrice": "R$ 454,52",
+        "price": "R$ 152,99",
+        "originalPrice": "R$ 463,61",
         "discount": 67,
-        "checkedAt": "2026-11-27T16:00:58-03:00",
+        "checkedAt": "2026-11-27T23:01:03-03:00",
         "niche": "ferramentas"
       },
       {
         "source": "Shopee",
         "category": "aspirador automotivo",
         "title": "Mini Aspirador De pó Portátil Automotivo e Casa Potente Recarregável",
-        "sales": 7719,
+        "sales": 7847,
         "image": "https://cf.shopee.com.br/file/br-11134207-820mf-mlcl5xgwbp530f",
         "url": "https://s.shopee.com.br/4fy3Rjjk2x",
         "ref": {
@@ -2076,14 +2076,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 99,99",
         "originalPrice": "",
         "discount": 0,
-        "checkedAt": "2026-11-27T16:00:59-03:00",
+        "checkedAt": "2026-11-27T23:01:04-03:00",
         "niche": "ferramentas"
       },
       {
         "source": "Shopee",
         "category": "trena",
         "title": "Nível Laser Profissional Trena Level Pro3 Estágios Nivelador",
-        "sales": 1386,
+        "sales": 1389,
         "image": "https://cf.shopee.com.br/file/6db2441eebb54313022d7258d68df270",
         "url": "https://s.shopee.com.br/4LLD37yLa6",
         "ref": {
@@ -2093,14 +2093,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 22,99",
         "originalPrice": "R$ 69,67",
         "discount": 67,
-        "checkedAt": "2026-11-27T16:01:00-03:00",
+        "checkedAt": "2026-11-27T23:01:05-03:00",
         "niche": "ferramentas"
       },
       {
         "source": "Shopee",
         "category": "kit ferramentas",
         "title": "Kit Ferramenta Chave Magnética Precisão 24 Peças Pequenos Reparos Iphone Android Pc",
-        "sales": 6692,
+        "sales": 6706,
         "image": "https://cf.shopee.com.br/file/br-11134207-7r98o-lnt2v53wp64n47",
         "url": "https://s.shopee.com.br/9fMjOvmMXl",
         "ref": {
@@ -2110,31 +2110,31 @@ window.BIGODE_OFFERS = {
         "price": "R$ 10,99",
         "originalPrice": "R$ 24,98",
         "discount": 56,
-        "checkedAt": "2026-11-27T16:01:01-03:00",
+        "checkedAt": "2026-11-27T23:01:06-03:00",
         "niche": "ferramentas"
       },
       {
         "source": "Shopee",
         "category": "lanterna led",
         "title": "Lanterna LED Forte Super Potente 1500m Recarregável USB Portátil Ultra Brilhante 4 Modos",
-        "sales": 7070,
+        "sales": 7233,
         "image": "https://cf.shopee.com.br/file/sg-11134201-7rd69-lup3osl1sbz91b",
         "url": "https://s.shopee.com.br/AAIzzr6wFv",
         "ref": {
           "shopId": "390307022",
           "itemId": "20899252383"
         },
-        "price": "R$ 18,48",
-        "originalPrice": "R$ 84,00",
+        "price": "R$ 18,49",
+        "originalPrice": "R$ 84,05",
         "discount": 78,
-        "checkedAt": "2026-11-27T16:01:02-03:00",
+        "checkedAt": "2026-11-27T23:01:07-03:00",
         "niche": "ferramentas"
       },
       {
         "source": "Shopee",
         "category": "suporte celular carro",
         "title": "Suporte Magnético Forte Para Telefone Carro 360 ° Design Dobrável Vácuo",
-        "sales": 4333,
+        "sales": 4348,
         "image": "https://cf.shopee.com.br/file/br-11134207-820lk-mtjagn536ayqc2",
         "url": "https://s.shopee.com.br/6L6HQoczch",
         "ref": {
@@ -2144,14 +2144,14 @@ window.BIGODE_OFFERS = {
         "price": "R$ 15,99",
         "originalPrice": "R$ 28,05",
         "discount": 43,
-        "checkedAt": "2026-11-27T16:01:04-03:00",
+        "checkedAt": "2026-11-27T23:01:09-03:00",
         "niche": "ferramentas"
       },
       {
         "source": "Shopee",
         "category": "parafusadeira",
         "title": "Parafusadeira e Furadeira a Bateria 12V 25Nm WF 12K3.2 com Maleta e Acessórios WAP",
-        "sales": 3721,
+        "sales": 3840,
         "image": "https://cf.shopee.com.br/file/sg-11134201-82582-mto6hokrg4xv56",
         "url": "https://s.shopee.com.br/2VtYrkIvhE",
         "ref": {
@@ -2161,7 +2161,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 104,90",
         "originalPrice": "R$ 243,95",
         "discount": 57,
-        "checkedAt": "2026-11-27T16:01:05-03:00",
+        "checkedAt": "2026-11-27T23:01:10-03:00",
         "niche": "ferramentas"
       }
     ],
@@ -2179,7 +2179,7 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005007739555426"
         },
-        "checkedAt": "2026-11-27T15:59:39-03:00",
+        "checkedAt": "2026-11-27T22:59:48-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2195,7 +2195,7 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005008850261694"
         },
-        "checkedAt": "2026-11-27T15:59:41-03:00",
+        "checkedAt": "2026-11-27T22:59:50-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2211,7 +2211,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 59,40",
         "originalPrice": "R$ 144,87",
         "discount": 59,
-        "checkedAt": "2026-11-27T15:59:42-03:00",
+        "checkedAt": "2026-11-27T22:59:51-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2227,7 +2227,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 8,44",
         "originalPrice": "R$ 17,97",
         "discount": 53,
-        "checkedAt": "2026-11-27T15:59:44-03:00",
+        "checkedAt": "2026-11-27T22:59:53-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2243,7 +2243,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 124,59",
         "originalPrice": "R$ 269,36",
         "discount": 54,
-        "checkedAt": "2026-11-27T15:59:45-03:00",
+        "checkedAt": "2026-11-27T22:59:55-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2259,7 +2259,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 235,75",
         "originalPrice": "R$ 593,37",
         "discount": 60,
-        "checkedAt": "2026-11-27T15:59:50-03:00",
+        "checkedAt": "2026-11-27T22:59:56-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2275,7 +2275,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 29,95",
         "originalPrice": "R$ 39,99",
         "discount": 25,
-        "checkedAt": "2026-11-27T15:59:51-03:00",
+        "checkedAt": "2026-11-27T22:59:58-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2291,7 +2291,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 317,54",
         "originalPrice": "R$ 635,08",
         "discount": 50,
-        "checkedAt": "2026-11-27T15:59:53-03:00",
+        "checkedAt": "2026-11-27T22:59:59-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2307,7 +2307,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 16,43",
         "originalPrice": "R$ 41,16",
         "discount": 60,
-        "checkedAt": "2026-11-27T15:59:54-03:00",
+        "checkedAt": "2026-11-27T23:00:01-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2323,7 +2323,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 33,99",
         "originalPrice": "R$ 72,32",
         "discount": 53,
-        "checkedAt": "2026-11-27T15:59:56-03:00",
+        "checkedAt": "2026-11-27T23:00:03-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2339,7 +2339,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 34,69",
         "originalPrice": "R$ 74,60",
         "discount": 53,
-        "checkedAt": "2026-11-27T15:59:57-03:00",
+        "checkedAt": "2026-11-27T23:00:04-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2355,7 +2355,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 56,79",
         "originalPrice": "R$ 117,08",
         "discount": 51,
-        "checkedAt": "2026-11-27T15:59:59-03:00",
+        "checkedAt": "2026-11-27T23:00:06-03:00",
         "niche": "eletronicos"
       },
       {
@@ -2371,7 +2371,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 124,75",
         "originalPrice": "R$ 415,38",
         "discount": 70,
-        "checkedAt": "2026-11-27T16:00:01-03:00",
+        "checkedAt": "2026-11-27T23:00:08-03:00",
         "niche": "games"
       },
       {
@@ -2387,7 +2387,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 25,69",
         "originalPrice": "R$ 57,95",
         "discount": 56,
-        "checkedAt": "2026-11-27T16:00:02-03:00",
+        "checkedAt": "2026-11-27T23:00:10-03:00",
         "niche": "games"
       },
       {
@@ -2403,7 +2403,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 21,44",
         "originalPrice": "R$ 46,79",
         "discount": 54,
-        "checkedAt": "2026-11-27T16:00:04-03:00",
+        "checkedAt": "2026-11-27T23:00:12-03:00",
         "niche": "games"
       },
       {
@@ -2419,7 +2419,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 298,72",
         "originalPrice": "R$ 597,43",
         "discount": 50,
-        "checkedAt": "2026-11-27T16:00:05-03:00",
+        "checkedAt": "2026-11-27T23:00:13-03:00",
         "niche": "games"
       },
       {
@@ -2435,7 +2435,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 360,99",
         "originalPrice": "R$ 780,54",
         "discount": 54,
-        "checkedAt": "2026-11-27T16:00:10-03:00",
+        "checkedAt": "2026-11-27T23:00:15-03:00",
         "niche": "games"
       },
       {
@@ -2451,7 +2451,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 34,99",
         "originalPrice": "R$ 70,34",
         "discount": 50,
-        "checkedAt": "2026-11-27T16:00:11-03:00",
+        "checkedAt": "2026-11-27T23:00:16-03:00",
         "niche": "games"
       },
       {
@@ -2467,7 +2467,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 32,59",
         "originalPrice": "R$ 70,08",
         "discount": 53,
-        "checkedAt": "2026-11-27T16:00:12-03:00",
+        "checkedAt": "2026-11-27T23:00:17-03:00",
         "niche": "games"
       },
       {
@@ -2483,7 +2483,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 16,59",
         "originalPrice": "R$ 31,30",
         "discount": 47,
-        "checkedAt": "2026-11-27T16:00:17-03:00",
+        "checkedAt": "2026-11-27T23:00:19-03:00",
         "niche": "games"
       },
       {
@@ -2499,7 +2499,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 117,12",
         "originalPrice": "R$ 393,79",
         "discount": 70,
-        "checkedAt": "2026-11-27T16:00:18-03:00",
+        "checkedAt": "2026-11-27T23:00:21-03:00",
         "niche": "games"
       },
       {
@@ -2515,7 +2515,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 18,81",
         "originalPrice": "R$ 24,44",
         "discount": 23,
-        "checkedAt": "2026-11-27T16:00:20-03:00",
+        "checkedAt": "2026-11-27T23:00:23-03:00",
         "niche": "games"
       },
       {
@@ -2531,7 +2531,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 136,59",
         "originalPrice": "R$ 295,26",
         "discount": 54,
-        "checkedAt": "2026-11-27T16:00:22-03:00",
+        "checkedAt": "2026-11-27T23:00:24-03:00",
         "niche": "games"
       },
       {
@@ -2547,7 +2547,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 100,89",
         "originalPrice": "R$ 201,77",
         "discount": 50,
-        "checkedAt": "2026-11-27T16:00:23-03:00",
+        "checkedAt": "2026-11-27T23:00:26-03:00",
         "niche": "games"
       },
       {
@@ -2563,7 +2563,7 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005011654082041"
         },
-        "checkedAt": "2026-11-27T16:00:24-03:00",
+        "checkedAt": "2026-11-27T23:00:28-03:00",
         "niche": "casa"
       },
       {
@@ -2579,7 +2579,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 18,59",
         "originalPrice": "R$ 40,18",
         "discount": 54,
-        "checkedAt": "2026-11-27T16:00:26-03:00",
+        "checkedAt": "2026-11-27T23:00:29-03:00",
         "niche": "casa"
       },
       {
@@ -2595,7 +2595,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 19,99",
         "originalPrice": "R$ 40,20",
         "discount": 50,
-        "checkedAt": "2026-11-27T16:00:27-03:00",
+        "checkedAt": "2026-11-27T23:00:31-03:00",
         "niche": "casa"
       },
       {
@@ -2611,7 +2611,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 159,59",
         "originalPrice": "R$ 343,14",
         "discount": 53,
-        "checkedAt": "2026-11-27T16:00:29-03:00",
+        "checkedAt": "2026-11-27T23:00:32-03:00",
         "niche": "casa"
       },
       {
@@ -2627,7 +2627,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 9,30",
         "originalPrice": "R$ 20,11",
         "discount": 54,
-        "checkedAt": "2026-11-27T16:00:30-03:00",
+        "checkedAt": "2026-11-27T23:00:34-03:00",
         "niche": "casa"
       },
       {
@@ -2643,7 +2643,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 9,48",
         "originalPrice": "R$ 18,97",
         "discount": 50,
-        "checkedAt": "2026-11-27T16:00:32-03:00",
+        "checkedAt": "2026-11-27T23:00:36-03:00",
         "niche": "casa"
       },
       {
@@ -2659,7 +2659,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 11,11",
         "originalPrice": "R$ 13,32",
         "discount": 17,
-        "checkedAt": "2026-11-27T16:00:33-03:00",
+        "checkedAt": "2026-11-27T23:00:37-03:00",
         "niche": "casa"
       },
       {
@@ -2675,7 +2675,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 7,51",
         "originalPrice": "R$ 17,26",
         "discount": 56,
-        "checkedAt": "2026-11-27T16:00:35-03:00",
+        "checkedAt": "2026-11-27T23:00:39-03:00",
         "niche": "casa"
       },
       {
@@ -2691,7 +2691,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 18,16",
         "originalPrice": "R$ 38,64",
         "discount": 53,
-        "checkedAt": "2026-11-27T16:00:36-03:00",
+        "checkedAt": "2026-11-27T23:00:40-03:00",
         "niche": "casa"
       },
       {
@@ -2707,7 +2707,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 29,31",
         "originalPrice": "R$ 48,85",
         "discount": 40,
-        "checkedAt": "2026-11-27T16:00:38-03:00",
+        "checkedAt": "2026-11-27T23:00:42-03:00",
         "niche": "casa"
       },
       {
@@ -2723,7 +2723,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 15,15",
         "originalPrice": "R$ 30,32",
         "discount": 50,
-        "checkedAt": "2026-11-27T16:00:40-03:00",
+        "checkedAt": "2026-11-27T23:00:43-03:00",
         "niche": "casa"
       },
       {
@@ -2739,7 +2739,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 22,44",
         "originalPrice": "R$ 46,27",
         "discount": 52,
-        "checkedAt": "2026-11-27T16:00:41-03:00",
+        "checkedAt": "2026-11-27T23:00:45-03:00",
         "niche": "casa"
       },
       {
@@ -2755,7 +2755,7 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005012258533541"
         },
-        "checkedAt": "2026-11-27T16:00:43-03:00",
+        "checkedAt": "2026-11-27T23:00:47-03:00",
         "niche": "beleza"
       },
       {
@@ -2771,7 +2771,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 36,81",
         "originalPrice": "R$ 76,29",
         "discount": 52,
-        "checkedAt": "2026-11-27T16:00:44-03:00",
+        "checkedAt": "2026-11-27T23:00:48-03:00",
         "niche": "beleza"
       },
       {
@@ -2787,7 +2787,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 13,03",
         "originalPrice": "R$ 26,07",
         "discount": 50,
-        "checkedAt": "2026-11-27T16:00:45-03:00",
+        "checkedAt": "2026-11-27T23:00:50-03:00",
         "niche": "beleza"
       },
       {
@@ -2803,7 +2803,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 24,99",
         "originalPrice": "R$ 58,12",
         "discount": 57,
-        "checkedAt": "2026-11-27T16:00:47-03:00",
+        "checkedAt": "2026-11-27T23:00:52-03:00",
         "niche": "beleza"
       },
       {
@@ -2819,7 +2819,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 36,99",
         "originalPrice": "R$ 74,36",
         "discount": 50,
-        "checkedAt": "2026-11-27T16:00:49-03:00",
+        "checkedAt": "2026-11-27T23:00:53-03:00",
         "niche": "beleza"
       },
       {
@@ -2835,7 +2835,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 11,02",
         "originalPrice": "R$ 11,06",
         "discount": 0,
-        "checkedAt": "2026-11-27T16:00:50-03:00",
+        "checkedAt": "2026-11-27T23:00:55-03:00",
         "niche": "beleza"
       },
       {
@@ -2851,7 +2851,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 22,50",
         "originalPrice": "R$ 45,00",
         "discount": 50,
-        "checkedAt": "2026-11-27T16:00:52-03:00",
+        "checkedAt": "2026-11-27T23:00:56-03:00",
         "niche": "beleza"
       },
       {
@@ -2867,7 +2867,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 9,24",
         "originalPrice": "R$ 19,06",
         "discount": 52,
-        "checkedAt": "2026-11-27T16:00:53-03:00",
+        "checkedAt": "2026-11-27T23:00:58-03:00",
         "niche": "beleza"
       },
       {
@@ -2883,7 +2883,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 15,28",
         "originalPrice": "R$ 38,65",
         "discount": 60,
-        "checkedAt": "2026-11-27T16:00:55-03:00",
+        "checkedAt": "2026-11-27T23:00:59-03:00",
         "niche": "beleza"
       },
       {
@@ -2899,7 +2899,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 7,22",
         "originalPrice": "R$ 26,93",
         "discount": 73,
-        "checkedAt": "2026-11-27T16:00:56-03:00",
+        "checkedAt": "2026-11-27T23:01:01-03:00",
         "niche": "beleza"
       },
       {
@@ -2915,7 +2915,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 11,68",
         "originalPrice": "R$ 27,26",
         "discount": 57,
-        "checkedAt": "2026-11-27T16:00:57-03:00",
+        "checkedAt": "2026-11-27T23:01:03-03:00",
         "niche": "beleza"
       },
       {
@@ -2931,7 +2931,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 29,70",
         "originalPrice": "R$ 45,00",
         "discount": 34,
-        "checkedAt": "2026-11-27T16:01:02-03:00",
+        "checkedAt": "2026-11-27T23:01:04-03:00",
         "niche": "beleza"
       },
       {
@@ -2947,7 +2947,7 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005012978011412"
         },
-        "checkedAt": "2026-11-27T16:01:04-03:00",
+        "checkedAt": "2026-11-27T23:01:06-03:00",
         "niche": "fitness"
       },
       {
@@ -2963,7 +2963,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 12,14",
         "originalPrice": "R$ 25,04",
         "discount": 52,
-        "checkedAt": "2026-11-27T16:01:05-03:00",
+        "checkedAt": "2026-11-27T23:01:07-03:00",
         "niche": "fitness"
       },
       {
@@ -2979,7 +2979,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 40,69",
         "originalPrice": "R$ 87,98",
         "discount": 54,
-        "checkedAt": "2026-11-27T16:01:07-03:00",
+        "checkedAt": "2026-11-27T23:01:09-03:00",
         "niche": "fitness"
       },
       {
@@ -2995,7 +2995,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 62,36",
         "originalPrice": "R$ 141,96",
         "discount": 56,
-        "checkedAt": "2026-11-27T16:01:08-03:00",
+        "checkedAt": "2026-11-27T23:01:11-03:00",
         "niche": "fitness"
       },
       {
@@ -3011,7 +3011,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 12,45",
         "originalPrice": "R$ 25,27",
         "discount": 51,
-        "checkedAt": "2026-11-27T16:01:10-03:00",
+        "checkedAt": "2026-11-27T23:01:12-03:00",
         "niche": "fitness"
       },
       {
@@ -3027,7 +3027,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 36,20",
         "originalPrice": "R$ 78,25",
         "discount": 54,
-        "checkedAt": "2026-11-27T16:01:11-03:00",
+        "checkedAt": "2026-11-27T23:01:14-03:00",
         "niche": "fitness"
       },
       {
@@ -3040,10 +3040,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005013358051005"
         },
-        "price": "R$ 20,37",
-        "originalPrice": "R$ 44,05",
+        "price": "R$ 19,38",
+        "originalPrice": "R$ 41,91",
         "discount": 54,
-        "checkedAt": "2026-11-27T05:35:30-03:00",
+        "checkedAt": "2026-11-27T23:01:15-03:00",
         "niche": "fitness"
       },
       {
@@ -3059,7 +3059,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 19,20",
         "originalPrice": "R$ 39,80",
         "discount": 52,
-        "checkedAt": "2026-11-27T16:01:14-03:00",
+        "checkedAt": "2026-11-27T23:01:17-03:00",
         "niche": "fitness"
       },
       {
@@ -3091,7 +3091,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 10,69",
         "originalPrice": "R$ 23,79",
         "discount": 55,
-        "checkedAt": "2026-11-27T16:01:16-03:00",
+        "checkedAt": "2026-11-27T23:01:20-03:00",
         "niche": "fitness"
       },
       {
@@ -3107,7 +3107,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 23,91",
         "originalPrice": "R$ 51,72",
         "discount": 54,
-        "checkedAt": "2026-11-27T16:01:18-03:00",
+        "checkedAt": "2026-11-27T23:01:21-03:00",
         "niche": "fitness"
       },
       {
@@ -3123,7 +3123,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 18,45",
         "originalPrice": "R$ 36,92",
         "discount": 50,
-        "checkedAt": "2026-11-27T16:01:19-03:00",
+        "checkedAt": "2026-11-27T23:01:23-03:00",
         "niche": "fitness"
       },
       {
@@ -3139,7 +3139,7 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005008406176499"
         },
-        "checkedAt": "2026-11-27T16:01:21-03:00",
+        "checkedAt": "2026-11-27T23:01:24-03:00",
         "niche": "ferramentas"
       },
       {
@@ -3155,7 +3155,7 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005006678196106"
         },
-        "checkedAt": "2026-11-27T16:01:23-03:00",
+        "checkedAt": "2026-11-27T23:01:26-03:00",
         "niche": "ferramentas"
       },
       {
@@ -3171,7 +3171,7 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005012649993817"
         },
-        "checkedAt": "2026-11-27T16:01:24-03:00",
+        "checkedAt": "2026-11-27T23:01:27-03:00",
         "niche": "ferramentas"
       },
       {
@@ -3203,7 +3203,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 100,79",
         "originalPrice": "R$ 207,82",
         "discount": 52,
-        "checkedAt": "2026-11-27T16:01:27-03:00",
+        "checkedAt": "2026-11-27T23:01:30-03:00",
         "niche": "ferramentas"
       },
       {
@@ -3219,7 +3219,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 6,99",
         "originalPrice": "R$ 23,04",
         "discount": 70,
-        "checkedAt": "2026-11-27T16:01:29-03:00",
+        "checkedAt": "2026-11-27T23:01:33-03:00",
         "niche": "ferramentas"
       },
       {
@@ -3235,7 +3235,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 15,46",
         "originalPrice": "R$ 33,44",
         "discount": 54,
-        "checkedAt": "2026-11-27T16:01:31-03:00",
+        "checkedAt": "2026-11-27T23:01:34-03:00",
         "niche": "ferramentas"
       },
       {
@@ -3248,10 +3248,10 @@ window.BIGODE_OFFERS = {
         "ref": {
           "productId": "1005010439290709"
         },
-        "price": "R$ 124,59",
-        "originalPrice": "R$ 249,18",
-        "discount": 50,
-        "checkedAt": "2026-11-27T16:01:33-03:00",
+        "price": "R$ 120,59",
+        "originalPrice": "R$ 248,64",
+        "discount": 52,
+        "checkedAt": "2026-11-27T23:01:35-03:00",
         "niche": "ferramentas"
       },
       {
@@ -3267,7 +3267,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 430,43",
         "originalPrice": "R$ 1.010,40",
         "discount": 57,
-        "checkedAt": "2026-11-27T16:01:34-03:00",
+        "checkedAt": "2026-11-27T23:01:37-03:00",
         "niche": "ferramentas"
       },
       {
@@ -3283,7 +3283,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 176,59",
         "originalPrice": "R$ 365,87",
         "discount": 52,
-        "checkedAt": "2026-11-27T16:01:35-03:00",
+        "checkedAt": "2026-11-27T23:01:39-03:00",
         "niche": "ferramentas"
       },
       {
@@ -3299,7 +3299,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 10,23",
         "originalPrice": "R$ 20,47",
         "discount": 50,
-        "checkedAt": "2026-11-27T16:01:37-03:00",
+        "checkedAt": "2026-11-27T23:01:40-03:00",
         "niche": "ferramentas"
       },
       {
@@ -3315,7 +3315,7 @@ window.BIGODE_OFFERS = {
         "price": "R$ 219,94",
         "originalPrice": "R$ 526,22",
         "discount": 58,
-        "checkedAt": "2026-11-27T16:01:39-03:00",
+        "checkedAt": "2026-11-27T23:01:42-03:00",
         "niche": "ferramentas"
       }
     ],
